@@ -1,0 +1,158 @@
+[
+  {
+    "image": "frame_0020.jpg",
+    "keypoint": "P1",
+    "before": [
+      450.45,
+      498.09
+    ],
+    "after": [
+      447,
+      500
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0021.jpg",
+    "keypoint": "P1",
+    "before": [
+      446.7,
+      503.71
+    ],
+    "after": [
+      442,
+      504
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0022.jpg",
+    "keypoint": "P1",
+    "before": [
+      421.69,
+      488.87
+    ],
+    "after": [
+      414,
+      490
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0023.jpg",
+    "keypoint": "P1",
+    "before": [
+      420.02,
+      444.86
+    ],
+    "after": [
+      412,
+      447
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0024.jpg",
+    "keypoint": "P1",
+    "before": [
+      419.88,
+      420.11
+    ],
+    "after": [
+      410,
+      422
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0025.jpg",
+    "keypoint": "P1",
+    "before": [
+      407.88,
+      445.73
+    ],
+    "after": [
+      398,
+      449
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0026.jpg",
+    "keypoint": "P1",
+    "before": [
+      401.77,
+      490.42
+    ],
+    "after": [
+      390,
+      495
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0027.jpg",
+    "keypoint": "P1",
+    "before": [
+      387.85,
+      544.72
+    ],
+    "after": [
+      374,
+      550
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0028.jpg",
+    "keypoint": "P1",
+    "before": [
+      351.84,
+      583.61
+    ],
+    "after": [
+      338.5,
+      591
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0029.jpg",
+    "keypoint": "P1",
+    "before": [
+      338.75,
+      585.51
+    ],
+    "after": [
+      322,
+      594
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0030.jpg",
+    "keypoint": "P1",
+    "before": [
+      328.16,
+      566.45
+    ],
+    "after": [
+      314,
+      577
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  },
+  {
+    "image": "frame_0031.jpg",
+    "keypoint": "P1",
+    "before": [
+      380.87,
+      572.99
+    ],
+    "after": [
+      371,
+      579
+    ],
+    "reason": "Move from thickness-side outer corner to corner on the grid face shared by P2-P5."
+  }
+]

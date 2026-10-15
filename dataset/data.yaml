@@ -1,0 +1,9 @@
+path: "/home/wangjr/projects/yolo_pose_box/dataset"
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: front
+  1: back
+kpt_shape: [5, 3]
+flip_idx: [4, 3, 2, 1, 0]

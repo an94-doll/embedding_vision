@@ -1,0 +1,14 @@
+{
+  "image_count": 28,
+  "label_count": 28,
+  "skipped_count": 0,
+  "class_id": 0,
+  "class_name": "front",
+  "keypoints_per_instance": 5,
+  "image_size": [
+    720,
+    720
+  ],
+  "checks": "passed",
+  "visual_review": "Completed: every full-sized and batch overlay inspected for orientation, face corners and seam placement."
+}

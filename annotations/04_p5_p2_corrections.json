@@ -1,0 +1,896 @@
+{
+  "reviewed_frames": [
+    "frame_0015.jpg",
+    "frame_0016.jpg",
+    "frame_0017.jpg",
+    "frame_0018.jpg",
+    "frame_0019.jpg",
+    "frame_0020.jpg",
+    "frame_0021.jpg",
+    "frame_0022.jpg",
+    "frame_0023.jpg",
+    "frame_0024.jpg",
+    "frame_0030.jpg",
+    "frame_0031.jpg",
+    "frame_0032.jpg",
+    "frame_0033.jpg",
+    "frame_0034.jpg",
+    "frame_0035.jpg",
+    "frame_0036.jpg",
+    "frame_0037.jpg",
+    "frame_0038.jpg",
+    "frame_0039.jpg",
+    "frame_0040.jpg",
+    "frame_0041.jpg",
+    "frame_0042.jpg",
+    "frame_0043.jpg"
+  ],
+  "p5_changed": 24,
+  "p2_changed": 22,
+  "p4_changed": 2,
+  "reference": "P5 is the intersection of straight boundaries of the grid face, extending across the corner chamfer. P2 is the left boundary intersection with the grid-face/sloped-bottom seam, excluding the projecting tongue lower edge.",
+  "changes": [
+    {
+      "image": "frame_0015.jpg",
+      "point": "P5",
+      "before": [
+        493.577,
+        159.48
+      ],
+      "after": [
+        496.04,
+        140.62
+      ]
+    },
+    {
+      "image": "frame_0015.jpg",
+      "point": "P2",
+      "before": [
+        303.066,
+        350.54
+      ],
+      "after": [
+        303.066,
+        355.46
+      ]
+    },
+    {
+      "image": "frame_0015.jpg",
+      "point": "P3",
+      "before": [
+        389.288,
+        353.41
+      ],
+      "after": [
+        389.288,
+        355.87
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0016.jpg",
+      "point": "P5",
+      "before": [
+        480.356,
+        143.64
+      ],
+      "after": [
+        484.448,
+        128.06
+      ]
+    },
+    {
+      "image": "frame_0016.jpg",
+      "point": "P2",
+      "before": [
+        295.37,
+        338.8
+      ],
+      "after": [
+        295.37,
+        342.08
+      ]
+    },
+    {
+      "image": "frame_0016.jpg",
+      "point": "P3",
+      "before": [
+        380.905,
+        342.49
+      ],
+      "after": [
+        380.905,
+        344.13
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0017.jpg",
+      "point": "P5",
+      "before": [
+        481.583,
+        157.369
+      ],
+      "after": [
+        484.932,
+        141.463
+      ]
+    },
+    {
+      "image": "frame_0017.jpg",
+      "point": "P2",
+      "before": [
+        297.417,
+        349.911
+      ],
+      "after": [
+        296.58,
+        354.097
+      ]
+    },
+    {
+      "image": "frame_0017.jpg",
+      "point": "P3",
+      "before": [
+        383.222,
+        354.934
+      ],
+      "after": [
+        382.803,
+        357.027
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0018.jpg",
+      "point": "P5",
+      "before": [
+        480.736,
+        187.834
+      ],
+      "after": [
+        482.517,
+        161.983
+      ]
+    },
+    {
+      "image": "frame_0018.jpg",
+      "point": "P2",
+      "before": [
+        289.264,
+        378.6
+      ],
+      "after": [
+        289.264,
+        387.514
+      ]
+    },
+    {
+      "image": "frame_0018.jpg",
+      "point": "P3",
+      "before": [
+        379.211,
+        385.731
+      ],
+      "after": [
+        379.211,
+        390.188
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0019.jpg",
+      "point": "P5",
+      "before": [
+        452.004,
+        189.689
+      ],
+      "after": [
+        452.004,
+        161.317
+      ]
+    },
+    {
+      "image": "frame_0019.jpg",
+      "point": "P2",
+      "before": [
+        250.884,
+        394.909
+      ],
+      "after": [
+        249.94,
+        393.963
+      ]
+    },
+    {
+      "image": "frame_0019.jpg",
+      "point": "P3",
+      "before": [
+        347.195,
+        401.056
+      ],
+      "after": [
+        346.723,
+        400.583
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0020.jpg",
+      "point": "P5",
+      "before": [
+        455.42,
+        133.126
+      ],
+      "after": [
+        454.466,
+        115.949
+      ]
+    },
+    {
+      "image": "frame_0020.jpg",
+      "point": "P2",
+      "before": [
+        255.038,
+        353.566
+      ],
+      "after": [
+        254.084,
+        361.2
+      ]
+    },
+    {
+      "image": "frame_0020.jpg",
+      "point": "P3",
+      "before": [
+        352.844,
+        362.154
+      ],
+      "after": [
+        352.366,
+        365.971
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0021.jpg",
+      "point": "P5",
+      "before": [
+        451.529,
+        115.143
+      ],
+      "after": [
+        452.514,
+        91.554
+      ]
+    },
+    {
+      "image": "frame_0022.jpg",
+      "point": "P5",
+      "before": [
+        429.224,
+        62.0
+      ],
+      "after": [
+        428.143,
+        52.28
+      ]
+    },
+    {
+      "image": "frame_0022.jpg",
+      "point": "P2",
+      "before": [
+        220.469,
+        322.28
+      ],
+      "after": [
+        221.551,
+        323.36
+      ]
+    },
+    {
+      "image": "frame_0022.jpg",
+      "point": "P4",
+      "before": [
+        424.898,
+        320.12
+      ],
+      "after": [
+        424.898,
+        325.52
+      ]
+    },
+    {
+      "image": "frame_0022.jpg",
+      "point": "P3",
+      "before": [
+        322.683,
+        321.2
+      ],
+      "after": [
+        323.225,
+        324.44
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0023.jpg",
+      "point": "P5",
+      "before": [
+        396.604,
+        35.594
+      ],
+      "after": [
+        395.515,
+        23.62
+      ]
+    },
+    {
+      "image": "frame_0024.jpg",
+      "point": "P5",
+      "before": [
+        404.78,
+        13.063
+      ],
+      "after": [
+        405.87,
+        3.266
+      ]
+    },
+    {
+      "image": "frame_0024.jpg",
+      "point": "P2",
+      "before": [
+        201.057,
+        297.18
+      ],
+      "after": [
+        198.878,
+        287.383
+      ]
+    },
+    {
+      "image": "frame_0024.jpg",
+      "point": "P3",
+      "before": [
+        304.553,
+        287.927
+      ],
+      "after": [
+        303.463,
+        283.029
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0030.jpg",
+      "point": "P5",
+      "before": [
+        386.25,
+        34.754
+      ],
+      "after": [
+        389.32,
+        15.32
+      ]
+    },
+    {
+      "image": "frame_0030.jpg",
+      "point": "P2",
+      "before": [
+        181.562,
+        287.4
+      ],
+      "after": [
+        179.516,
+        282.286
+      ]
+    },
+    {
+      "image": "frame_0030.jpg",
+      "point": "P3",
+      "before": [
+        289.023,
+        281.774
+      ],
+      "after": [
+        288.0,
+        279.217
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0031.jpg",
+      "point": "P5",
+      "before": [
+        438.0,
+        50.0
+      ],
+      "after": [
+        440.0,
+        34.0
+      ]
+    },
+    {
+      "image": "frame_0031.jpg",
+      "point": "P2",
+      "before": [
+        237.0,
+        299.0
+      ],
+      "after": [
+        234.0,
+        295.0
+      ]
+    },
+    {
+      "image": "frame_0031.jpg",
+      "point": "P3",
+      "before": [
+        341.5,
+        295.0
+      ],
+      "after": [
+        340.0,
+        293.0
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0032.jpg",
+      "point": "P5",
+      "before": [
+        439.771,
+        76.8
+      ],
+      "after": [
+        442.581,
+        59.931
+      ]
+    },
+    {
+      "image": "frame_0032.jpg",
+      "point": "P2",
+      "before": [
+        249.609,
+        312.023
+      ],
+      "after": [
+        248.672,
+        306.4
+      ]
+    },
+    {
+      "image": "frame_0032.jpg",
+      "point": "P3",
+      "before": [
+        347.969,
+        310.617
+      ],
+      "after": [
+        347.5,
+        307.805
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0033.jpg",
+      "point": "P5",
+      "before": [
+        457.781,
+        80.8
+      ],
+      "after": [
+        460.538,
+        62.4
+      ]
+    },
+    {
+      "image": "frame_0033.jpg",
+      "point": "P2",
+      "before": [
+        269.381,
+        312.64
+      ],
+      "after": [
+        266.623,
+        305.28
+      ]
+    },
+    {
+      "image": "frame_0033.jpg",
+      "point": "P3",
+      "before": [
+        364.5,
+        308.96
+      ],
+      "after": [
+        363.121,
+        305.28
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0034.jpg",
+      "point": "P5",
+      "before": [
+        437.911,
+        141.949
+      ],
+      "after": [
+        437.911,
+        125.269
+      ]
+    },
+    {
+      "image": "frame_0034.jpg",
+      "point": "P2",
+      "before": [
+        273.27,
+        338.931
+      ],
+      "after": [
+        272.475,
+        330.194
+      ]
+    },
+    {
+      "image": "frame_0034.jpg",
+      "point": "P3",
+      "before": [
+        354.397,
+        335.754
+      ],
+      "after": [
+        354.0,
+        331.385
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0035.jpg",
+      "point": "P5",
+      "before": [
+        432.163,
+        163.94
+      ],
+      "after": [
+        435.265,
+        148.454
+      ]
+    },
+    {
+      "image": "frame_0035.jpg",
+      "point": "P2",
+      "before": [
+        277.061,
+        342.8
+      ],
+      "after": [
+        276.286,
+        331.186
+      ]
+    },
+    {
+      "image": "frame_0035.jpg",
+      "point": "P3",
+      "before": [
+        352.673,
+        338.542
+      ],
+      "after": [
+        352.286,
+        332.735
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0036.jpg",
+      "point": "P5",
+      "before": [
+        402.787,
+        180.989
+      ],
+      "after": [
+        402.787,
+        165.674
+      ]
+    },
+    {
+      "image": "frame_0036.jpg",
+      "point": "P2",
+      "before": [
+        264.149,
+        357.869
+      ],
+      "after": [
+        263.383,
+        348.68
+      ]
+    },
+    {
+      "image": "frame_0036.jpg",
+      "point": "P3",
+      "before": [
+        331.17,
+        353.274
+      ],
+      "after": [
+        330.787,
+        348.68
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0037.jpg",
+      "point": "P5",
+      "before": [
+        406.931,
+        187.086
+      ],
+      "after": [
+        406.931,
+        175.72
+      ]
+    },
+    {
+      "image": "frame_0037.jpg",
+      "point": "P2",
+      "before": [
+        277.769,
+        364.926
+      ],
+      "after": [
+        276.431,
+        350.886
+      ]
+    },
+    {
+      "image": "frame_0037.jpg",
+      "point": "P3",
+      "before": [
+        342.35,
+        359.911
+      ],
+      "after": [
+        341.681,
+        352.892
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0038.jpg",
+      "point": "P5",
+      "before": [
+        438.663,
+        183.24
+      ],
+      "after": [
+        440.584,
+        175.56
+      ]
+    },
+    {
+      "image": "frame_0038.jpg",
+      "point": "P2",
+      "before": [
+        318.258,
+        353.48
+      ],
+      "after": [
+        317.618,
+        337.48
+      ]
+    },
+    {
+      "image": "frame_0038.jpg",
+      "point": "P4",
+      "before": [
+        437.382,
+        345.16
+      ],
+      "after": [
+        437.382,
+        338.76
+      ]
+    },
+    {
+      "image": "frame_0038.jpg",
+      "point": "P3",
+      "before": [
+        377.82,
+        349.32
+      ],
+      "after": [
+        377.5,
+        338.12
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0039.jpg",
+      "point": "P5",
+      "before": [
+        453.813,
+        198.786
+      ],
+      "after": [
+        453.813,
+        185.929
+      ]
+    },
+    {
+      "image": "frame_0039.jpg",
+      "point": "P2",
+      "before": [
+        333.113,
+        356.286
+      ],
+      "after": [
+        331.829,
+        346.643
+      ]
+    },
+    {
+      "image": "frame_0039.jpg",
+      "point": "P3",
+      "before": [
+        393.784,
+        352.107
+      ],
+      "after": [
+        393.142,
+        347.286
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0040.jpg",
+      "point": "P5",
+      "before": [
+        462.913,
+        199.834
+      ],
+      "after": [
+        464.862,
+        190.754
+      ]
+    },
+    {
+      "image": "frame_0040.jpg",
+      "point": "P2",
+      "before": [
+        341.437,
+        366.517
+      ],
+      "after": [
+        340.787,
+        356.14
+      ]
+    },
+    {
+      "image": "frame_0040.jpg",
+      "point": "P3",
+      "before": [
+        402.175,
+        361.328
+      ],
+      "after": [
+        401.85,
+        356.14
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0041.jpg",
+      "point": "P5",
+      "before": [
+        458.366,
+        183.794
+      ],
+      "after": [
+        459.043,
+        171.606
+      ]
+    },
+    {
+      "image": "frame_0041.jpg",
+      "point": "P2",
+      "before": [
+        339.206,
+        358.497
+      ],
+      "after": [
+        337.175,
+        343.6
+      ]
+    },
+    {
+      "image": "frame_0041.jpg",
+      "point": "P3",
+      "before": [
+        400.14,
+        350.71
+      ],
+      "after": [
+        399.125,
+        343.262
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0042.jpg",
+      "point": "P5",
+      "before": [
+        454.012,
+        163.083
+      ],
+      "after": [
+        454.012,
+        152.963
+      ]
+    },
+    {
+      "image": "frame_0042.jpg",
+      "point": "P2",
+      "before": [
+        320.844,
+        350.303
+      ],
+      "after": [
+        320.121,
+        334.4
+      ]
+    },
+    {
+      "image": "frame_0042.jpg",
+      "point": "P3",
+      "before": [
+        389.237,
+        343.075
+      ],
+      "after": [
+        388.875,
+        335.123
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    },
+    {
+      "image": "frame_0043.jpg",
+      "point": "P5",
+      "before": [
+        459.864,
+        144.04
+      ],
+      "after": [
+        461.342,
+        130.72
+      ]
+    },
+    {
+      "image": "frame_0043.jpg",
+      "point": "P2",
+      "before": [
+        329.747,
+        337.18
+      ],
+      "after": [
+        326.79,
+        321.64
+      ]
+    },
+    {
+      "image": "frame_0043.jpg",
+      "point": "P3",
+      "before": [
+        396.654,
+        330.15
+      ],
+      "after": [
+        395.175,
+        322.38
+      ],
+      "reason": "Recompute P2/P4 midpoint."
+    }
+  ]
+}
