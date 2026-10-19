@@ -1,0 +1,127 @@
+{
+  "weights": "/home/wangjr/projects/yolo_pose_box/runs/pose/front_back_pose-2/weights/best.pt",
+  "data": "/home/wangjr/projects/yolo_pose_box/dataset/data.yaml",
+  "split": "test",
+  "images": 39,
+  "device": "0",
+  "standard_yolo_metrics": {
+    "metrics/precision(B)": 0.9957937045302123,
+    "metrics/recall(B)": 1.0,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.88500931372549,
+    "metrics/precision(P)": 0.9957937045302123,
+    "metrics/recall(P)": 1.0,
+    "metrics/mAP50(P)": 0.995,
+    "metrics/mAP50-95(P)": 0.9916428571428572,
+    "fitness": 1.876652170868347
+  },
+  "operating_point": {
+    "confidence": 0.25,
+    "nms_iou": 0.7,
+    "match_iou": 0.5,
+    "ap_confidence": 0.001
+  },
+  "matching": "Class-independent greedy one-to-one, descending bbox IoU",
+  "gt_instances": 39,
+  "pred_instances": 39,
+  "matched_instances": 39,
+  "missed_instances": 0,
+  "unmatched_predictions": {
+    "front": 0,
+    "back": 0
+  },
+  "detection_precision_class_independent": 1.0,
+  "detection_recall_class_independent": 1.0,
+  "front_back_accuracy_matched": 1.0,
+  "correct_face_detection_rate_all_gt": 1.0,
+  "confusion_rows_truth_columns_prediction": {
+    "front": {
+      "front": 18,
+      "back": 0,
+      "missed": 0
+    },
+    "back": {
+      "front": 0,
+      "back": 21,
+      "missed": 0
+    }
+  },
+  "keypoints_all": {
+    "gt_points": 195,
+    "matched_points": 195,
+    "mean_pixel_error_matched": 7.392172866474894,
+    "median_pixel_error_matched": 5.8731179523855035,
+    "rmse_pixels_matched": 9.12603227395687,
+    "pck_005_matched": 0.9128205128205128,
+    "pck_005_all_gt": 0.9128205128205128
+  },
+  "keypoints_per_point": {
+    "P1": {
+      "gt_points": 39,
+      "matched_points": 39,
+      "mean_pixel_error_matched": 7.4104395352779635,
+      "median_pixel_error_matched": 5.8731179523855035,
+      "rmse_pixels_matched": 9.172131068570799,
+      "pck_005_matched": 0.9230769230769231,
+      "pck_005_all_gt": 0.9230769230769231
+    },
+    "P2": {
+      "gt_points": 39,
+      "matched_points": 39,
+      "mean_pixel_error_matched": 7.390307911441825,
+      "median_pixel_error_matched": 6.575246115168661,
+      "rmse_pixels_matched": 8.835594924935052,
+      "pck_005_matched": 0.9487179487179487,
+      "pck_005_all_gt": 0.9487179487179487
+    },
+    "P3": {
+      "gt_points": 39,
+      "matched_points": 39,
+      "mean_pixel_error_matched": 5.87916287930842,
+      "median_pixel_error_matched": 4.485676036541957,
+      "rmse_pixels_matched": 6.993440694922835,
+      "pck_005_matched": 0.9743589743589743,
+      "pck_005_all_gt": 0.9743589743589743
+    },
+    "P4": {
+      "gt_points": 39,
+      "matched_points": 39,
+      "mean_pixel_error_matched": 7.334468694821567,
+      "median_pixel_error_matched": 5.9461738261357615,
+      "rmse_pixels_matched": 8.814417293102327,
+      "pck_005_matched": 0.8717948717948718,
+      "pck_005_all_gt": 0.8717948717948718
+    },
+    "P5": {
+      "gt_points": 39,
+      "matched_points": 39,
+      "mean_pixel_error_matched": 8.946485311524697,
+      "median_pixel_error_matched": 7.2193372295578095,
+      "rmse_pixels_matched": 11.297098492072557,
+      "pck_005_matched": 0.8461538461538461,
+      "pck_005_all_gt": 0.8461538461538461
+    }
+  },
+  "keypoints_per_class": {
+    "front": {
+      "gt_points": 90,
+      "matched_points": 90,
+      "mean_pixel_error_matched": 6.7955061097228056,
+      "median_pixel_error_matched": 5.579464970396236,
+      "rmse_pixels_matched": 8.159462815955584,
+      "pck_005_matched": 0.9666666666666667,
+      "pck_005_all_gt": 0.9666666666666667
+    },
+    "back": {
+      "gt_points": 105,
+      "matched_points": 105,
+      "mean_pixel_error_matched": 7.903601515119542,
+      "median_pixel_error_matched": 6.129755463507208,
+      "rmse_pixels_matched": 9.879539066598777,
+      "pck_005_matched": 0.8666666666666667,
+      "pck_005_all_gt": 0.8666666666666667
+    }
+  },
+  "point_policy": "All visible GT points; no filtering by predicted keypoint confidence. Wrong-face matches remain included. Pixel means exclude misses; all-GT PCK counts misses as failures.",
+  "pck_normalization": "GT bbox diagonal; threshold 0.05"
+}

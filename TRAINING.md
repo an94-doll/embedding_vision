@@ -45,7 +45,7 @@ model.train(resume=True, device=0)
 
 ```bash
 python evaluate.py \
-  --weights runs/pose/front_back_pose/weights/best.pt \
+  --weights runs/pose/front_back_pose-2/weights/best.pt \
   --data dataset/data.yaml --split val --device 0
 ```
 
@@ -53,7 +53,7 @@ python evaluate.py \
 
 ```bash
 python evaluate.py \
-  --weights runs/pose/front_back_pose/weights/best.pt \
+  --weights runs/pose/front_back_pose-2/weights/best.pt \
   --data dataset/data.yaml --split test --device 0
 ```
 

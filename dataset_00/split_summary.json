@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "ratios": [
+    7,
+    2,
+    1
+  ],
+  "valid_images": 233,
+  "excluded_count": 0,
+  "counts": {
+    "train": {
+      "front": 70,
+      "back": 93
+    },
+    "val": {
+      "front": 20,
+      "back": 27
+    },
+    "test": {
+      "front": 10,
+      "back": 13
+    }
+  },
+  "group_counts": {
+    "01": {
+      "train": 29,
+      "val": 8,
+      "test": 4
+    },
+    "02": {
+      "train": 28,
+      "val": 8,
+      "test": 4
+    },
+    "03": {
+      "train": 36,
+      "val": 11,
+      "test": 5
+    },
+    "04": {
+      "train": 27,
+      "val": 7,
+      "test": 4
+    },
+    "05": {
+      "train": 19,
+      "val": 6,
+      "test": 3
+    },
+    "06": {
+      "train": 24,
+      "val": 7,
+      "test": 3
+    }
+  },
+  "strategy": "class-stratified random split with balanced group quotas",
+  "sequence_note": "Adjacent frames may appear in different splits; this is not an independent-sequence evaluation."
+}

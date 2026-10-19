@@ -5,20 +5,20 @@
     2,
     1
   ],
-  "valid_images": 233,
+  "valid_images": 386,
   "excluded_count": 0,
   "counts": {
     "train": {
-      "front": 70,
-      "back": 93
+      "front": 125,
+      "back": 145
     },
     "val": {
-      "front": 20,
-      "back": 27
+      "front": 36,
+      "back": 41
     },
     "test": {
-      "front": 10,
-      "back": 13
+      "front": 18,
+      "back": 21
     }
   },
   "group_counts": {
@@ -34,23 +34,33 @@
     },
     "03": {
       "train": 36,
-      "val": 11,
-      "test": 5
+      "val": 10,
+      "test": 6
     },
     "04": {
-      "train": 27,
-      "val": 7,
+      "train": 26,
+      "val": 8,
       "test": 4
     },
     "05": {
-      "train": 19,
-      "val": 6,
+      "train": 20,
+      "val": 5,
       "test": 3
     },
     "06": {
       "train": 24,
       "val": 7,
       "test": 3
+    },
+    "09": {
+      "train": 55,
+      "val": 16,
+      "test": 8
+    },
+    "10": {
+      "train": 52,
+      "val": 15,
+      "test": 7
     }
   },
   "strategy": "class-stratified random split with balanced group quotas",

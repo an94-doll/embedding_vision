@@ -65,7 +65,7 @@ def crop_labels(text, width, height, left, top, size, rotate=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, default=ROOT / "slice/03")
+    parser.add_argument("--input", type=Path, default=ROOT / "slice/10")
     parser.add_argument("--imgsz", type=int, default=720)
     parser.add_argument("--output", type=Path, default=None)
     parser.add_argument("--labels", type=Path, default=ROOT / "labels/02")
@@ -73,8 +73,8 @@ def main():
     args = parser.parse_args()
     if args.imgsz <= 0:
         parser.error("imgsz 必须大于 0")
-    args.output = args.output or ROOT / f"images/03"
-    args.output_labels = args.output_labels or ROOT / f"labels/06"
+    args.output = args.output or ROOT / f"images/10"
+    args.output_labels = args.output_labels or ROOT / f"labels/11"
     if not args.input.is_dir():
         parser.error(f"图片目录不存在：{args.input}")
     files = sorted(p for p in args.input.iterdir() if p.suffix.lower() in EXTENSIONS)

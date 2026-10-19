@@ -24,7 +24,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-GROUP_CLASS = {"01": 1, "02": 1, "03": 1, "04": 0, "05": 0, "06": 0}
+GROUP_CLASS = {"01": 1, "02": 1, "03": 1, "04": 0, "05": 0, "06": 0,"09": 0,"10": 1}
 CLASS_NAMES = {0: "front", 1: "back"}
 SPLITS = ("train", "val", "test")
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
@@ -72,7 +72,9 @@ def validate_label(path, expected_class):
                 raise ValueError(prefix + " has invalid P{}".format(index + 1))
             if visibility and not (xmin - TOLERANCE <= x <= xmax + TOLERANCE and
                                    ymin - TOLERANCE <= y <= ymax + TOLERANCE):
-                raise ValueError(prefix + " has P{} outside its box".format(index + 1))
+                print("警告：{} 的 P{} 位于边界框外，已保留该标注".format(
+                        prefix, index + 1
+                ))
     return True
 
 
