@@ -62,8 +62,8 @@ runs/predict/frame0031/
 
 ```bash
 python predict.py \
-  --source /absolute/path/example.jpg \
-  --weights runs/pose/front_back_pose/weights/best.pt \
+  --source /home/wangjr/projects/yolo_pose_box/images/test/01.jpeg \
+  --weights //home/wangjr/projects/yolo_pose_box/runs/pose/front_back_pose-2/weights/best.pt \
   --device 0 \
   --output runs/predict/image01
 ```

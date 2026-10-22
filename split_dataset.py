@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare a reproducible, class-stratified five-keypoint YOLO Pose dataset.
+"""Prepare a reproducible YOLO Pose dataset without inspecting label contents.
 
 Examples:
     python3 split_dataset.py --dry-run
@@ -7,14 +7,13 @@ Examples:
     python3 split_dataset.py --seed 123 --output dataset_seed123
 
 Uses only the Python standard library. Existing output directories are never
-overwritten. Invalid labels stop the build; unlabelled images are excluded.
+overwritten. Labels are copied unchanged; unlabelled images are excluded.
 """
 
 import argparse
 import csv
 import hashlib
 import json
-import math
 import random
 import shutil
 import tempfile
@@ -24,17 +23,17 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-GROUP_CLASS = {"01": 1, "02": 1, "03": 1, "04": 0, "05": 0, "06": 0,"09": 0,"10": 1}
-CLASS_NAMES = {0: "front", 1: "back"}
+GROUP_CLASS = {"01": 1, "02": 1, "03": 1, "04": 0, "05": 0, "06": 0,"08": None,"09": 0,"10": 1}
+# Folder categories are only used for split quotas, never to validate labels.
+CLASS_NAMES = {0: "front", 1: "back", None: "mixed"}
 SPLITS = ("train", "val", "test")
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
-TOLERANCE = 1e-6
 
 
 @dataclass(frozen=True)
 class Sample:
     group: str
-    class_id: int
+    class_id: int | None
     image: Path
     label: Path
     digest: str
@@ -42,40 +41,6 @@ class Sample:
     @property
     def output_name(self):
         return self.group + "_" + self.image.name
-
-
-def validate_label(path, expected_class):
-    """Validate every instance, including visibility and normalized geometry."""
-    lines = [line for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
-    if not lines:
-        return False
-    for line_number, line in enumerate(lines, 1):
-        try:
-            values = list(map(float, line.split()))
-        except ValueError:
-            raise ValueError("{}:{} contains nonnumeric label fields".format(path, line_number))
-        prefix = "{}:{}".format(path, line_number)
-        if len(values) != 20 or not all(math.isfinite(v) for v in values):
-            raise ValueError(prefix + " must have 20 finite fields (five keypoints)")
-        if values[0] != expected_class:
-            raise ValueError(prefix + " has wrong class; expected {}".format(expected_class))
-        cx, cy, width, height = values[1:5]
-        if not (0 <= cx <= 1 and 0 <= cy <= 1 and 0 < width <= 1 and 0 < height <= 1):
-            raise ValueError(prefix + " has invalid normalized bounding box")
-        xmin, xmax = cx - width / 2, cx + width / 2
-        ymin, ymax = cy - height / 2, cy + height / 2
-        if xmin < -TOLERANCE or ymin < -TOLERANCE or xmax > 1 + TOLERANCE or ymax > 1 + TOLERANCE:
-            raise ValueError(prefix + " has a bounding box outside the image")
-        for index in range(5):
-            x, y, visibility = values[5 + index * 3:8 + index * 3]
-            if not (0 <= x <= 1 and 0 <= y <= 1 and visibility in (0, 1, 2)):
-                raise ValueError(prefix + " has invalid P{}".format(index + 1))
-            if visibility and not (xmin - TOLERANCE <= x <= xmax + TOLERANCE and
-                                   ymin - TOLERANCE <= y <= ymax + TOLERANCE):
-                print("警告：{} 的 P{} 位于边界框外，已保留该标注".format(
-                        prefix, index + 1
-                ))
-    return True
 
 
 def collect_samples(images_dir, labels_dir, annotations_dir):
@@ -99,8 +64,6 @@ def collect_samples(images_dir, labels_dir, annotations_dir):
             reason = skipped.get(image.name)
             if reason is None and not label.is_file():
                 reason = "missing_label"
-            if reason is None and not validate_label(label, class_id):
-                reason = "empty_label"
             if reason is not None:
                 excluded.append({"group": group, "image": str(image), "label": str(label),
                                  "reason": reason})
@@ -161,7 +124,7 @@ def group_quotas(group_sizes, targets):
 
 def make_plan(samples, ratios, seed):
     plan, quotas = [], {}
-    for class_id in sorted(CLASS_NAMES):
+    for class_id in CLASS_NAMES:
         class_samples = [s for s in samples if s.class_id == class_id]
         sizes = Counter(s.group for s in class_samples)
         targets = split_counts(len(class_samples), ratios)
@@ -187,7 +150,8 @@ def summarize(plan, quotas, ratios, seed, excluded):
     return {"seed": seed, "ratios": ratios, "valid_images": len(plan),
             "excluded_count": len(excluded), "counts": counts,
             "group_counts": {g: dict(zip(SPLITS, q)) for g, q in sorted(quotas.items())},
-            "strategy": "class-stratified random split with balanced group quotas",
+            "strategy": "folder-category-stratified random split with balanced group quotas",
+            "counts_note": "Image counts by folder category, not object counts; group 08 is mixed. Label contents are not inspected.",
             "sequence_note": "Adjacent frames may appear in different splits; this is not an independent-sequence evaluation."}
 
 
@@ -254,7 +218,7 @@ def main():
     parser.add_argument("--output", type=Path, default=ROOT / "dataset")
     parser.add_argument("--ratios", type=int, nargs=3, default=[7, 2, 1], metavar=("TRAIN", "VAL", "TEST"))
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--dry-run", action="store_true", help="Validate and print counts without writing files")
+    parser.add_argument("--dry-run", action="store_true", help="Preview split counts without inspecting labels or writing files")
     args = parser.parse_args()
     if any(r <= 0 for r in args.ratios):
         parser.error("All three ratio weights must be positive integers")
@@ -270,10 +234,11 @@ def main():
         plan, quotas = make_plan(samples, args.ratios, args.seed)
         summary = summarize(plan, quotas, args.ratios, args.seed, excluded)
         print("有效样本：{}；排除记录：{}；种子：{}".format(len(plan), len(excluded), args.seed))
-        print("集合      正面      反面      合计")
+        print("集合      正面组    反面组    混合组    合计（图片数）")
         for split in SPLITS:
             counts = summary["counts"][split]
-            print("{:<8} {:>6} {:>9} {:>9}".format(split, counts["front"], counts["back"], sum(counts.values())))
+            print("{:<8} {:>6} {:>9} {:>9} {:>9}".format(
+                split, counts["front"], counts["back"], counts["mixed"], sum(counts.values())))
         if args.dry_run:
             print("预览完成，未写入文件。")
         else:

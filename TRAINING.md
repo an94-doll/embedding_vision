@@ -84,7 +84,7 @@ python evaluate.py \
 
 ```bash
 # 单张图片
-python predict.py --source images/06/frame_0031.jpg --device 0 --output runs/predict/example
+python predict.py --source images/test/01.jpeg --device 0 --output runs/predict/example
 
 # 图片目录（框架读取该目录中的图片/视频）
 python predict.py --source images/01 --device 0 --output runs/predict/group01

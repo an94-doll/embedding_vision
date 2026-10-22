@@ -1,0 +1,5 @@
+{
+  "images/test/01.jpeg": "c089e3a41ca41c8791ac39c4da6690d166f28eb917e58deacaf4e124850707af",
+  "runs/pose/front_back_pose/weights/best.pt": "aa01ace4b7c4e96fe8eef995cfdbea02b432e8170319501e51beae732aa25138",
+  "runs/pose/front_back_pose-2/weights/best.pt": "03b0db347fe34a6aefc2805e225ba434e27228e36acd5889eb545d1124bb940e"
+}

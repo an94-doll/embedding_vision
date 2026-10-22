@@ -5,20 +5,23 @@
     2,
     1
   ],
-  "valid_images": 386,
+  "valid_images": 450,
   "excluded_count": 0,
   "counts": {
     "train": {
       "front": 125,
-      "back": 145
+      "back": 145,
+      "mixed": 45
     },
     "val": {
       "front": 36,
-      "back": 41
+      "back": 41,
+      "mixed": 13
     },
     "test": {
       "front": 18,
-      "back": 21
+      "back": 21,
+      "mixed": 6
     }
   },
   "group_counts": {
@@ -52,6 +55,11 @@
       "val": 7,
       "test": 3
     },
+    "08": {
+      "train": 45,
+      "val": 13,
+      "test": 6
+    },
     "09": {
       "train": 55,
       "val": 16,
@@ -63,6 +71,7 @@
       "test": 7
     }
   },
-  "strategy": "class-stratified random split with balanced group quotas",
+  "strategy": "folder-category-stratified random split with balanced group quotas",
+  "counts_note": "Image counts by folder category, not object counts; group 08 is mixed. Label contents are not inspected.",
   "sequence_note": "Adjacent frames may appear in different splits; this is not an independent-sequence evaluation."
 }

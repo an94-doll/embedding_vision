@@ -17,7 +17,7 @@ def main():
     parser.add_argument("--source", type=Path, required=True, help="图片、图片目录或视频文件")
     parser.add_argument("--weights", type=Path, default=DEFAULT_WEIGHTS)
     parser.add_argument("--output", type=Path, default=ROOT / "runs/predict/front_back_pose")
-    parser.add_argument("--imgsz", type=int, default=736)
+    parser.add_argument("--imgsz", type=int, default=1280)
     parser.add_argument("--device", default="auto")
     parser.add_argument("--conf", type=float, default=0.25)
     parser.add_argument("--point-conf", type=float, default=0.25, help="仅控制绘图，JSON 保留所有五点")

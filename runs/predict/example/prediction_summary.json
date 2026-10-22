@@ -1,0 +1,24 @@
+{
+  "weights": "/home/wangjr/projects/yolo_pose_box/runs/pose/front_back_pose/weights/best.pt",
+  "source": "/home/wangjr/projects/yolo_pose_box/images/test/01.jpeg",
+  "device": "0",
+  "imgsz": 1280,
+  "confidence_threshold": 0.25,
+  "overlay_point_confidence_threshold": 0.25,
+  "frames_or_images": 1,
+  "detections": 0,
+  "no_detection_frames_or_images": 1,
+  "class_counts": {
+    "front": 0,
+    "back": 0
+  },
+  "keypoint_names": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "coordinate_system": "original_pixels",
+  "video_audio_preserved": false
+}
