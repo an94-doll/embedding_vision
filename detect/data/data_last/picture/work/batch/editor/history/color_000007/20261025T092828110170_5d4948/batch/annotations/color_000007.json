@@ -1,0 +1,737 @@
+{
+  "frame": 7,
+  "image": "images/train/color_000007.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        583.9941,
+        136.5985,
+        865.1913,
+        207.165
+      ],
+      "keypoints_xyv": [
+        [
+          586.03,
+          176.47,
+          2
+        ],
+        [
+          846.06,
+          172.28,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          589.03,
+          196.67,
+          2
+        ],
+        [
+          850.56,
+          191.15,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 41.0,
+            "adjusted_x": true,
+            "x_change": -3.0
+          },
+          {
+            "contrast": 68.0,
+            "adjusted_x": true,
+            "x_change": -4.5
+          }
+        ],
+        "points": [
+          [
+            586.03,
+            176.47478910823995
+          ],
+          [
+            846.06,
+            172.27705378134314
+          ]
+        ],
+        "support": 0.721,
+        "contrast": 97.94,
+        "vertical_change": [
+          -20.243640711321973,
+          -18.94559094799976
+        ],
+        "peak_offset": -20.868224999999995,
+        "line_slope": -0.01614327318731222
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        590.11,
+        191.8971,
+        850.1107,
+        255.9821
+      ],
+      "keypoints_xyv": [
+        [
+          590.11,
+          229.91,
+          2
+        ],
+        [
+          832.79,
+          225.69,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          593.11,
+          244.99,
+          2
+        ],
+        [
+          838.29,
+          241.1,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 51.0,
+            "adjusted_x": true,
+            "x_change": -3.0
+          },
+          {
+            "contrast": 66.0,
+            "adjusted_x": true,
+            "x_change": -5.5
+          }
+        ],
+        "points": [
+          [
+            590.11,
+            229.90568569031623
+          ],
+          [
+            832.79,
+            225.69294893771078
+          ]
+        ],
+        "support": 0.754,
+        "contrast": 95.77,
+        "vertical_change": [
+          -15.136391985049755,
+          -15.502526800460174
+        ],
+        "peak_offset": -16.15525000000001,
+        "line_slope": -0.01735922512199387
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        585.17,
+        241.8283,
+        833.4633,
+        299.7744
+      ],
+      "keypoints_xyv": [
+        [
+          585.17,
+          276.25,
+          2
+        ],
+        [
+          819.52,
+          274.84,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          593.17,
+          288.56,
+          2
+        ],
+        [
+          822.52,
+          286.16,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 84.0,
+            "adjusted_x": true,
+            "x_change": -8.0
+          },
+          {
+            "contrast": 74.0,
+            "adjusted_x": true,
+            "x_change": -3.0
+          }
+        ],
+        "points": [
+          [
+            585.17,
+            276.2487024457242
+          ],
+          [
+            819.52,
+            274.8413910614461
+          ]
+        ],
+        "support": 0.787,
+        "contrast": 91.23,
+        "vertical_change": [
+          -12.359338907270171,
+          -11.336624445926816
+        ],
+        "peak_offset": -12.664965000000002,
+        "line_slope": -0.006005169124293278
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        596.63,
+        286.0646,
+        820.2949,
+        338.815
+      ],
+      "keypoints_xyv": [
+        [
+          596.63,
+          317.93,
+          2
+        ],
+        [
+          810.14,
+          315.02,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          596.96,
+          328.37,
+          2
+        ],
+        [
+          812.47,
+          324.85,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 65.0,
+            "adjusted_x": true,
+            "x_change": -0.33
+          },
+          {
+            "contrast": 72.0,
+            "adjusted_x": true,
+            "x_change": -2.33
+          }
+        ],
+        "points": [
+          [
+            596.634035,
+            317.93251112249806
+          ],
+          [
+            810.144035,
+            315.0151557640808
+          ]
+        ],
+        "support": 0.836,
+        "contrast": 71.09,
+        "vertical_change": [
+          -10.441942794130739,
+          -9.86662572838435
+        ],
+        "peak_offset": -10.787760000000013,
+        "line_slope": -0.013663787918210902
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        589.35,
+        324.1865,
+        811.2157,
+        374.7068
+      ],
+      "keypoints_xyv": [
+        [
+          589.35,
+          354.78,
+          2
+        ],
+        [
+          800.86,
+          354.16,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          595.5,
+          363.07,
+          2
+        ],
+        [
+          805.01,
+          361.85,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 204.0,
+            "adjusted_x": true,
+            "x_change": -6.15
+          },
+          {
+            "contrast": 100.0,
+            "adjusted_x": true,
+            "x_change": -4.15
+          }
+        ],
+        "points": [
+          [
+            589.3539665,
+            354.7805225582541
+          ],
+          [
+            800.8639665,
+            354.1579882791389
+          ]
+        ],
+        "support": 0.885,
+        "contrast": 63.7,
+        "vertical_change": [
+          -8.307566971954088,
+          -7.7042146804190565
+        ],
+        "peak_offset": -8.838194999999978,
+        "line_slope": -0.00294328532511556
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        593.03,
+        360.5786,
+        802.0582,
+        407.0742
+      ],
+      "keypoints_xyv": [
+        [
+          593.03,
+          388.65,
+          2
+        ],
+        [
+          794.31,
+          386.64,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          599.22,
+          396.86,
+          2
+        ],
+        [
+          793.5,
+          395.22,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 93.0,
+            "adjusted_x": true,
+            "x_change": -6.19
+          },
+          {
+            "contrast": 70.0,
+            "adjusted_x": true,
+            "x_change": 0.81
+          }
+        ],
+        "points": [
+          [
+            593.0336635,
+            388.6501323687471
+          ],
+          [
+            794.3136635,
+            386.64239379427613
+          ]
+        ],
+        "support": 0.885,
+        "contrast": 62.23,
+        "vertical_change": [
+          -8.271575433447367,
+          -8.569490031262546
+        ],
+        "peak_offset": -9.222140000000017,
+        "line_slope": -0.009974853807983887
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        594.9,
+        393.779,
+        791.0337,
+        435.6185
+      ],
+      "keypoints_xyv": [
+        [
+          594.9,
+          417.23,
+          2
+        ],
+        [
+          782.67,
+          415.24,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          601.1,
+          426.27,
+          2
+        ],
+        [
+          784.37,
+          424.27,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 189.0,
+            "adjusted_x": true,
+            "x_change": -6.2
+          },
+          {
+            "contrast": 71.0,
+            "adjusted_x": true,
+            "x_change": -1.7
+          }
+        ],
+        "points": [
+          [
+            594.900811,
+            417.2346174411297
+          ],
+          [
+            782.670811,
+            415.24329939938997
+          ]
+        ],
+        "support": 0.885,
+        "contrast": 51.49,
+        "vertical_change": [
+          -9.101125525797102,
+          -9.044720655528408
+        ],
+        "peak_offset": -8.69567499999999,
+        "line_slope": -0.010605091557436176
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 8,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        597.9041,
+        422.2474,
+        780.6226,
+        462.6019
+      ],
+      "keypoints_xyv": [
+        [
+          597.91,
+          444.37,
+          2
+        ],
+        [
+          777.27,
+          441.41,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          602.31,
+          453.08,
+          2
+        ],
+        [
+          775.67,
+          451.34,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 181.0,
+            "adjusted_x": true,
+            "x_change": -4.4
+          },
+          {
+            "contrast": 81.0,
+            "adjusted_x": true,
+            "x_change": 1.6
+          }
+        ],
+        "points": [
+          [
+            597.9148524999999,
+            444.3697623800082
+          ],
+          [
+            777.2748525,
+            441.40941535184794
+          ]
+        ],
+        "support": 0.902,
+        "contrast": 51.27,
+        "vertical_change": [
+          -8.782779780116414,
+          -9.904096466121416
+        ],
+        "peak_offset": -8.730424999999983,
+        "line_slope": -0.01650505702587091
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 9,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        604.2725,
+        449.1427,
+        777.2092,
+        486.5205
+      ],
+      "keypoints_xyv": [
+        [
+          608.76,
+          469.44,
+          2
+        ],
+        [
+          770.28,
+          465.36,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          608.81,
+          481.64,
+          2
+        ],
+        [
+          773.33,
+          473.8,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 96.0,
+            "adjusted_x": true,
+            "x_change": -0.05
+          },
+          {
+            "contrast": 79.0,
+            "adjusted_x": true,
+            "x_change": -3.05
+          }
+        ],
+        "points": [
+          [
+            608.7572154999999,
+            469.4413532236732
+          ],
+          [
+            770.2772155,
+            465.359031120697
+          ]
+        ],
+        "support": 0.836,
+        "contrast": 34.37,
+        "vertical_change": [
+          -12.199980873225286,
+          -8.518126195053185
+        ],
+        "peak_offset": -10.295570000000023,
+        "line_slope": -0.02527440628390424
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    },
+    {
+      "id": 10,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        564.61,
+        92.34,
+        862.66,
+        146.1
+      ],
+      "keypoints_xyv": [
+        [
+          580.81,
+          116.48,
+          2
+        ],
+        [
+          861.99,
+          109.95,
+          2
+        ]
+      ],
+      "source": "outer_long_edge_revision",
+      "old_keypoints_xyv": [
+        [
+          583.31,
+          115.71,
+          2
+        ],
+        [
+          857.99,
+          113.38,
+          2
+        ]
+      ],
+      "edge_revision": {
+        "endpoint_evidence": [
+          {
+            "contrast": 54.0,
+            "adjusted_x": true,
+            "x_change": -2.5
+          },
+          {
+            "contrast": 81.0,
+            "adjusted_x": true,
+            "x_change": 4.0
+          }
+        ],
+        "points": [
+          [
+            580.81,
+            116.47695802149723
+          ],
+          [
+            861.99,
+            109.94704535378705
+          ]
+        ],
+        "support": 0.984,
+        "contrast": 117.42,
+        "vertical_change": [
+          0.7088999033192778,
+          -3.3400616571282313
+        ],
+        "peak_offset": 2.0560000000000045,
+        "line_slope": -0.0232232472711792
+      },
+      "annotation_edge": "front_outer_lip_upper_edge",
+      "needs_user_review": true
+    }
+  ],
+  "review_status": "requires_correction",
+  "training_eligible": false,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": false,
+  "initial_review_issues": [
+    "已按新的示意改为白色长条靠外缘一侧（图中上沿）的左右两端点，请重新核对。",
+    "旧版本和原审核决定已备份；本版本需要按新规则重新确认训练资格。"
+  ],
+  "unresolved_issues": [
+    "已按新的示意改为白色长条靠外缘一侧（图中上沿）的左右两端点，请重新核对。",
+    "旧版本和原审核决定已备份；本版本需要按新规则重新确认训练资格。"
+  ],
+  "review_evidence": {
+    "revision": "edge_revision_20261025_170749",
+    "scope": "outer edge relabeling, user approval pending",
+    "screening_sheet": "edge_revision_20261025_170749/review/sheet_01.jpg"
+  },
+  "user_reviewed": false,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "user_review_note": "",
+  "edited_at": "2026-10-25T08:57:27.254662+00:00",
+  "flags": [],
+  "prior_review_before_edge_revision": {
+    "review_status": "accepted",
+    "training_eligible": true,
+    "user_reviewed": true,
+    "user_review_note": "",
+    "edited_at": "2026-10-25T08:57:27.254662+00:00"
+  },
+  "annotation_standard": "front_outer_lip_upper_edge"
+}

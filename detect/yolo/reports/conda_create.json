@@ -1,0 +1,330 @@
+{
+  "success": true,
+  "actions": {
+    "FETCH": [],
+    "PREFIX": "/home/ubuntu/miniconda3/envs/yolo26",
+    "LINK": [
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "main",
+        "channel": "pkgs/main",
+        "dist_name": "_libgcc_mutex-0.1-main",
+        "name": "_libgcc_mutex",
+        "platform": "linux-64",
+        "version": "0.1"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 52,
+        "build_string": "52_gnu",
+        "channel": "pkgs/main",
+        "dist_name": "_openmp_mutex-5.1-52_gnu",
+        "name": "_openmp_mutex",
+        "platform": "linux-64",
+        "version": "5.1"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h06a4308_0",
+        "channel": "pkgs/main",
+        "dist_name": "ca-certificates-2026.8.13-h06a4308_0",
+        "name": "ca-certificates",
+        "platform": "linux-64",
+        "version": "2026.8.13"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 3,
+        "build_string": "h9e0c5a2_3",
+        "channel": "pkgs/main",
+        "dist_name": "ld_impl_linux-64-2.44-h9e0c5a2_3",
+        "name": "ld_impl_linux-64",
+        "platform": "linux-64",
+        "version": "2.44"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "he532380_0",
+        "channel": "pkgs/main",
+        "dist_name": "tzdata-2026c-he532380_0",
+        "name": "tzdata",
+        "platform": "noarch",
+        "version": "2026c"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 8,
+        "build_string": "h69a1729_8",
+        "channel": "pkgs/main",
+        "dist_name": "libgcc-15.2.0-h69a1729_8",
+        "name": "libgcc",
+        "platform": "linux-64",
+        "version": "15.2.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 8,
+        "build_string": "h166f726_8",
+        "channel": "pkgs/main",
+        "dist_name": "libgcc-ng-15.2.0-h166f726_8",
+        "name": "libgcc-ng",
+        "platform": "linux-64",
+        "version": "15.2.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 8,
+        "build_string": "h39759b7_8",
+        "channel": "pkgs/main",
+        "dist_name": "libstdcxx-15.2.0-h39759b7_8",
+        "name": "libstdcxx",
+        "platform": "linux-64",
+        "version": "15.2.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h47b2149_0",
+        "channel": "pkgs/main",
+        "dist_name": "libzlib-1.3.2-h47b2149_0",
+        "name": "libzlib",
+        "platform": "linux-64",
+        "version": "1.3.2"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h1b28b03_0",
+        "channel": "pkgs/main",
+        "dist_name": "openssl-3.5.8-h1b28b03_0",
+        "name": "openssl",
+        "platform": "linux-64",
+        "version": "3.5.8"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 2,
+        "build_string": "h47b2149_2",
+        "channel": "pkgs/main",
+        "dist_name": "pthread-stubs-0.3-h47b2149_2",
+        "name": "pthread-stubs",
+        "platform": "linux-64",
+        "version": "0.3"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h47b2149_0",
+        "channel": "pkgs/main",
+        "dist_name": "xorg-xorgproto-2025.1-h47b2149_0",
+        "name": "xorg-xorgproto",
+        "platform": "linux-64",
+        "version": "2025.1"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h448239c_0",
+        "channel": "pkgs/main",
+        "dist_name": "xz-5.8.2-h448239c_0",
+        "name": "xz",
+        "platform": "linux-64",
+        "version": "5.8.2"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 6,
+        "build_string": "h5eee18b_6",
+        "channel": "pkgs/main",
+        "dist_name": "bzip2-1.0.8-h5eee18b_6",
+        "name": "bzip2",
+        "platform": "linux-64",
+        "version": "1.0.8"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h7354ed3_0",
+        "channel": "pkgs/main",
+        "dist_name": "libexpat-2.8.4-h7354ed3_0",
+        "name": "libexpat",
+        "platform": "linux-64",
+        "version": "2.8.4"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 3,
+        "build_string": "h06d3fd0_3",
+        "channel": "pkgs/main",
+        "dist_name": "libffi-3.4.8-h06d3fd0_3",
+        "name": "libffi",
+        "platform": "linux-64",
+        "version": "3.4.8"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h5eee18b_0",
+        "channel": "pkgs/main",
+        "dist_name": "libnsl-2.0.0-h5eee18b_0",
+        "name": "libnsl",
+        "platform": "linux-64",
+        "version": "2.0.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h5eee18b_0",
+        "channel": "pkgs/main",
+        "dist_name": "libuuid-1.41.5-h5eee18b_0",
+        "name": "libuuid",
+        "platform": "linux-64",
+        "version": "1.41.5"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "hfaaeb4e_0",
+        "channel": "pkgs/main",
+        "dist_name": "ncurses-6.6-hfaaeb4e_0",
+        "name": "ncurses",
+        "platform": "linux-64",
+        "version": "6.6"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h9b100fa_0",
+        "channel": "pkgs/main",
+        "dist_name": "xorg-libxau-1.0.12-h9b100fa_0",
+        "name": "xorg-libxau",
+        "platform": "linux-64",
+        "version": "1.0.12"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h9b100fa_0",
+        "channel": "pkgs/main",
+        "dist_name": "xorg-libxdmcp-1.1.5-h9b100fa_0",
+        "name": "xorg-libxdmcp",
+        "platform": "linux-64",
+        "version": "1.1.5"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h47b2149_0",
+        "channel": "pkgs/main",
+        "dist_name": "zlib-1.3.2-h47b2149_0",
+        "name": "zlib",
+        "platform": "linux-64",
+        "version": "1.3.2"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h9b100fa_0",
+        "channel": "pkgs/main",
+        "dist_name": "libxcb-1.17.0-h9b100fa_0",
+        "name": "libxcb",
+        "platform": "linux-64",
+        "version": "1.17.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "hc2a1206_0",
+        "channel": "pkgs/main",
+        "dist_name": "readline-8.3-hc2a1206_0",
+        "name": "readline",
+        "platform": "linux-64",
+        "version": "8.3"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h795bf6d_0",
+        "channel": "pkgs/main",
+        "dist_name": "sqlite-3.53.4-h795bf6d_0",
+        "name": "sqlite",
+        "platform": "linux-64",
+        "version": "3.53.4"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h65de747_0",
+        "channel": "pkgs/main",
+        "dist_name": "xorg-libx11-1.8.13-h65de747_0",
+        "name": "xorg-libx11",
+        "platform": "linux-64",
+        "version": "1.8.13"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h54e0aa7_0",
+        "channel": "pkgs/main",
+        "dist_name": "tk-8.6.15-h54e0aa7_0",
+        "name": "tk",
+        "platform": "linux-64",
+        "version": "8.6.15"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "h17756b0_0",
+        "channel": "pkgs/main",
+        "dist_name": "python-3.11.16-h17756b0_0",
+        "name": "python",
+        "platform": "linux-64",
+        "version": "3.11.16"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "py311h06a4308_0",
+        "channel": "pkgs/main",
+        "dist_name": "packaging-26.3-py311h06a4308_0",
+        "name": "packaging",
+        "platform": "linux-64",
+        "version": "26.3"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "py311h06a4308_0",
+        "channel": "pkgs/main",
+        "dist_name": "setuptools-83.0.0-py311h06a4308_0",
+        "name": "setuptools",
+        "platform": "linux-64",
+        "version": "83.0.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "py311h06a4308_0",
+        "channel": "pkgs/main",
+        "dist_name": "wheel-0.47.0-py311h06a4308_0",
+        "name": "wheel",
+        "platform": "linux-64",
+        "version": "0.47.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "pyhc872135_0",
+        "channel": "pkgs/main",
+        "dist_name": "pip-26.2.1-pyhc872135_0",
+        "name": "pip",
+        "platform": "noarch",
+        "version": "26.2.1"
+      }
+    ]
+  },
+  "prefix": "/home/ubuntu/miniconda3/envs/yolo26"
+}

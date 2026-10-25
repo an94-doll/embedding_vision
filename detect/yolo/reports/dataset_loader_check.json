@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "training_started": false,
+  "splits": {
+    "train": {
+      "images": 121,
+      "objects": 1484,
+      "first_batch_image_shape": [
+        2,
+        3,
+        1280,
+        1280
+      ],
+      "first_batch_keypoints_shape": [
+        112,
+        4,
+        3
+      ],
+      "image_path": "/home/ubuntu/BL/detect/yolo/datasets/cassette_4videos_2fps_yolo/images/train"
+    },
+    "val": {
+      "images": 16,
+      "objects": 170,
+      "first_batch_image_shape": [
+        2,
+        3,
+        1280,
+        1280
+      ],
+      "first_batch_keypoints_shape": [
+        66,
+        4,
+        3
+      ],
+      "image_path": "/home/ubuntu/BL/detect/yolo/datasets/cassette_4videos_2fps_yolo/images/val"
+    }
+  }
+}

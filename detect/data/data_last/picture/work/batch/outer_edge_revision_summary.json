@@ -1,0 +1,2273 @@
+{
+  "revision": "edge_revision_20261025_170749",
+  "standard": "front_outer_lip_upper_edge",
+  "processed": 277,
+  "instances": 2414,
+  "visible_endpoints": 4610,
+  "missing_endpoints": 218,
+  "missing_endpoint_frames": 113,
+  "methods": {
+    "image_edge_fit": 2305,
+    "assistant_enlarged_image_annotation": 21,
+    "new_edge_unlocatable": 87,
+    "median_strip_profile_fallback": 1
+  },
+  "previous_approved_frames": [
+    "color_000001",
+    "color_000002",
+    "color_000003",
+    "color_000004",
+    "color_000005",
+    "color_000006",
+    "color_000007",
+    "color_000008",
+    "color_000009",
+    "color_000010",
+    "color_000011",
+    "color_000012",
+    "color_000013",
+    "color_000014",
+    "color_000015",
+    "color_000016",
+    "color_000017",
+    "color_000018",
+    "color_000019",
+    "color_000020",
+    "color_000021",
+    "color_000022",
+    "color_000023",
+    "color_000024",
+    "color_000025",
+    "color_000026",
+    "color_000027",
+    "color_000028"
+  ],
+  "previous_user_instance_counts_preserved": true,
+  "all_frame_preview_screening": true,
+  "all_frame_precision_review": false,
+  "vertical_movement_px_percentiles": [
+    -74.64000000000001,
+    -23.912,
+    -11.42999999999995,
+    -7.75,
+    4.6200000000000045
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 2,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 3,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 4,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 5,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 6,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 7,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 8,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 9,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 10,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 11,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 12,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 13,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 14,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 15,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 16,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 17,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 18,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 19,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 20,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 21,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 22,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 23,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 24,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 25,
+      "instances": 9,
+      "visible_endpoints": 17,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 26,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 27,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 28,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 29,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 30,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 31,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 32,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 33,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 34,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 35,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 36,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 37,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 38,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 39,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 40,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 41,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 42,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 43,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 44,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 45,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 46,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 47,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 48,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 49,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 50,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 51,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 52,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 53,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 54,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 55,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 56,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 57,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 58,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 59,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 60,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 61,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 62,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 63,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 64,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 65,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 66,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 67,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 68,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 69,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 70,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 71,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 72,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 73,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 74,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 75,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 76,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 77,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 78,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 79,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 80,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 81,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 82,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 83,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 84,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 85,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 86,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 87,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 88,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 89,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 90,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 91,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 92,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 93,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 94,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 95,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 96,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 97,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 98,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 99,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 100,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 101,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 102,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 103,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 104,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 105,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 106,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 107,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 108,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 109,
+      "instances": 9,
+      "visible_endpoints": 14,
+      "missing_endpoints": 4,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 110,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 111,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 112,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 113,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 114,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 115,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 116,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 117,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 118,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 119,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 120,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 121,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 122,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 123,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 124,
+      "instances": 6,
+      "visible_endpoints": 10,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 125,
+      "instances": 6,
+      "visible_endpoints": 10,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 126,
+      "instances": 6,
+      "visible_endpoints": 10,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 127,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 128,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 129,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 130,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 131,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 132,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 133,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 134,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 135,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 136,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 137,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 138,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 139,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 140,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 141,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 142,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 143,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 144,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 145,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 146,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 147,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 148,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 149,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 150,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 151,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 152,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 153,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 154,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 155,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 156,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 157,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 158,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 159,
+      "instances": 7,
+      "visible_endpoints": 11,
+      "missing_endpoints": 3,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 160,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 161,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 162,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 163,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 164,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 165,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 166,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 167,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 168,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 169,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 170,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 171,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 172,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 173,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 174,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 175,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 176,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 177,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 178,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 179,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 180,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 181,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 182,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 183,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 184,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 185,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 186,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 187,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 188,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 189,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 190,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 191,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 192,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 193,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 194,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 195,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 196,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 197,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 198,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 199,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 200,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 201,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 202,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 203,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 204,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 205,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 206,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 207,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 208,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 209,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 210,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 211,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 212,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 213,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 214,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 215,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 216,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 217,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 218,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 219,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 220,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 221,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 222,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 223,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 224,
+      "instances": 9,
+      "visible_endpoints": 17,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 225,
+      "instances": 9,
+      "visible_endpoints": 14,
+      "missing_endpoints": 4,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 226,
+      "instances": 9,
+      "visible_endpoints": 14,
+      "missing_endpoints": 4,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 227,
+      "instances": 9,
+      "visible_endpoints": 13,
+      "missing_endpoints": 5,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 228,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 229,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 230,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 231,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 232,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 233,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 234,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 235,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 236,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 237,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 238,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 239,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 240,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 241,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 242,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 243,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 244,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 245,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 246,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 247,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 248,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 249,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 250,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 251,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 252,
+      "instances": 6,
+      "visible_endpoints": 10,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 253,
+      "instances": 5,
+      "visible_endpoints": 10,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 254,
+      "instances": 6,
+      "visible_endpoints": 10,
+      "missing_endpoints": 2,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 255,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 256,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 257,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 258,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 259,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 260,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 261,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 262,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 263,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 264,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 265,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 266,
+      "instances": 10,
+      "visible_endpoints": 17,
+      "missing_endpoints": 3,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 267,
+      "instances": 9,
+      "visible_endpoints": 14,
+      "missing_endpoints": 4,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 268,
+      "instances": 9,
+      "visible_endpoints": 14,
+      "missing_endpoints": 4,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 269,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 270,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 271,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 272,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 273,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 274,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 275,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 276,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    },
+    {
+      "frame": 277,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "preview_screened": true,
+      "training_eligible": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-19T19:49:37.337408+08:00",
+  "source_root": "/home/ubuntu/BL/detect/clean/cassette_4videos_2fps_yolo",
+  "status": "passed",
+  "errors": [],
+  "counts": {
+    "train": {
+      "images": 121,
+      "objects": 1484,
+      "source_videos": [
+        1,
+        3,
+        4
+      ]
+    },
+    "val": {
+      "images": 16,
+      "objects": 170,
+      "source_videos": [
+        2
+      ]
+    }
+  },
+  "kpt_shape": [
+    4,
+    3
+  ],
+  "names": {
+    "0": "cassette_top"
+  },
+  "verified_checksum_files": 556,
+  "source_package_fingerprint": "5fed78baacd6792446ef1fd903981584d8447445a69c8b45242384faf4f04c0f",
+  "source_frames_contributing": 92,
+  "sample_kinds": {
+    "full_frame": 10,
+    "crop": 127
+  },
+  "object_review_states": {
+    "accepted_after_visual_inspection": 1624,
+    "manually_retraced_corners": 30
+  },
+  "image_size_range": {
+    "min_width": 90,
+    "max_width": 720,
+    "min_height": 112,
+    "max_height": 1280
+  },
+  "min_long_to_adjacent_edge_ratio": 2.6109297270410603,
+  "min_bbox_height_pixels": 8.649963,
+  "warnings": [
+    "Small initial dataset from the same physical arrangement; validation is not an independent-scene generalization test.",
+    "No independent test split or dedicated negative images; all current annotations use visibility=2.",
+    "The review-only package is excluded; this audit validates structure and geometry, not every pixel-level annotation."
+  ],
+  "training_started": false
+}

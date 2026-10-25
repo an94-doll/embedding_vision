@@ -1,0 +1,57 @@
+{
+  "selected_at": "2026-10-25T20:04:56.547091+08:00",
+  "selection": "User selected epoch 127 as the default base for subsequent YOLO operations.",
+  "weights": "base.pt",
+  "sha256": "68b06dc226458ad02344455d3e563df6acf2b773edca2bba0bf9415b014cf05c",
+  "source_weights": "/home/ubuntu/BL/detect/yolo/runs/pose/cassette_reviewed277_total200_20261025_194050/weights/best_loss.pt",
+  "source_summary": "/home/ubuntu/BL/detect/yolo/training/cassette_reviewed277_total200_20261025_194050/training_summary.json",
+  "epoch": 127,
+  "model": "YOLO26s-Pose",
+  "task": "pose",
+  "names": {
+    "0": "cassette_front"
+  },
+  "kpt_shape": [
+    2,
+    3
+  ],
+  "flip_idx": [
+    1,
+    0
+  ],
+  "keypoint_order": [
+    "long_edge_left",
+    "long_edge_right"
+  ],
+  "val_total_loss": 0.99246,
+  "default_operations": [
+    "new_training",
+    "inference",
+    "automatic_preannotation"
+  ],
+  "new_training_resume": false,
+  "automatic_base_replacement": false,
+  "inference": {
+    "imgsz": 1280,
+    "rect": true,
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "endpoint_conf": 0.5,
+    "half": false,
+    "quantize": 32
+  },
+  "visualization": {
+    "show_boxes": false,
+    "show_instance_ids": false,
+    "show_keypoints": true,
+    "connect_visible_keypoints": true
+  },
+  "held_out_test_frames": [
+    31,
+    83,
+    134,
+    190,
+    259
+  ]
+}

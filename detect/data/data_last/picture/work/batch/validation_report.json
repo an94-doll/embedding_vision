@@ -1,0 +1,2253 @@
+{
+  "input_images": 277,
+  "strict_file_and_geometry_passed": 277,
+  "strict_failures": [],
+  "per_image": [
+    {
+      "id": "color_000001",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000002",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000003",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000004",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000005",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000006",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000007",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000008",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000009",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000010",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000011",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000012",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000013",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000014",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000015",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000016",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000017",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000018",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000019",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000020",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000021",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000022",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000023",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000024",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000025",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000026",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000027",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000028",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000029",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000030",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000031",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000032",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000033",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000034",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000035",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000036",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000037",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000038",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000039",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000040",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000041",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000042",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000043",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000044",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000045",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000046",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000047",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000048",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000049",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000050",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000051",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000052",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000053",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000054",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000055",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000056",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000057",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000058",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000059",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000060",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000061",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000062",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000063",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000064",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000065",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000066",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000067",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000068",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000069",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000070",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000071",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000072",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000073",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000074",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000075",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000076",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000077",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000078",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000079",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000080",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000081",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000082",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000083",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": true
+    },
+    {
+      "id": "color_000084",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000085",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000086",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000087",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000088",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000089",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000090",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000091",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000092",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000093",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000094",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000095",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000096",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000097",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000098",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 15,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000099",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000100",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000101",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000102",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000103",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000104",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000105",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000106",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000107",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000108",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000109",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000110",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000111",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000112",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000113",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000114",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 17,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000115",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000116",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000117",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000118",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000119",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000120",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000121",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000122",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000123",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000124",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 11,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000125",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 11,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000126",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000127",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000128",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000129",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000130",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000131",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000132",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000133",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000134",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000135",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000136",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000137",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000138",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000139",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000140",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 19,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000141",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000142",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000143",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000144",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000145",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000146",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 17,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000147",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000148",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000149",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000150",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000151",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000152",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000153",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000154",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000155",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000156",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000157",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000158",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000159",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 12,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000160",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 12,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000161",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000162",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000163",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000164",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000165",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000166",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000167",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000168",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000169",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000170",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000171",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000172",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000173",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000174",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000175",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000176",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000177",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000178",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000179",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000180",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000181",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000182",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000183",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000184",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000185",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000186",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000187",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000188",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000189",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000190",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000191",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000192",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000193",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000194",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000195",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000196",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000197",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000198",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000199",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000200",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000201",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000202",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000203",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000204",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000205",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000206",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000207",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000208",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000209",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000210",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000211",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000212",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000213",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000214",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000215",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000216",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000217",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000218",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000219",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000220",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000221",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000222",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000223",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 18,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000224",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000225",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000226",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000227",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 13,
+      "missing_endpoints": 5,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000228",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000229",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000230",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000231",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000232",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000233",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000234",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000235",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000236",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000237",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000238",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000239",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000240",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000241",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000242",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000243",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000244",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000245",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000246",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000247",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000248",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000249",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000250",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000251",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 14,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000252",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 11,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000253",
+      "pass": true,
+      "instances": 5,
+      "visible_endpoints": 10,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000254",
+      "pass": true,
+      "instances": 6,
+      "visible_endpoints": 11,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000255",
+      "pass": true,
+      "instances": 7,
+      "visible_endpoints": 13,
+      "missing_endpoints": 1,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000256",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000257",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000258",
+      "pass": true,
+      "instances": 8,
+      "visible_endpoints": 16,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000259",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 20,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000260",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000261",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000262",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000263",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000264",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000265",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000266",
+      "pass": true,
+      "instances": 10,
+      "visible_endpoints": 17,
+      "missing_endpoints": 3,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000267",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000268",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 16,
+      "missing_endpoints": 2,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000269",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000270",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000271",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000272",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000273",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000274",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000275",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000276",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    },
+    {
+      "id": "color_000277",
+      "pass": true,
+      "instances": 9,
+      "visible_endpoints": 18,
+      "missing_endpoints": 0,
+      "training_eligible": false
+    }
+  ],
+  "quality_scope": "Only file integrity, numeric geometry, and loader compatibility. Not semantic completeness, duplicate-object identity, or endpoint accuracy.",
+  "ultralytics_version": "8.4.182",
+  "ultralytics_verify_passed": 277,
+  "ultralytics_verify_failures": [],
+  "all_candidate_pose_loading": {
+    "images_loaded": 277,
+    "instances_loaded": 2402,
+    "keypoint_shape": [
+      2,
+      3
+    ],
+    "augmentation": false,
+    "training": false
+  },
+  "approved_pose_loading": {
+    "images_loaded": 83,
+    "instances_loaded": 724,
+    "keypoint_shape": [
+      2,
+      3
+    ],
+    "augmentation": false,
+    "training": false
+  },
+  "allowlist_pass": true,
+  "source_images_preserved": true,
+  "validation_images": 0,
+  "training_started": false,
+  "overall_format_status": "passed",
+  "overall_annotation_quality": "incomplete"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_at_utc": "2026-10-25T08:13:34.943169+00:00",
+  "settings": {
+    "serial": null,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "video_fps": null,
+    "layout": "color",
+    "codec": "mp4v",
+    "container": "mp4",
+    "output_dir": "/home/hooray/phd/baomai/data/recordings/d405",
+    "depth_min_m": 0.07,
+    "depth_max_m": 0.5
+  },
+  "camera": {
+    "device": "RealSense D405",
+    "serial": "335122271342",
+    "firmware": "5.12.14.100",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "color_format": "format.bgr8",
+    "depth_format": "format.z16",
+    "depth_scale_m": 9.999999747378752e-05,
+    "color_intrinsics": {
+      "width": 1280,
+      "height": 720,
+      "fx": 654.1087646484375,
+      "fy": 653.1512451171875,
+      "ppx": 642.5098266601562,
+      "ppy": 359.76971435546875,
+      "coeffs": [
+        -0.05191246047616005,
+        0.06378105282783508,
+        0.00038357413723133504,
+        0.0012621606001630425,
+        -0.022642819210886955
+      ],
+      "model": "distortion.inverse_brown_conrady"
+    },
+    "depth_intrinsics": {
+      "width": 1280,
+      "height": 720,
+      "fx": 657.3004760742188,
+      "fy": 657.3004760742188,
+      "ppx": 646.2163696289062,
+      "ppy": 361.11083984375,
+      "coeffs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "model": "distortion.brown_conrady"
+    },
+    "depth_to_color_extrinsics": {
+      "rotation": [
+        0.9999685883522034,
+        -0.007117695175111294,
+        -0.0034915003925561905,
+        0.007122180890291929,
+        0.9999738335609436,
+        0.001274003880098462,
+        0.003482341067865491,
+        -0.0012988309608772397,
+        0.999993085861206
+      ],
+      "translation": [
+        -4.671651913668029e-05,
+        8.36059552966617e-06,
+        8.448574953945354e-05
+      ]
+    },
+    "alignment": "none; each image uses its native pixel grid",
+    "synthetic": false
+  },
+  "video_file": "color.mp4",
+  "video_size": [
+    1280,
+    720
+  ],
+  "video_fps": 30.0,
+  "raw_depth_saved": false,
+  "depth_video_is_visualization": true,
+  "timing_policy": "host monotonic time; constant FPS; previous frame held across gaps",
+  "writer_backend": "FFMPEG",
+  "error": null,
+  "ended_at_utc": "2026-10-25T08:15:53.242432+00:00",
+  "source_frames": 3388,
+  "frames_written": 4149,
+  "repeated_frames": 777,
+  "source_elapsed_s": 138.2683635239996,
+  "playback_duration_s": 138.3
+}

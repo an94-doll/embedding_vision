@@ -1,0 +1,209 @@
+{
+  "frame": 148,
+  "image": "images/train/color_000148.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        860.28,
+        0.5513,
+        1130.1304,
+        51.4923
+      ],
+      "keypoints_xyv": [
+        [
+          880.0,
+          18.0,
+          2
+        ],
+        [
+          1123.0,
+          25.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        843.02,
+        40.9923,
+        1120.3668,
+        110.1331
+      ],
+      "keypoints_xyv": [
+        [
+          856.0,
+          83.0,
+          2
+        ],
+        [
+          1087.0,
+          86.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        832.12,
+        98.2213,
+        1087.6123,
+        161.1807
+      ],
+      "keypoints_xyv": [
+        [
+          840.0,
+          132.0,
+          2
+        ],
+        [
+          1051.0,
+          138.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        821.64,
+        148.3931,
+        1055.4319,
+        208.4019
+      ],
+      "keypoints_xyv": [
+        [
+          824.0,
+          183.0,
+          2
+        ],
+        [
+          1022.0,
+          192.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        808.0,
+        195.1982,
+        1027.3379,
+        249.0912
+      ],
+      "keypoints_xyv": [
+        [
+          808.0,
+          231.0,
+          2
+        ],
+        [
+          999.0,
+          236.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        797.0,
+        234.8167,
+        1000.3425,
+        284.5145
+      ],
+      "keypoints_xyv": [
+        [
+          797.0,
+          270.0,
+          2
+        ],
+        [
+          976.0,
+          275.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        782.0,
+        272.6929,
+        972.7192,
+        316.6667
+      ],
+      "keypoints_xyv": [
+        [
+          782.0,
+          306.0,
+          2
+        ],
+        [
+          952.0,
+          308.0,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    }
+  ],
+  "review_status": "accepted",
+  "training_eligible": true,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": true,
+  "initial_review_issues": [
+    "标准示例为第83张；两端分别落在实际拐角，连线随透视变化。"
+  ],
+  "unresolved_issues": [],
+  "review_evidence": {
+    "reviewer": "user_browser_editor",
+    "scope": "user decision",
+    "reviewed_at": "2026-10-25T10:58:09.890958+00:00"
+  },
+  "user_reviewed": true,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "prior_review_before_edge_revision": {
+    "review_status": "requires_correction",
+    "training_eligible": false,
+    "user_reviewed": false,
+    "user_review_note": null,
+    "edited_at": null
+  },
+  "annotation_standard": "reference83_front_lip_junction_corners",
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "requires_correction",
+    "previous_training_eligible": false,
+    "user_object_list_preserved": true
+  },
+  "reference83_revision": "reference83_revision_20261025_181000",
+  "user_review_note": "",
+  "edited_at": "2026-10-25T10:58:09.890958+00:00",
+  "flags": []
+}

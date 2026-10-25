@@ -1,0 +1,209 @@
+{
+  "frame": 154,
+  "image": "images/train/color_000154.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        700.26,
+        2.0082,
+        963.289,
+        66.2482
+      ],
+      "keypoints_xyv": [
+        [
+          717.344,
+          21.865,
+          2
+        ],
+        [
+          935.63,
+          47.072,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        686.35,
+        50.1819,
+        939.0594,
+        117.7291
+      ],
+      "keypoints_xyv": [
+        [
+          697.213,
+          86.137,
+          2
+        ],
+        [
+          907.963,
+          101.772,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        677.9,
+        106.1484,
+        915.193,
+        165.6667
+      ],
+      "keypoints_xyv": [
+        [
+          684.281,
+          133.911,
+          2
+        ],
+        [
+          879.281,
+          148.624,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        666.41,
+        154.3582,
+        882.6276,
+        211.2859
+      ],
+      "keypoints_xyv": [
+        [
+          671.856,
+          183.78,
+          2
+        ],
+        [
+          857.13,
+          199.095,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        657.15,
+        197.6848,
+        865.9958,
+        250.1082
+      ],
+      "keypoints_xyv": [
+        [
+          658.911,
+          231.171,
+          2
+        ],
+        [
+          842.345,
+          239.657,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        646.2469,
+        236.4259,
+        844.5653,
+        285.7007
+      ],
+      "keypoints_xyv": [
+        [
+          650.982,
+          269.584,
+          2
+        ],
+        [
+          825.941,
+          276.36,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        638.142,
+        272.9993,
+        816.0,
+        316.3582
+      ],
+      "keypoints_xyv": [
+        [
+          638.142,
+          305.52,
+          2
+        ],
+        [
+          806.454,
+          307.875,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    }
+  ],
+  "review_status": "accepted",
+  "training_eligible": true,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": true,
+  "initial_review_issues": [
+    "标准示例为第83张；两端分别落在实际拐角，连线随透视变化。"
+  ],
+  "unresolved_issues": [],
+  "review_evidence": {
+    "reviewer": "user_browser_editor",
+    "scope": "user decision",
+    "reviewed_at": "2026-10-25T10:58:13.786376+00:00"
+  },
+  "user_reviewed": true,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "prior_review_before_edge_revision": {
+    "review_status": "requires_correction",
+    "training_eligible": false,
+    "user_reviewed": false,
+    "user_review_note": null,
+    "edited_at": null
+  },
+  "annotation_standard": "reference83_front_lip_junction_corners",
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "requires_correction",
+    "previous_training_eligible": false,
+    "user_object_list_preserved": true
+  },
+  "reference83_revision": "reference83_revision_20261025_181000",
+  "user_review_note": "",
+  "edited_at": "2026-10-25T10:58:13.786376+00:00",
+  "flags": []
+}

@@ -1,0 +1,362 @@
+{
+  "frame": 5,
+  "image": "images/train/color_000005.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        581.4835,
+        135.6001,
+        861.328,
+        207.7607
+      ],
+      "keypoints_xyv": [
+        [
+          586.87,
+          197.71,
+          2
+        ],
+        [
+          851.73,
+          191.81,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "original_corner_restored",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 1
+      }
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        588.2529,
+        195.96,
+        847.5809,
+        257.999
+      ],
+      "keypoints_xyv": [
+        [
+          592.56,
+          246.33,
+          2
+        ],
+        [
+          838.49,
+          241.75,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "original_corner_restored",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 2
+      }
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        592.13,
+        241.5548,
+        833.3353,
+        300.5302
+      ],
+      "keypoints_xyv": [
+        [
+          594.63,
+          288.59,
+          2
+        ],
+        [
+          822.68,
+          286.57,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "original_corner_restored",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 3
+      }
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        587.1,
+        286.0558,
+        817.9288,
+        339.0014
+      ],
+      "keypoints_xyv": [
+        [
+          599.73,
+          328.355,
+          2
+        ],
+        [
+          808.29,
+          325.09,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "user_horizontal_correction_on_original_edge",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 4
+      }
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        588.84,
+        324.2317,
+        810.5827,
+        374.5266
+      ],
+      "keypoints_xyv": [
+        [
+          601.72,
+          362.8614,
+          2
+        ],
+        [
+          801.73,
+          361.72,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "user_horizontal_correction_on_original_edge",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 5
+      }
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        592.26,
+        360.1656,
+        799.4554,
+        406.8743
+      ],
+      "keypoints_xyv": [
+        [
+          603.7,
+          396.6628,
+          2
+        ],
+        [
+          791.58,
+          394.95,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "user_horizontal_correction_on_original_edge",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 6
+      }
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        594.67,
+        393.127,
+        790.1135,
+        435.4084
+      ],
+      "keypoints_xyv": [
+        [
+          606.08,
+          425.7241,
+          2
+        ],
+        [
+          784.21,
+          423.47,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "user_horizontal_correction_on_original_edge",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 7
+      }
+    },
+    {
+      "id": 8,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        596.95,
+        421.9283,
+        779.5427,
+        461.7431
+      ],
+      "keypoints_xyv": [
+        [
+          606.08,
+          452.4441,
+          2
+        ],
+        [
+          773.61,
+          450.63,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "user_horizontal_correction_on_original_edge",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 8
+      }
+    },
+    {
+      "id": 9,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        605.881,
+        448.7491,
+        771.9323,
+        485.6934
+      ],
+      "keypoints_xyv": [
+        [
+          608.86,
+          480.6591,
+          2
+        ],
+        [
+          768.43,
+          473.0124,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "user_horizontal_correction_on_original_edge",
+          "user_horizontal_correction_on_original_edge"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 9
+      }
+    },
+    {
+      "id": 10,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        568.12,
+        100.52,
+        866.17,
+        130.91
+      ],
+      "keypoints_xyv": [
+        [
+          582.14,
+          118.05,
+          2
+        ],
+        [
+          853.31,
+          115.71,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation",
+      "corner_revision": {
+        "method": [
+          "original_corner_restored",
+          "original_corner_restored"
+        ],
+        "revision": "corner_revision_20261025_174348",
+        "matched_previous_object_id": 10
+      }
+    }
+  ],
+  "review_status": "requires_correction",
+  "training_eligible": false,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": false,
+  "initial_review_issues": [
+    "统一使用明显长边左右两角，不与另一条相邻边混用。"
+  ],
+  "unresolved_issues": [
+    "已改回示例中明显长边的左右两角；请按当前端点位置重新确认。"
+  ],
+  "review_evidence": {
+    "reviewer": "corner_definition_migration",
+    "scope": "rule restored; manual acceptance pending",
+    "revision": "corner_revision_20261025_174348"
+  },
+  "user_reviewed": false,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "user_review_note": "",
+  "edited_at": "2026-10-25T09:27:37.719406+00:00",
+  "flags": [],
+  "prior_review_before_edge_revision": {
+    "review_status": "accepted",
+    "training_eligible": true,
+    "user_reviewed": true,
+    "user_review_note": "",
+    "edited_at": "2026-10-25T08:57:06.033667+00:00"
+  },
+  "annotation_standard": "front_visible_long_edge_corners",
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "accepted",
+    "previous_training_eligible": true,
+    "user_object_list_preserved": true
+  }
+}

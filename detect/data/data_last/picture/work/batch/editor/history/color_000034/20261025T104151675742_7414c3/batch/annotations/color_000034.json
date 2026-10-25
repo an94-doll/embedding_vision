@@ -1,0 +1,232 @@
+{
+  "frame": 34,
+  "image": "images/train/color_000034.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        585.69,
+        0.7753,
+        844.9023,
+        66.9376
+      ],
+      "keypoints_xyv": [
+        [
+          593.19,
+          59.47,
+          2
+        ],
+        [
+          822.42,
+          54.48,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        583.12,
+        56.9441,
+        824.5542,
+        123.957
+      ],
+      "keypoints_xyv": [
+        [
+          583.12,
+          114.7818,
+          2
+        ],
+        [
+          808.14,
+          116.41,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        592.76,
+        110.5071,
+        825.7435,
+        173.5703
+      ],
+      "keypoints_xyv": [
+        [
+          600.26,
+          162.62,
+          2
+        ],
+        [
+          800.99,
+          160.46,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        595.39,
+        159.8056,
+        811.5288,
+        218.5261
+      ],
+      "keypoints_xyv": [
+        [
+          599.84,
+          206.46,
+          2
+        ],
+        [
+          791.46,
+          204.52,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        590.23,
+        205.5109,
+        794.3724,
+        259.9538
+      ],
+      "keypoints_xyv": [
+        [
+          599.91,
+          245.88,
+          2
+        ],
+        [
+          787.89,
+          246.59,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        598.9922,
+        245.1178,
+        792.8114,
+        294.8453
+      ],
+      "keypoints_xyv": [
+        [
+          602.24,
+          283.68,
+          2
+        ],
+        [
+          780.91,
+          281.21,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        603.04,
+        280.6438,
+        785.0717,
+        326.5203
+      ],
+      "keypoints_xyv": [
+        [
+          604.4,
+          316.19,
+          2
+        ],
+        [
+          779.77,
+          314.82,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 8,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        601.4789,
+        313.3047,
+        778.8557,
+        356.3308
+      ],
+      "keypoints_xyv": [
+        [
+          606.78,
+          346.84,
+          2
+        ],
+        [
+          774.34,
+          345.07,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    }
+  ],
+  "review_status": "accepted",
+  "training_eligible": true,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": true,
+  "initial_review_issues": [
+    "统一使用明显长边左右两角，不与另一条相邻边混用。"
+  ],
+  "unresolved_issues": [],
+  "review_evidence": {
+    "reviewer": "user_browser_editor",
+    "scope": "user decision",
+    "reviewed_at": "2026-10-25T09:57:27.902292+00:00"
+  },
+  "user_reviewed": true,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "prior_review_before_edge_revision": {
+    "review_status": "requires_correction",
+    "training_eligible": false,
+    "user_reviewed": false,
+    "user_review_note": null,
+    "edited_at": null
+  },
+  "annotation_standard": "front_visible_long_edge_corners",
+  "user_review_note": "",
+  "edited_at": "2026-10-25T09:57:27.902292+00:00",
+  "flags": [],
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "accepted",
+    "previous_training_eligible": true,
+    "user_object_list_preserved": true
+  }
+}

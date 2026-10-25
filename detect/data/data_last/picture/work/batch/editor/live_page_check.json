@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8766/?frame=84",
+  "stats": {
+    "total": 277,
+    "accepted": 83,
+    "rejected": 0,
+    "pending": 194
+  },
+  "header_matches_current_rule": true,
+  "boxes_and_numbers_hidden": true,
+  "fixed_reference_available": true,
+  "checked_live_frame_ids": [
+    83,
+    84,
+    130,
+    190,
+    229,
+    252,
+    269,
+    277
+  ],
+  "screenshot": "/home/ubuntu/BL/detect/data/20261025T081334_943078Z/picture/work/batch/editor/editor_preview.png",
+  "real_data_modified": false,
+  "artifacts": "/tmp/reference83_live_f7geduzb"
+}

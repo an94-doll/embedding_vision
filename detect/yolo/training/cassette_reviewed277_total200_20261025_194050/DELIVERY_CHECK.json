@@ -1,0 +1,31 @@
+{
+  "training_epochs": 200,
+  "best_loss_epoch": 127,
+  "best_val_total_loss": 0.99246,
+  "epoch200_val_loss": 1.00412,
+  "test_frames": [
+    31,
+    83,
+    134,
+    190,
+    259
+  ],
+  "test_models": 2,
+  "test_predictions": 10,
+  "source_files_unchanged": 558,
+  "weights_verified": [
+    "best_loss.pt",
+    "epoch100.pt",
+    "epoch200.pt"
+  ],
+  "html": "/home/ubuntu/BL/detect/yolo/training/cassette_reviewed277_total200_20261025_194050/test_predictions/index.html",
+  "url": "http://127.0.0.1:8767/test_predictions/index.html",
+  "format": {
+    "class": "cassette_front",
+    "kpt_shape": [
+      2,
+      3
+    ]
+  },
+  "passed": true
+}

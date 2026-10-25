@@ -1,0 +1,22 @@
+{
+  "missing_weights": {
+    "passed": true,
+    "exit_code": 1,
+    "reported_stage": "weights_file",
+    "default_paths_resolve_from_project_root": true
+  },
+  "check_env.py_cuda_disabled": {
+    "passed": true,
+    "exit_code": 1,
+    "reported_stage": "cuda_initialization",
+    "cpu_fallback_allowed": false,
+    "temporary_report_removed": true
+  },
+  "check_model.py_cuda_disabled": {
+    "passed": true,
+    "exit_code": 1,
+    "reported_stage": "cuda_initialization",
+    "cpu_fallback_allowed": false,
+    "temporary_report_removed": true
+  }
+}

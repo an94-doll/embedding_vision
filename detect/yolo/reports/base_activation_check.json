@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-25T20:05:25.689915+08:00",
+  "default_weights": "/home/ubuntu/BL/detect/yolo/weights/base.pt",
+  "sha256": "68b06dc226458ad02344455d3e563df6acf2b773edca2bba0bf9415b014cf05c",
+  "epoch": 127,
+  "task": "pose",
+  "kpt_shape": [
+    2,
+    3
+  ],
+  "names": {
+    "0": "cassette_front"
+  },
+  "optimizer_and_ema_preserved": true,
+  "historical_127_and_200_checkpoints_unchanged": true,
+  "training_started": false,
+  "training_prepare_defaults": "base_weights.resolve_base",
+  "syntax_checks": "passed"
+}

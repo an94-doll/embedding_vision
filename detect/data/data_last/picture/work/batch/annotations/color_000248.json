@@ -1,0 +1,233 @@
+{
+  "frame": 248,
+  "image": "images/train/color_000248.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        570.786,
+        0.5435,
+        843.2542,
+        64.8427
+      ],
+      "keypoints_xyv": [
+        [
+          570.786,
+          38.581,
+          2
+        ],
+        [
+          839.29,
+          15.19,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        585.273,
+        54.4655,
+        834.5427,
+        124.1548
+      ],
+      "keypoints_xyv": [
+        [
+          585.273,
+          103.307,
+          2
+        ],
+        [
+          827.6,
+          88.83,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        593.477,
+        113.0637,
+        833.6886,
+        175.488
+      ],
+      "keypoints_xyv": [
+        [
+          593.477,
+          156.343,
+          2
+        ],
+        [
+          825.26,
+          144.94,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        604.9545,
+        162.5736,
+        829.0939,
+        222.1549
+      ],
+      "keypoints_xyv": [
+        [
+          606.325,
+          203.798,
+          2
+        ],
+        [
+          817.031,
+          203.59,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        609.87,
+        208.6361,
+        825.6364,
+        264.4699
+      ],
+      "keypoints_xyv": [
+        [
+          614.695,
+          249.315,
+          2
+        ],
+        [
+          816.485,
+          249.601,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        615.6535,
+        250.6654,
+        821.6628,
+        302.1859
+      ],
+      "keypoints_xyv": [
+        [
+          623.441,
+          285.372,
+          2
+        ],
+        [
+          812.843,
+          287.298,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        623.596,
+        287.7292,
+        819.1711,
+        335.5476
+      ],
+      "keypoints_xyv": [
+        [
+          630.871,
+          319.037,
+          2
+        ],
+        [
+          808.164,
+          323.419,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 8,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        628.99,
+        321.6878,
+        817.7577,
+        366.8575
+      ],
+      "keypoints_xyv": [
+        [
+          636.363,
+          354.53,
+          2
+        ],
+        [
+          806.357,
+          355.746,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    }
+  ],
+  "review_status": "accepted",
+  "training_eligible": true,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": true,
+  "initial_review_issues": [
+    "标准示例为第83张；两端分别落在实际拐角，连线随透视变化。"
+  ],
+  "unresolved_issues": [],
+  "review_evidence": {
+    "reviewer": "user_browser_editor",
+    "scope": "user decision",
+    "reviewed_at": "2026-10-25T11:16:39.978826+00:00"
+  },
+  "user_reviewed": true,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "prior_review_before_edge_revision": {
+    "review_status": "requires_correction",
+    "training_eligible": false,
+    "user_reviewed": false,
+    "user_review_note": null,
+    "edited_at": null
+  },
+  "annotation_standard": "reference83_front_lip_junction_corners",
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "requires_correction",
+    "previous_training_eligible": false,
+    "user_object_list_preserved": true
+  },
+  "reference83_revision": "reference83_revision_20261025_181000",
+  "user_review_note": "",
+  "edited_at": "2026-10-25T11:16:39.978826+00:00",
+  "flags": []
+}

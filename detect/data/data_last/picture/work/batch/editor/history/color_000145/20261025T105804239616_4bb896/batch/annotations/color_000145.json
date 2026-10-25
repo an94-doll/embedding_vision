@@ -1,0 +1,758 @@
+{
+  "frame": 145,
+  "image": "images/train/color_000145.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        761.08,
+        17.66,
+        980.3628,
+        75.1248
+      ],
+      "keypoints_xyv": [
+        [
+          778.732,
+          47.44,
+          2
+        ],
+        [
+          945.942,
+          53.832,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "tile007"
+        ],
+        "confidence": 0.8710325211286545,
+        "point_spread": [
+          11.747160766628173,
+          6.009931556653076
+        ],
+        "edge": {
+          "points": [
+            [
+              767.0470982659313,
+              62.38343397740596
+            ],
+            [
+              964.9317835700062,
+              63.26713021631963
+            ]
+          ],
+          "edge_contrast": 37.5,
+          "edge_support": 0.93,
+          "normal_correction": [
+            -5.0,
+            5.0
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 135.0,
+          "edge_brightness": 198.0,
+          "front_to_edge_ratio": 0.682,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 44,
+        "endpoints": [
+          {
+            "method": "local_box_affine",
+            "fb_error": 1.55,
+            "flow_vs_affine": 3.292
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.131,
+            "flow_vs_affine": 2.869
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        762.1669,
+        61.9955,
+        963.4125,
+        115.329
+      ],
+      "keypoints_xyv": [
+        [
+          774.428,
+          88.951,
+          2
+        ],
+        [
+          929.899,
+          95.559,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "epoch100",
+          "tile007"
+        ],
+        "confidence": 0.9012450695037841,
+        "point_spread": [
+          10.052907504241372,
+          13.811132125453385
+        ],
+        "edge": {
+          "points": [
+            [
+              763.0788366693645,
+              102.58728967704504
+            ],
+            [
+              951.5907724507258,
+              103.95140058161435
+            ]
+          ],
+          "edge_contrast": 39.0,
+          "edge_support": 0.837,
+          "normal_correction": [
+            -4.705016427393484,
+            5.0
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 145.0,
+          "edge_brightness": 194.0,
+          "front_to_edge_ratio": 0.747,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 51,
+        "endpoints": [
+          {
+            "method": "local_box_affine",
+            "fb_error": 256.562,
+            "flow_vs_affine": 7.814
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.426,
+            "flow_vs_affine": 1.689
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        748.49,
+        102.2223,
+        946.0012,
+        152.2389
+      ],
+      "keypoints_xyv": [
+        [
+          757.125,
+          127.106,
+          2
+        ],
+        [
+          908.956,
+          132.134,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "epoch100",
+          "tile007"
+        ],
+        "confidence": 0.9267475605010986,
+        "point_spread": [
+          7.380231167627453,
+          8.1534423828125
+        ],
+        "edge": {
+          "points": [
+            [
+              755.1719929289053,
+              138.95423329908945
+            ],
+            [
+              930.9842570710947,
+              141.86559091966055
+            ]
+          ],
+          "edge_contrast": 51.0,
+          "edge_support": 0.953,
+          "normal_correction": [
+            -5.0,
+            5.0
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 144.0,
+          "edge_brightness": 203.0,
+          "front_to_edge_ratio": 0.709,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 66,
+        "endpoints": [
+          {
+            "method": "local_box_affine",
+            "fb_error": 5.271,
+            "flow_vs_affine": 3.612
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.027,
+            "flow_vs_affine": 1.594
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        748.46,
+        138.0375,
+        928.1386,
+        186.4506
+      ],
+      "keypoints_xyv": [
+        [
+          749.794,
+          163.657,
+          2
+        ],
+        [
+          894.623,
+          172.866,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "epoch100",
+          "tile007"
+        ],
+        "confidence": 0.936072838306427,
+        "point_spread": [
+          8.106672077766344,
+          6.05267333984375
+        ],
+        "edge": {
+          "points": [
+            [
+              748.4579856454689,
+              174.52416520132917
+            ],
+            [
+              913.2527687490624,
+              175.9919633387099
+            ]
+          ],
+          "edge_contrast": 63.0,
+          "edge_support": 0.977,
+          "normal_correction": [
+            -5.0,
+            5.0
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 140.0,
+          "edge_brightness": 203.0,
+          "front_to_edge_ratio": 0.69,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 59,
+        "endpoints": [
+          {
+            "method": "local_box_affine",
+            "fb_error": 9.098,
+            "flow_vs_affine": 0.72
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.351,
+            "flow_vs_affine": 0.784
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        740.28,
+        173.1654,
+        907.3301,
+        218.0384
+      ],
+      "keypoints_xyv": [
+        [
+          740.28,
+          201.109,
+          2
+        ],
+        [
+          881.37,
+          207.61,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "epoch100",
+          "tile007"
+        ],
+        "confidence": 0.9343095421791077,
+        "point_spread": [
+          5.4838459443935506,
+          5.312794858887528
+        ],
+        "edge": {
+          "points": [
+            [
+              742.7759223376908,
+              205.97762089020614
+            ],
+            [
+              895.045793970903,
+              208.12481136077042
+            ]
+          ],
+          "edge_contrast": 69.0,
+          "edge_support": 1.0,
+          "normal_correction": [
+            -5.0,
+            5.0
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 137.0,
+          "edge_brightness": 201.0,
+          "front_to_edge_ratio": 0.682,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 72,
+        "endpoints": [
+          {
+            "method": "local_box_affine",
+            "fb_error": 6.078,
+            "flow_vs_affine": 1.494
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.224,
+            "flow_vs_affine": 1.88
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        735.52,
+        204.2676,
+        890.4696,
+        246.9257
+      ],
+      "keypoints_xyv": [
+        [
+          739.228,
+          232.666,
+          2
+        ],
+        [
+          871.456,
+          238.799,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "epoch100",
+          "tile007"
+        ],
+        "confidence": 0.9340395212173462,
+        "point_spread": [
+          4.027133189469242,
+          3.4206413580609127
+        ],
+        "edge": {
+          "points": [
+            [
+              735.5220180933826,
+              235.486148605896
+            ],
+            [
+              879.5685475407272,
+              237.90804278549263
+            ]
+          ],
+          "edge_contrast": 76.0,
+          "edge_support": 1.0,
+          "normal_correction": [
+            -4.679314565483482,
+            5.0
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 134.0,
+          "edge_brightness": 205.0,
+          "front_to_edge_ratio": 0.654,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 86,
+        "endpoints": [
+          {
+            "method": "local_box_affine",
+            "fb_error": 0.055,
+            "flow_vs_affine": 29.057
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.365,
+            "flow_vs_affine": 0.596
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        728.9144,
+        234.6211,
+        877.1019,
+        274.4093
+      ],
+      "keypoints_xyv": [
+        [
+          729.379,
+          258.124,
+          2
+        ],
+        [
+          867.36,
+          264.63,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "tile100",
+          "epoch007",
+          "epoch034",
+          "epoch100",
+          "tile007"
+        ],
+        "confidence": 0.9492303371429444,
+        "point_spread": [
+          4.319107217897552,
+          5.42974853515625
+        ],
+        "edge": {
+          "points": [
+            [
+              729.6630941985255,
+              263.42110585375275
+            ],
+            [
+              867.3612477896953,
+              264.6261568736114
+            ]
+          ],
+          "edge_contrast": 73.0,
+          "edge_support": 1.0,
+          "normal_correction": [
+            -5.0,
+            3.284800267052411
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 129.5,
+          "edge_brightness": 200.0,
+          "front_to_edge_ratio": 0.647,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "method": "image_corner_candidate",
+        "anchor": 148,
+        "needs_image_check": true
+      }
+    },
+    {
+      "id": 8,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        721.92,
+        261.3314,
+        864.7436,
+        298.7757
+      ],
+      "keypoints_xyv": [
+        [
+          724.509,
+          284.054,
+          2
+        ],
+        [
+          855.176,
+          289.086,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "epoch100",
+          "epoch007",
+          "epoch034",
+          "tile007",
+          "tile100"
+        ],
+        "confidence": 0.9183853983879089,
+        "point_spread": [
+          3.551025390625,
+          7.000127966343896
+        ],
+        "edge": {
+          "points": [
+            [
+              726.7612195042326,
+              288.95684428351746
+            ],
+            [
+              854.4782493945346,
+              289.1565981202538
+            ]
+          ],
+          "edge_contrast": 67.0,
+          "edge_support": 1.0,
+          "normal_correction": [
+            -4.239401357516414,
+            2.820796706353624
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 130.0,
+          "edge_brightness": 194.0,
+          "front_to_edge_ratio": 0.67,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 35,
+        "endpoints": [
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.109,
+            "flow_vs_affine": 0.485
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.961,
+            "flow_vs_affine": 0.732
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "class_id": 0,
+      "group": "cassette_column",
+      "bbox_xyxy": [
+        715.025,
+        287.108,
+        853.956,
+        323.2517
+      ],
+      "keypoints_xyv": [
+        [
+          715.025,
+          310.519,
+          2
+        ],
+        [
+          840.712,
+          314.215,
+          2
+        ]
+      ],
+      "source": "reference83_local_corner_transfer",
+      "candidate_evidence": {
+        "models": [
+          "epoch100",
+          "epoch007",
+          "epoch034",
+          "tile007"
+        ],
+        "confidence": 0.8324645012617111,
+        "point_spread": [
+          5.921070815673747,
+          8.892306092270394
+        ],
+        "edge": {
+          "points": [
+            [
+              721.9224258105553,
+              314.95061338567797
+            ],
+            [
+              844.1342461401216,
+              312.1998331301793
+            ]
+          ],
+          "edge_contrast": 97.0,
+          "edge_support": 0.884,
+          "normal_correction": [
+            -2.770047354302527,
+            2.338379116790744
+          ]
+        },
+        "front_surface": {
+          "front_brightness": 132.0,
+          "edge_brightness": 167.0,
+          "front_to_edge_ratio": 0.79,
+          "supported": true
+        }
+      },
+      "needs_user_review": true,
+      "reference83_transfer": {
+        "from_frame": 146,
+        "anchor": 148,
+        "method": "local_image_tracking",
+        "support": 55,
+        "endpoints": [
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.232,
+            "flow_vs_affine": 0.585
+          },
+          {
+            "method": "endpoint_optical_flow",
+            "fb_error": 0.19,
+            "flow_vs_affine": 1.467
+          }
+        ]
+      }
+    }
+  ],
+  "review_status": "requires_correction",
+  "training_eligible": false,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": false,
+  "initial_review_issues": [
+    "标准示例为第83张；两端分别落在实际拐角，连线随透视变化。"
+  ],
+  "unresolved_issues": [
+    "按第83张示例定位左右实际拐角；已检查裁剪预览，仍需用户确认。"
+  ],
+  "review_evidence": {
+    "reviewer": "nearest_reference_local_image_transfer",
+    "anchor": 148,
+    "propagation_steps": 3,
+    "fallback_ids": [
+      7
+    ],
+    "quality_accepted": false
+  },
+  "user_reviewed": false,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "prior_review_before_edge_revision": {
+    "review_status": "requires_correction",
+    "training_eligible": false,
+    "user_reviewed": false,
+    "user_review_note": null,
+    "edited_at": null
+  },
+  "annotation_standard": "reference83_front_lip_junction_corners",
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "requires_correction",
+    "previous_training_eligible": false,
+    "user_object_list_preserved": true
+  },
+  "reference83_revision": "reference83_revision_20261025_181000"
+}

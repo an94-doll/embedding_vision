@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "tag": "epoch007",
+      "weights": "/home/ubuntu/BL/detect/yolo/runs/pose/cassette_front_2pt_data405_20261024_215915/weights/best.pt",
+      "sha256": "121f8e139f214acd1a8893345d9e073522bffd171ff0b05571c537d13f703f72"
+    },
+    {
+      "tag": "epoch034",
+      "weights": "/home/ubuntu/BL/detect/yolo/runs/pose/cassette_front_2pt_data405_total100_20261024_224433/weights/best.pt",
+      "sha256": "10ae9651d4604672cf3769d15b16de43608a1f290a56de92ec345937dbf72451"
+    },
+    {
+      "tag": "epoch100",
+      "weights": "/home/ubuntu/BL/detect/yolo/runs/pose/cassette_front_2pt_data405_total100_20261024_224433/weights/last.pt",
+      "sha256": "3daf2c6c001edcb666e57dbc6f949c6113a516757574ac878dcd0d422806be3a"
+    }
+  ],
+  "additional_crop_models": [
+    "epoch007",
+    "epoch100"
+  ],
+  "inference_size": 1280,
+  "training_started": false,
+  "note": "All models originate from the previous batch; agreement does not certify annotation quality."
+}

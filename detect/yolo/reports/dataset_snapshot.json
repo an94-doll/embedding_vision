@@ -1,0 +1,7 @@
+{
+  "source": "/home/ubuntu/BL/detect/clean/cassette_4videos_2fps_yolo",
+  "snapshot": "/home/ubuntu/BL/detect/yolo/datasets/cassette_4videos_2fps_yolo",
+  "verified_files": 556,
+  "sha256_manifest": "5fed78baacd6792446ef1fd903981584d8447445a69c8b45242384faf4f04c0f",
+  "original_data_modified": false
+}

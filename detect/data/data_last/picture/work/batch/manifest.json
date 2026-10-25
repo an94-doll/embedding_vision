@@ -1,0 +1,2779 @@
+{
+  "count": 277,
+  "source_directory": "/home/ubuntu/BL/detect/data/20261025T081334_943078Z/picture/raw",
+  "batch_id": "20261025T081334_943078Z",
+  "sampling_fps": 2,
+  "images": [
+    {
+      "id": "color_000001",
+      "filename": "color_000001.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8f01a48c36dfd49dd0d9b41041ee63fb4265362757cf3ae6ccba3abe45bd046a",
+      "video_time_seconds": 0.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000002",
+      "filename": "color_000002.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "666cb0ae892997c9b628aef2b661ae4b0ab9f10e267215c764778cbfd68ae5a1",
+      "video_time_seconds": 0.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000003",
+      "filename": "color_000003.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "738fdf97fdc4d4438e5cfe48a27ed80b4c04a8ef7d36479c2f5cbc34db51b61d",
+      "video_time_seconds": 1.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000004",
+      "filename": "color_000004.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d4ab364c88fc7a7cf722f3a31499e529cc01f3e795138f65134b63b80a111bbf",
+      "video_time_seconds": 1.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000005",
+      "filename": "color_000005.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ab05115adf3daf440a887a8bb4a7bdf5738725215b3d6d610d7888f7e627db82",
+      "video_time_seconds": 2.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000006",
+      "filename": "color_000006.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6636384130526bda96f55d7471070eb99c4a4d6519cb43191dc9c2507503041a",
+      "video_time_seconds": 2.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000007",
+      "filename": "color_000007.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b56b7fcfd5424959e4309d869d796c71063439f3bf2b73ed531a5518163fe941",
+      "video_time_seconds": 3.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000008",
+      "filename": "color_000008.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8efe43fdfc337275631da8ffd01511330ed1f1d9a6be3190e1d70f25caa3d958",
+      "video_time_seconds": 3.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000009",
+      "filename": "color_000009.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f145fe677ee316337298971f94249dfde6610225f151fcc92e5d11ecea62f61b",
+      "video_time_seconds": 4.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000010",
+      "filename": "color_000010.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "da428edba10715f5d02fad4855942700194ea05896eb2c10f3ca671d4f97a0b9",
+      "video_time_seconds": 4.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000011",
+      "filename": "color_000011.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4ed12f63a5e23c3edfce5b3a391ae6a60dbe2ed3975167f2a34c0d257c0c0c77",
+      "video_time_seconds": 5.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000012",
+      "filename": "color_000012.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "39f9bc22a789828bae16a10fe00ac9e2a1ff0c67e34f57ea6083d759e7454d37",
+      "video_time_seconds": 5.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000013",
+      "filename": "color_000013.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c9ec988666a1d224b9c270ab0a56cb69a685fbca6f97eef5ad4c714f8da96cc1",
+      "video_time_seconds": 6.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000014",
+      "filename": "color_000014.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7ac73141216aed7832bed1414fb93f083b169436ecf2011f08e3d111c8aee865",
+      "video_time_seconds": 6.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000015",
+      "filename": "color_000015.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "99391df14c167af297499ed80e02e28207bc71949730c90b428d35963472b654",
+      "video_time_seconds": 7.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000016",
+      "filename": "color_000016.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "158e4b6687d2b3b4c597451f7a390e269d3b53d6dfb316c5ef5a5d87884adc8d",
+      "video_time_seconds": 7.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000017",
+      "filename": "color_000017.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "676030fedae6b86dbcdd266e57b86b4867c7be3aaa47840d792e707280439b95",
+      "video_time_seconds": 8.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000018",
+      "filename": "color_000018.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d16b6a1d253a65a69bfc8c24196d72a00cfb6f987ea535ffc41889d11ebbc80a",
+      "video_time_seconds": 8.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000019",
+      "filename": "color_000019.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "57f6aea0a59832f339624b0b51b6e1648e7ace8d7c8165fa748e6896ca593cb8",
+      "video_time_seconds": 9.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000020",
+      "filename": "color_000020.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "05989daf0bd4eefd734df03e8c244542c0324dfdefe3e56e7d0e65914e5b57d3",
+      "video_time_seconds": 9.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000021",
+      "filename": "color_000021.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "796f3a6d1f85c242e2c47c47c265b83efb3d0efb69663e62cd906a5f35b87f17",
+      "video_time_seconds": 10.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000022",
+      "filename": "color_000022.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "69dee9265ee96aff6f4ebbe5a6f05949b112fdf84c1797d56a90b3ccc53d3028",
+      "video_time_seconds": 10.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000023",
+      "filename": "color_000023.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "668859bae1f6c178597e07faae66b27d4d00a9dde579284034a15292c5033f46",
+      "video_time_seconds": 11.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000024",
+      "filename": "color_000024.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bf8346ee2eda48af0056f1ea98cc305913ebdbc391115858340eedc354c84be5",
+      "video_time_seconds": 11.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000025",
+      "filename": "color_000025.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "090e94b3ae754fc8091451cc3a986d729a3bdb0f2511b01a6d7d5e1fcd8eb93a",
+      "video_time_seconds": 12.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000026",
+      "filename": "color_000026.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "46b569929e48092e36595963152fe710fd0afd67f0206aab32072ee7f9d5f861",
+      "video_time_seconds": 12.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000027",
+      "filename": "color_000027.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "98ceccf919b31f07d8d006afd548003944f9e5234194eb8b877cdf9116520d2c",
+      "video_time_seconds": 13.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000028",
+      "filename": "color_000028.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "121c958a86eb586c419c2593175d56f6e909e54e308611d52af51c4c7ffe203e",
+      "video_time_seconds": 13.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000029",
+      "filename": "color_000029.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "80ada5a1869f7769513dc5e27c367409d05ed1648b0020a39649e20948e8cc3e",
+      "video_time_seconds": 14.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000030",
+      "filename": "color_000030.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ef0ec9ea00372eb518eda5ea6d23b71427804f587c26fcfc4e0c648bfd524b75",
+      "video_time_seconds": 14.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000031",
+      "filename": "color_000031.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f28386bafb9c60186b26e3a37f05f27015ef273a9a6af85928b55f44899e4939",
+      "video_time_seconds": 15.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000032",
+      "filename": "color_000032.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e57573d6b415e9fb30a4d667a82c7477767cdba7258c0cafd3fe1ea7b9b75980",
+      "video_time_seconds": 15.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000033",
+      "filename": "color_000033.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ddc5782ef4cf04b1ea022c8c8806561bb68ece9048181aae6ed93dbc7b71ee9d",
+      "video_time_seconds": 16.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000034",
+      "filename": "color_000034.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d4c21b530737bd131373e5fdbc62ff3a04cfc24fa4c06eadad61f198cc980ae6",
+      "video_time_seconds": 16.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000035",
+      "filename": "color_000035.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2696dc042bb8a3e4363710ed4323d1144dc061911569f3f6c6364d3a5ad950c0",
+      "video_time_seconds": 17.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000036",
+      "filename": "color_000036.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "510bad4dc08a40c76a2fe10c38b83099fcf6dac5fbbccb016e8cdde44402fa6c",
+      "video_time_seconds": 17.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000037",
+      "filename": "color_000037.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2aa168a49e7b7be5061f7a794e503ec6dc944443b6bf47f263fe42f0184cc9e7",
+      "video_time_seconds": 18.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000038",
+      "filename": "color_000038.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cc80cd165ac154b27836ae85b3bd9487da5493d21be35fe16c24289b57a80569",
+      "video_time_seconds": 18.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000039",
+      "filename": "color_000039.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "334f3bd1ac7d2148f8dbe928e14ab49f96a0f5a47741dda834a7bb451a8ac85c",
+      "video_time_seconds": 19.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000040",
+      "filename": "color_000040.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6e6623a0ecf18a34cee7729705ebc833146e4c554e9030e43ad36d82d168db02",
+      "video_time_seconds": 19.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000041",
+      "filename": "color_000041.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "dec907b6dffda7d7ede27bc2903886fe04ca554929d254939f5e204a96be8766",
+      "video_time_seconds": 20.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000042",
+      "filename": "color_000042.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b4fb62065fd129594eefe15210fbae200f4c59932dab3574f73e03704af2c42e",
+      "video_time_seconds": 20.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000043",
+      "filename": "color_000043.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "98f4281b64ef5424539d79b849b38a3c6404304cefffe663f4a3f2355d93f6b6",
+      "video_time_seconds": 21.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000044",
+      "filename": "color_000044.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "23defc8a53e2ee4611858954f3de1b49a959576a73fa53abf977df5fd997b691",
+      "video_time_seconds": 21.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000045",
+      "filename": "color_000045.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a9d3a4555d4a89495bab5d5ba0592d9afadc38638c488bcf678dcd3e350c6d69",
+      "video_time_seconds": 22.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000046",
+      "filename": "color_000046.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5e2c637d66f4821640eaaacbe8140ff2423ec72ebf11100c9da55404c98a79c6",
+      "video_time_seconds": 22.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000047",
+      "filename": "color_000047.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "72b71530e0553c58e4b8dd8dc09f82485c5c7a61357d62d87b653f196be64340",
+      "video_time_seconds": 23.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000048",
+      "filename": "color_000048.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ada97dd077b8fa42fb91966398bd0fc2c8c408d114ac2840722b5af6ab11cb25",
+      "video_time_seconds": 23.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000049",
+      "filename": "color_000049.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "79b48878147037a42305ce2922868eeef544a0453f5198476a2ded244fa7b43f",
+      "video_time_seconds": 24.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000050",
+      "filename": "color_000050.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "05d1480088413928782d6979d341e953e29076752af153b7b2be3abc81e91dbc",
+      "video_time_seconds": 24.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000051",
+      "filename": "color_000051.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b3372a8c3b55f3567738c1d8e649f04c3cd3391ffa1a4ea8dcbe2b1097697661",
+      "video_time_seconds": 25.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000052",
+      "filename": "color_000052.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c7a7c3849ea067322e34a5418730560b7932c4a2efce545ea8eb9630c38c5692",
+      "video_time_seconds": 25.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000053",
+      "filename": "color_000053.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "79e4e0cb8279cdfc59d29d5be1741a1b5aa515d6756de53665f69a1b540a234b",
+      "video_time_seconds": 26.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000054",
+      "filename": "color_000054.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0762009e0caf58b364c210f1542b823577fa41d656d7e6ffc0e984594dc78c72",
+      "video_time_seconds": 26.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000055",
+      "filename": "color_000055.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8dc0cac5f0694a1126da3e13b459b6877c65e01560dd44886c9827b9f5e068fb",
+      "video_time_seconds": 27.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000056",
+      "filename": "color_000056.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5a46c3dca3c4efe269fcfdb44d58e69218997fd3b943f06a4f74e5e4ab7e8b32",
+      "video_time_seconds": 27.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000057",
+      "filename": "color_000057.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b2cfe81d5bfe404c6f5cba7ac3b9e072f534b345e63afc924589473bcedf1428",
+      "video_time_seconds": 28.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000058",
+      "filename": "color_000058.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "02a4361f45de0dfee1b88e414ea4365c23e043ac4b0aab5c0be20bed9de0c16d",
+      "video_time_seconds": 28.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000059",
+      "filename": "color_000059.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "171932b7967fb20b006c21dd09c967ee69032efd2e1893813ce50a6624fbe01a",
+      "video_time_seconds": 29.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000060",
+      "filename": "color_000060.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5797a72cbc9874f369ceb2f6b196487dede9c56c4bfe2629e0a041b58210ab2b",
+      "video_time_seconds": 29.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000061",
+      "filename": "color_000061.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d96ebdb8f31959086c449367612cf9fb9156f72f3038b9dcf0cd9c53a88913ef",
+      "video_time_seconds": 30.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000062",
+      "filename": "color_000062.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2120a4e4522f7249938a4ff30a3bb01616649f79597f691f47ce987e176bd5e7",
+      "video_time_seconds": 30.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000063",
+      "filename": "color_000063.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "34df91c4fa5e65c07facc4c8817b6cb66005e05b6356fca5361b456cdc3c28ef",
+      "video_time_seconds": 31.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000064",
+      "filename": "color_000064.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "af6ea05201860882118f2b09bdb7697f8ad1222a3cb3d735c36ff8654c3683c8",
+      "video_time_seconds": 31.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000065",
+      "filename": "color_000065.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "30fa897f2cedcc315b6adfbe7383d6691859dfb603419414eacbdccd5f0d6ca7",
+      "video_time_seconds": 32.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000066",
+      "filename": "color_000066.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0c59aa549be4cf09891bc2fc2e9860ab37db67bfbbf6e6cfe3970c85642d8ae6",
+      "video_time_seconds": 32.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000067",
+      "filename": "color_000067.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "918762a72433a6a7cd1ab8cd693fb8bf395f39a6902f48d374de827a966d1434",
+      "video_time_seconds": 33.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000068",
+      "filename": "color_000068.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a9206bf333b031f62c353f0cba8f358893fe70cab2097a908e49816b8f8388d2",
+      "video_time_seconds": 33.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000069",
+      "filename": "color_000069.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ec45bb2478c63210f336194883c04fc4c50e8bd9bd00bb3c2b8bc845c8dc2441",
+      "video_time_seconds": 34.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000070",
+      "filename": "color_000070.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3269befed3e7f74c5025a9e2c16edd99157f1a669a2c9d261aaa980385ff5baa",
+      "video_time_seconds": 34.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000071",
+      "filename": "color_000071.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3dec21b8e4e69aab482478976625a2098d4a08abc4dc05c4dba6cf0521e8373a",
+      "video_time_seconds": 35.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000072",
+      "filename": "color_000072.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b8f91cab3cfe55059af8766be328318219c910db3335c59acb7737d859731500",
+      "video_time_seconds": 35.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000073",
+      "filename": "color_000073.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7c362086c7daf6df8439f6cfa67cb920273a31132f64ff07739d97f733530c01",
+      "video_time_seconds": 36.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000074",
+      "filename": "color_000074.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6f060ff742d0f5eeb028c9edf031dd6f9dac46c145414e7d73727a4b27e17ecd",
+      "video_time_seconds": 36.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000075",
+      "filename": "color_000075.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a51d1e873e3c09a0df4889aeaf5bd8aa3f03d3315cff1e1845348b4148c4a718",
+      "video_time_seconds": 37.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000076",
+      "filename": "color_000076.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b6f45c2c5d853b069cb9eb0f3e387ceabf8f569577d1dc410f2191898a58d440",
+      "video_time_seconds": 37.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000077",
+      "filename": "color_000077.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5ea81473ba976fff299f6badb5e6d83dd93600cc898b663adfcb5614b84d8872",
+      "video_time_seconds": 38.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000078",
+      "filename": "color_000078.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a49d14d9ef8eb212e4adf421aea8fe2cae9b87aab7eba93d10ecb7db63f2d267",
+      "video_time_seconds": 38.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000079",
+      "filename": "color_000079.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5e15d2c83899b0c59df5ee0602a71116cdf1a087fec7f5d63190cb19a34d1972",
+      "video_time_seconds": 39.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000080",
+      "filename": "color_000080.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bbb800e7952f35f42e6a767fc3eddca2d84088ca35c6208699b9388107782de4",
+      "video_time_seconds": 39.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000081",
+      "filename": "color_000081.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "74f5f7cd0a9b96d2e9d338529cf91a356c1aa59c865f6ad8f786aec0f2e1b388",
+      "video_time_seconds": 40.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000082",
+      "filename": "color_000082.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1a39ba9163039f46d6508b76a03c7302400df3c454f8eeaa0ad57fd5f7ff771e",
+      "video_time_seconds": 40.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000083",
+      "filename": "color_000083.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bf6eebd38fa25e10e445051744c81a4bad60198e242ed21eab3a451ac58de401",
+      "video_time_seconds": 41.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000084",
+      "filename": "color_000084.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0e49aeab645af2e5cfaa72c4f3a95d30869e24e89d3cdbefd915a69c202928ea",
+      "video_time_seconds": 41.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000085",
+      "filename": "color_000085.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "348fae53af328afb2e93d2f7fb64a52ae437468924fd355a8f9d5ebf72207a10",
+      "video_time_seconds": 42.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000086",
+      "filename": "color_000086.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "74eeaf4f7e79f55b3da2bd3e1ba93e6105f20e8b27e901cef9e9561b139d3fb2",
+      "video_time_seconds": 42.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000087",
+      "filename": "color_000087.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b598bfedf0fa51ffaecf67c57eb5e347512a34f3d833963d400765b9c5474e8e",
+      "video_time_seconds": 43.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000088",
+      "filename": "color_000088.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8196f1a7e8449d59d70350101a3072fd18d8f143304eb77559c746ed7db44f07",
+      "video_time_seconds": 43.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000089",
+      "filename": "color_000089.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aea9263e41a677bf9c35d47712c6e4cbb91962756ea95d35a153c582d771f4e6",
+      "video_time_seconds": 44.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000090",
+      "filename": "color_000090.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2dd6841d3f07746aad12e3e2bf054e0df91a3c754095c48746f355d113da9956",
+      "video_time_seconds": 44.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000091",
+      "filename": "color_000091.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "032eec9639ab46dde2b9fe87c2a796d48e461efff196a02b0425915e44978505",
+      "video_time_seconds": 45.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000092",
+      "filename": "color_000092.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7f7551caf70b1ddd582819e7b72791a688786405efb4ea2653741d1c47e521da",
+      "video_time_seconds": 45.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000093",
+      "filename": "color_000093.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3a086ebd2a71fc06d7da3cf02187b89e92a7f07afe24ee65031f4d06f36cd293",
+      "video_time_seconds": 46.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000094",
+      "filename": "color_000094.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f5deb80416eed717e1f649bcdb5773b70ad1f4b10079e64ce4080ab6cd8bd4c5",
+      "video_time_seconds": 46.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000095",
+      "filename": "color_000095.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "991c34e5e558719d41b859d628c19c3372a99bec3cf7cfd321e479cdcd12b9f0",
+      "video_time_seconds": 47.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000096",
+      "filename": "color_000096.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a2e930a6793423d5be60d52aabb4874de7f027a9353c2b24c78f2cf4fc941eee",
+      "video_time_seconds": 47.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000097",
+      "filename": "color_000097.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "34c2fa0f76780c470fc0b34de255945e281506c3daab13ea3d974b562f1113ab",
+      "video_time_seconds": 48.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000098",
+      "filename": "color_000098.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "98a08f0743907410e6f216eae39eb10b176f14357b349b94ee01dcd6766c8f04",
+      "video_time_seconds": 48.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000099",
+      "filename": "color_000099.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "01f1ced3a3e48abed9020abafe6d8fafd1865d38feef8b8fd0200fe0727b1d94",
+      "video_time_seconds": 49.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000100",
+      "filename": "color_000100.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1fd64653917b0ad48f5adb05a697822bde2f6184605d8fc7dad6cb7a4078fc7c",
+      "video_time_seconds": 49.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000101",
+      "filename": "color_000101.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "02139e7386588bb6a18cdb1fa2a6d73db2e93f67d990abcf7e9d6c646896acab",
+      "video_time_seconds": 50.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000102",
+      "filename": "color_000102.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ee321700ca0850fa44eef4a93eb61bba7612dc7c9c205d097a61b2227e766a01",
+      "video_time_seconds": 50.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000103",
+      "filename": "color_000103.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "64a27f4eb5a2285bc85cd79103ec0824cf0a4b503e02398d64e553507e621e9f",
+      "video_time_seconds": 51.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000104",
+      "filename": "color_000104.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6cafe3192c72880f7684f1c35e76f15244a53b3ddb57694da92f577221f6a551",
+      "video_time_seconds": 51.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000105",
+      "filename": "color_000105.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3c2a6ece2accfcbc25a386725bc72359725df96908f52eb960e9e19a06e33942",
+      "video_time_seconds": 52.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000106",
+      "filename": "color_000106.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "055f6e461f958c4f08c8742a4b280ca72c5b815142a2733fdd785a49c5cf91c2",
+      "video_time_seconds": 52.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000107",
+      "filename": "color_000107.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d438b91a7a4bda1fb8958085e2054fceb5fb71e1691747c2953b275e3ab18b4e",
+      "video_time_seconds": 53.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000108",
+      "filename": "color_000108.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c9a18d3ebb41309a93beb7cc36a4f0a5531a006f74fc4266a1277330d9c0677a",
+      "video_time_seconds": 53.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000109",
+      "filename": "color_000109.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cf855b4f84597e8eae430ce6ae98826f1383a91bc3549ba823a6f86bf17cf7a2",
+      "video_time_seconds": 54.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000110",
+      "filename": "color_000110.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d752a4f48bce79d7b55c046abc98439629d1620b03e6e29ab6980998b27b7f25",
+      "video_time_seconds": 54.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000111",
+      "filename": "color_000111.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7401f76a26d988cb019fac2476d0271e0a7c0a8705c76cbbbc28783b2e35d88f",
+      "video_time_seconds": 55.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000112",
+      "filename": "color_000112.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6f47be1fcf50781dcfa4e87af17142f28af5c37432a88e56f862925471b2ce75",
+      "video_time_seconds": 55.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000113",
+      "filename": "color_000113.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4323db3050bc136bc5a8de78560a19ff2014161fd3559fd1b59bd403dfe8fa58",
+      "video_time_seconds": 56.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000114",
+      "filename": "color_000114.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aff2e82d6c5e3b77b43308a4d2dc3e46d68197a9048bd2f4afe7c376ab5311d0",
+      "video_time_seconds": 56.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000115",
+      "filename": "color_000115.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "acb76d34520b2b2623535b0167eafcf6960238e27d943e50cfac38566cea0862",
+      "video_time_seconds": 57.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000116",
+      "filename": "color_000116.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "56b8657ade4a9d418fc08ade3e19260a04b9b92e8620b3c98398a83f606e374f",
+      "video_time_seconds": 57.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000117",
+      "filename": "color_000117.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "40b6136526271df608c583770ed1e675fd2ce8f293fb4fd62444101827f8e13f",
+      "video_time_seconds": 58.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000118",
+      "filename": "color_000118.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a2ecd9b6f0f95154bf9abb190d9431d6f503b4bc8269215aaf4ecea910a69727",
+      "video_time_seconds": 58.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000119",
+      "filename": "color_000119.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "005c8ccbd1e54a3051eead01ef6fa0607fb6f86eebbfeff21e330249045ff497",
+      "video_time_seconds": 59.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000120",
+      "filename": "color_000120.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "64d4fac22a679cfd49b52e56f04e4b60ca362ecbb4fe9e59af6fa31a3751b7cb",
+      "video_time_seconds": 59.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000121",
+      "filename": "color_000121.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1eaa932a12be53213e890ef631dd495bc910a287eb353ca8fd5d92c7c1faed60",
+      "video_time_seconds": 60.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000122",
+      "filename": "color_000122.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c4b03deeeba3737287e2638ead8027ad504ceb044d4d7cae0f03b27b5f1219a0",
+      "video_time_seconds": 60.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000123",
+      "filename": "color_000123.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9793913c39ba7cba8f627559ecfdcf331577c04e4f1b6f9674713754ea3d4fcf",
+      "video_time_seconds": 61.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000124",
+      "filename": "color_000124.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8f66e498105ea05742605c87177c8cf1e1ae84860d9e2a9bc54b2f97e6f3856c",
+      "video_time_seconds": 61.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000125",
+      "filename": "color_000125.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9c5e5e0733a9fe6521031d3ebb21a242a6ac34bb4e128cb34ab97f78cc447ea3",
+      "video_time_seconds": 62.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000126",
+      "filename": "color_000126.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0a49774b3084df3f0ae0b4b03e4fba0d04f66da0c7b3ea2e8ec420dca9b8d238",
+      "video_time_seconds": 62.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000127",
+      "filename": "color_000127.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c842c3b3ce2e62a116ef0d22753bc6a7f915fa923db6371887f54d6f72e70ef2",
+      "video_time_seconds": 63.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000128",
+      "filename": "color_000128.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5e9c15c859a64c8926774088e8e7117fc7894787ae5567706c34b89accb7f900",
+      "video_time_seconds": 63.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000129",
+      "filename": "color_000129.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "467de9d8f25e5981b9feff508b131f22f2591272583d517508e170441a72377e",
+      "video_time_seconds": 64.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000130",
+      "filename": "color_000130.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5b4616d8a7561b85bd3a4d7d65e8fe50334b1944acd8195f41f1e22279b00d45",
+      "video_time_seconds": 64.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000131",
+      "filename": "color_000131.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "902445146d2fb1343e467d04f046b5f90ea99423996a9c0cef26efc39c15d576",
+      "video_time_seconds": 65.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000132",
+      "filename": "color_000132.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ea9a5b1e4d7826ac3a93bae49c13abbe66217f8e71f24bc8bbc281377e43c0a0",
+      "video_time_seconds": 65.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000133",
+      "filename": "color_000133.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aa8b7e7cf9ca030cadfdc7cee5b8d18c7c9a3cf716ff1f34e70396e3f31df128",
+      "video_time_seconds": 66.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000134",
+      "filename": "color_000134.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "67370ee4bde7b5accee778baa667274013622384c4bd47ef7287a087a541808b",
+      "video_time_seconds": 66.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000135",
+      "filename": "color_000135.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "329865c4290a5ff14f6f6996b72e951e01f97149ebf78009e15567d00191bff9",
+      "video_time_seconds": 67.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000136",
+      "filename": "color_000136.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "074ca8913d46a9027da4b25c772a2f9046be66cb34bf41abc735b890c0a419ab",
+      "video_time_seconds": 67.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000137",
+      "filename": "color_000137.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c9ef7f6255ca940dc84faada47b1fb0d261c99df4a5a08145ba2e87a28426a65",
+      "video_time_seconds": 68.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000138",
+      "filename": "color_000138.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "dc398cac98c696d1927b956b219cf6a3e534470086b8affbdbb58cb6ba69c5ac",
+      "video_time_seconds": 68.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000139",
+      "filename": "color_000139.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b4344ca640744bed40008ae65a8e69e745397e6ebfebc47dfd1b589d5c313d53",
+      "video_time_seconds": 69.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000140",
+      "filename": "color_000140.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ec2da8ba15f558c232a7ca5d810b575721b4987f01f13356433712de7aa25803",
+      "video_time_seconds": 69.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000141",
+      "filename": "color_000141.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "891a602958268f4c0120106eeb6967f4510458f0eb03ae7d148cbecb6a0868af",
+      "video_time_seconds": 70.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000142",
+      "filename": "color_000142.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "97e1fb84bcf0b836f4a0d83e34fbe8a4a9239fce024f310602934d1d1457e272",
+      "video_time_seconds": 70.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000143",
+      "filename": "color_000143.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "18b28e397887d49867b973608bbba6f5f26ec28aef500a1c410c58794809e85e",
+      "video_time_seconds": 71.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000144",
+      "filename": "color_000144.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c40748b8f4f6712f98064d39d4ebcb1945c6985745b33c5f7b5a5276ffec1447",
+      "video_time_seconds": 71.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000145",
+      "filename": "color_000145.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cfba3865578cace526ddf239ae2ec50345063f5c39600b9adf7289c7dfdff34a",
+      "video_time_seconds": 72.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000146",
+      "filename": "color_000146.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "123552bd48af786073603115a532087a65c6338288898eca550f2acdbac8df84",
+      "video_time_seconds": 72.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000147",
+      "filename": "color_000147.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b58695808a9e0c1577196a0f5a8c1b962df05f196856edffb3c50b5ef3c25005",
+      "video_time_seconds": 73.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000148",
+      "filename": "color_000148.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c982371c8e06e2d25f5aa73efbebae8811ac356c64b7665b788fc18e1622508d",
+      "video_time_seconds": 73.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000149",
+      "filename": "color_000149.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ac2fa94b401ce4b8fa05c4aa10ccdd756f7d98eb557624818d88bef013d7a04c",
+      "video_time_seconds": 74.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000150",
+      "filename": "color_000150.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "36b682fae3a5266e79286034c9141a9eabb015a7a8e97cb51403639d25a6035c",
+      "video_time_seconds": 74.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000151",
+      "filename": "color_000151.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "00c5fe4cd19f0e4deec6cfdfc6b708fd19d26378e398d3e074d70ba1d4720981",
+      "video_time_seconds": 75.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000152",
+      "filename": "color_000152.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bdfa7bc7cc6e1cfdf76d5de6cdbd20586b62ad374af2108fe93b5f8d0e1cf802",
+      "video_time_seconds": 75.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000153",
+      "filename": "color_000153.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "16586ce410d40f9b115b7045988b2a403794949d860d8d02725a28edc07fcf65",
+      "video_time_seconds": 76.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000154",
+      "filename": "color_000154.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4fccdcbf17d87fadf2e69920f9f77415e05a83469bc88200747cb9ba902c0400",
+      "video_time_seconds": 76.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000155",
+      "filename": "color_000155.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "37d64fd3659ece2d7ebef3f8d6dc20be5e3c4c4fd703d6e704c0e3060d6df9d9",
+      "video_time_seconds": 77.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000156",
+      "filename": "color_000156.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ff3189644254df1c744cdaacda8bbc06a59caff241ab3ae65c6bec9dd1244281",
+      "video_time_seconds": 77.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000157",
+      "filename": "color_000157.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "383b02294f3ac4a4d24d8dbea562599ca35abe90d7db5632119996cb2e4cf9cb",
+      "video_time_seconds": 78.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000158",
+      "filename": "color_000158.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cd637e69b782954e2b82c48f0271a83fbdef98e280cb887de36e4d4a90b948a5",
+      "video_time_seconds": 78.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000159",
+      "filename": "color_000159.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f1741342cda604922b97627719f98fe104f002bf20035730323fa322eb1733c9",
+      "video_time_seconds": 79.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000160",
+      "filename": "color_000160.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d3f2ebd22386112867640b8a440e225de8d2efdc984f66a9cf95ae736b0da48a",
+      "video_time_seconds": 79.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000161",
+      "filename": "color_000161.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f94bc3a7b23f958d9678ab1cd8630d4e51dba5e859eee9effe2f4c03f8ddf09b",
+      "video_time_seconds": 80.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000162",
+      "filename": "color_000162.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5da81dcb091f0650da1f380a8af330edf3868e51477848c89d12b3eae08725f9",
+      "video_time_seconds": 80.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000163",
+      "filename": "color_000163.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e2341d2e2cc323ddf0e0c6303e518b7c51d69888c6bff0c61a08e551f7633bbf",
+      "video_time_seconds": 81.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000164",
+      "filename": "color_000164.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5de86a9300d48bede21c9b4b20c56536339d81ab6f01d428b499d65330cd7d88",
+      "video_time_seconds": 81.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000165",
+      "filename": "color_000165.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7fd3b79a4c90bf524a244fb42bd9691d41cb0959198e1eb985032c19b8f7d949",
+      "video_time_seconds": 82.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000166",
+      "filename": "color_000166.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bf6fba08031e203ac0a66daad07f36788cf8d59fefb97dafe23b6971c67db517",
+      "video_time_seconds": 82.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000167",
+      "filename": "color_000167.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8c86b7fd9d21c87ede2f27b1ebb413735b3291151b0b02cb9616a6c83940539e",
+      "video_time_seconds": 83.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000168",
+      "filename": "color_000168.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d7587c5eb92729f51fcdf2c96c899af36fd9c4cb285171df84422fd725ed7eda",
+      "video_time_seconds": 83.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000169",
+      "filename": "color_000169.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1c39dd7dc0997b4449fc4b578247bda4adf99d01cb13590f9bdffdbd5d1bcc3c",
+      "video_time_seconds": 84.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000170",
+      "filename": "color_000170.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9dadad7fec594e4a5ee9cffcb9793455ccf0dafd2be37d786f2e484f20957f18",
+      "video_time_seconds": 84.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000171",
+      "filename": "color_000171.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bc2bcf457f14ecdd9922da6670c307611126f8215e033bee238ceaacf8476a56",
+      "video_time_seconds": 85.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000172",
+      "filename": "color_000172.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f7321f02b4f47a97fb80effa890f56c050dfa76589d4266b4155bba21667f977",
+      "video_time_seconds": 85.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000173",
+      "filename": "color_000173.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6ea31ae5fe9286c27ac8ec1f512936c160f629d1ecdc9762e4c010e1de2546ca",
+      "video_time_seconds": 86.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000174",
+      "filename": "color_000174.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7dca4848c96b5c139537e7b3dca4ef95ff95b67b3526cf07ad2e6d4e03b1d45b",
+      "video_time_seconds": 86.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000175",
+      "filename": "color_000175.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f299d9dae7af50fa173120798301b968c9d3d2ae7b6a22ea6bad1438a1831765",
+      "video_time_seconds": 87.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000176",
+      "filename": "color_000176.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e4df36d5ee29f726f8ff3f87424c4462e702c5eb4dc2b44774e320e52c29fefe",
+      "video_time_seconds": 87.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000177",
+      "filename": "color_000177.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "72290f5f1285a95bccc53f41ae92b2b65f9bc2bd799f6f2deb5d8e0bf473a89e",
+      "video_time_seconds": 88.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000178",
+      "filename": "color_000178.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b3d88d3392154e362255811e5f9dff1006bc472a468a647287fb271ae1a983a6",
+      "video_time_seconds": 88.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000179",
+      "filename": "color_000179.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0d95d7e5dab4e7475350964d81f194f4cd9b85c6469e924abf6ece1efa8a2425",
+      "video_time_seconds": 89.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000180",
+      "filename": "color_000180.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "01fbe400c7be536c6d78c76758b4f412fcae2410cebfbfdb660208b5f294f51b",
+      "video_time_seconds": 89.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000181",
+      "filename": "color_000181.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b9d91e10b5da5652110fae3413ad445f7c10b9e8ba290d8ea4db97a1030c5655",
+      "video_time_seconds": 90.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000182",
+      "filename": "color_000182.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cd8cd2d11cae7be7c2410733e56e34294266d5b3a84ea013c2939a9da871f642",
+      "video_time_seconds": 90.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000183",
+      "filename": "color_000183.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1670c7892ca767b0ebf91cb4650c1c56b4db2ca4b768ada0f6a74707cc49ea49",
+      "video_time_seconds": 91.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000184",
+      "filename": "color_000184.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d2a7db798bd4ae6d67ada03ee6248403bce4fa1a8f3cded4034cea6f3099955a",
+      "video_time_seconds": 91.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000185",
+      "filename": "color_000185.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0c69bced51896ceee8cd593b9fbe0d38c22363fbcb627b867b45d20e9a78a4e9",
+      "video_time_seconds": 92.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000186",
+      "filename": "color_000186.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3edf3cc2b95fd7fc06e4d9f2741029ac2d88bc025d0ac1305b66928bec47fd24",
+      "video_time_seconds": 92.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000187",
+      "filename": "color_000187.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "651b3e7eb2f8f8367eee3b1b557acfa3e7ca3394752bda949ca14a7e28aa9930",
+      "video_time_seconds": 93.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000188",
+      "filename": "color_000188.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d39cb7c154904129b6f22537645475352e27847502ce769611f6b9e07e6d1115",
+      "video_time_seconds": 93.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000189",
+      "filename": "color_000189.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "77109599ca6a2f83e635c4ea0f2c63f26bb0aa11eb35504e91a7d6f7257da9c8",
+      "video_time_seconds": 94.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000190",
+      "filename": "color_000190.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "33903a7a65db00f96e34780ba9d83d2a4509925ee563329b178c549c3b7a187b",
+      "video_time_seconds": 94.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000191",
+      "filename": "color_000191.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "387659b43258ee6d9825680a7891ae7f3c4e91c82684c0133b4fcf2995b21f6e",
+      "video_time_seconds": 95.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000192",
+      "filename": "color_000192.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "dce98d40e544f3fb12954a39a4bd268f401d3f37b4a9c2b03f1714511e0a9c39",
+      "video_time_seconds": 95.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000193",
+      "filename": "color_000193.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0664e6c70e930aa1186f6667a59a71ab504f96023857c4c9d2f641173e655470",
+      "video_time_seconds": 96.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000194",
+      "filename": "color_000194.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c5f162f342c549e2c5ad85a2a10f3a032c4e2f820440eb1a1028ff0b6a6b3c2e",
+      "video_time_seconds": 96.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000195",
+      "filename": "color_000195.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "058a89885ebfe44e8ceaff32e3dfec81d704bc75260723e96e19a72722b5c849",
+      "video_time_seconds": 97.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000196",
+      "filename": "color_000196.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "75bc1cac54c528483049fe60089729464a170fc526175991194bd5c5f691f20f",
+      "video_time_seconds": 97.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000197",
+      "filename": "color_000197.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8bbc1b4fb40f3b91be6b19bd94df5385ac0c9d7017d85efb50259026aa279ccd",
+      "video_time_seconds": 98.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000198",
+      "filename": "color_000198.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f2edb5546bff78189bd1216048e2c9df0ae1d79be5094da57b2ce32d708073cd",
+      "video_time_seconds": 98.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000199",
+      "filename": "color_000199.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ca96bd7a0df7a4ddc9cfbbc6c23bd973ff85b55990134f6fb66ae2f15c83b400",
+      "video_time_seconds": 99.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000200",
+      "filename": "color_000200.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "df1efb1b0d2a129b6bb2ef3f9defce454047ece190078e129979c1a670a233a6",
+      "video_time_seconds": 99.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000201",
+      "filename": "color_000201.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "999d63b72da462466ddddf03873878ff7f8d7f2313165f3c80fb475399670c77",
+      "video_time_seconds": 100.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000202",
+      "filename": "color_000202.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "81827955c06957c43d7399c8bf3d3f75fbad12936731212d41d35a05bf5b4375",
+      "video_time_seconds": 100.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000203",
+      "filename": "color_000203.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "656d97539c34f1f5eb710d128e022ca9ecec7b5d57d7b6eb440c6c86f23aed7c",
+      "video_time_seconds": 101.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000204",
+      "filename": "color_000204.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fd2415af38374819f56398ad39e2a12252415f43e5d82e5e736b6ae56eed6062",
+      "video_time_seconds": 101.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000205",
+      "filename": "color_000205.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "089206adea5f7f75cefc2f193e0865d93d1555c3591252af4e4a96bfcc829b83",
+      "video_time_seconds": 102.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000206",
+      "filename": "color_000206.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "36b19cc80500da278f5e69338a1225c29445aeb1309a8f0c1362b0c6303d2be6",
+      "video_time_seconds": 102.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000207",
+      "filename": "color_000207.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f4c07781f3f1a8a29edcc5566a47f7f43cde8fc7d906f0a645d302151dde0972",
+      "video_time_seconds": 103.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000208",
+      "filename": "color_000208.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "95f5af5d8bae69c83e010c1b69e0e3423912064dcdb9f4311a6442eb1e6b64b7",
+      "video_time_seconds": 103.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000209",
+      "filename": "color_000209.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c4b43fe9ff088f596390778a0c6f393cd20ef43bcb58d0f69a912ac6b0f72d63",
+      "video_time_seconds": 104.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000210",
+      "filename": "color_000210.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "dea3823110ed601797f271f37364b382ed5aecfc021bd4bc21cd568ea41ff171",
+      "video_time_seconds": 104.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000211",
+      "filename": "color_000211.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "811511ef6b95b6f75505fba348e69c39a2fba8ca67e01e0da95b036de4541b5f",
+      "video_time_seconds": 105.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000212",
+      "filename": "color_000212.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "33243b2b23651a1c067e22e666604f6dde0ccb13e3c080bbc63e9c2c25cd34f3",
+      "video_time_seconds": 105.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000213",
+      "filename": "color_000213.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cdddd0316de05c3dcab284be7988516c53faf642e7863fdc7922e9c2bf21381a",
+      "video_time_seconds": 106.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000214",
+      "filename": "color_000214.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fb8fe655835e7b6df7240d678896d06ea4a34b3b5975fd7edd309679cee507a9",
+      "video_time_seconds": 106.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000215",
+      "filename": "color_000215.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ea725981733eaa6e32fcd03d0e6e82e981ff387e0798fd6b565db046d784d9de",
+      "video_time_seconds": 107.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000216",
+      "filename": "color_000216.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b4e431f08adf0191b3a9b3ae2e38d1e12d65352a6ee325639cbb122dd20a8663",
+      "video_time_seconds": 107.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000217",
+      "filename": "color_000217.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "eba49c8b9d7ec75ffa74a23f0e97d1e33789fc0909a701024035be50e760fd6b",
+      "video_time_seconds": 108.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000218",
+      "filename": "color_000218.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e2a33aac23cdaec7dc443697b226340b15a61dfd610a3a2b1de0f71c28a35c87",
+      "video_time_seconds": 108.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000219",
+      "filename": "color_000219.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5803f33088cb2bef43d3ffb585e42ab08662fb82f891f7f0c0f4e9f3bf577395",
+      "video_time_seconds": 109.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000220",
+      "filename": "color_000220.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "158bf0b1276882fb01c1a7fc7a901ce1f3329667a72a84701b46ad69e092b9ef",
+      "video_time_seconds": 109.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000221",
+      "filename": "color_000221.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e993a1b4b8666642f5fc01314be4ae146cf1375ad60396191b4466e918326ddf",
+      "video_time_seconds": 110.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000222",
+      "filename": "color_000222.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7dfd9104ba02538b86e3d71a1fe897ef7495643d5575e1e331dcdcb64f1d0e0a",
+      "video_time_seconds": 110.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000223",
+      "filename": "color_000223.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "221848e8197bdec560c39d827676d275d5136f79f1fd55e9cae5b9d2c206660f",
+      "video_time_seconds": 111.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000224",
+      "filename": "color_000224.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "eaebf64da2d1ad75a79bc9db4ce2b35638c4e12f00ca1aeaf03a21f2a4b7e188",
+      "video_time_seconds": 111.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000225",
+      "filename": "color_000225.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cef760f80931e1d6102f21e49e5c4f4967fcb8d1109538f7ec931522b907edf3",
+      "video_time_seconds": 112.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000226",
+      "filename": "color_000226.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ff3907bd45bccecacce7580bf6c18ef520458916e7998a1e48733325dc44d31b",
+      "video_time_seconds": 112.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000227",
+      "filename": "color_000227.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "209d98e29eee619b46eecb97b704e59f5fcc152e02908ca440d38abcfee8e705",
+      "video_time_seconds": 113.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000228",
+      "filename": "color_000228.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3c2ac7ac3367c22eedc051c3dd519dd57dcf843bd535d592647c541b5a3c7ac6",
+      "video_time_seconds": 113.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000229",
+      "filename": "color_000229.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "91646f42654063a0c8c9d5a957882f24b2626359b034e9cee70a2e44ad8226e5",
+      "video_time_seconds": 114.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000230",
+      "filename": "color_000230.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8bbfdc6bd22d39f3d9b29ca9fdd2355c365896803f4f8f01be9c06f3f8afa6f2",
+      "video_time_seconds": 114.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000231",
+      "filename": "color_000231.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "71f141195400908899d2bdd9abb9502e2f3c5f0a06db760e90e08a84999afc5c",
+      "video_time_seconds": 115.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000232",
+      "filename": "color_000232.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4792525a1a52a4bf143f22702590e5752c1dc2cddf7a7d38b22d943b9a12d041",
+      "video_time_seconds": 115.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000233",
+      "filename": "color_000233.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "86d2e1473229fb4aa0c2bd8e26dfe3e370046e828e615ed6503832ebbaae1e1d",
+      "video_time_seconds": 116.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000234",
+      "filename": "color_000234.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aa4374527f919eff8d32cafdfdb064fbaa56807933e8c6bdf37ec192c51f4468",
+      "video_time_seconds": 116.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000235",
+      "filename": "color_000235.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a4cbd7b56794e9392063629f264519174449867fbc9880a7dc77226305c5f74d",
+      "video_time_seconds": 117.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000236",
+      "filename": "color_000236.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "98f138a6535c93d06155e895787f59cd5b848642aa4ed24c3d1a51fd42758108",
+      "video_time_seconds": 117.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000237",
+      "filename": "color_000237.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f35b382432c9544e15707f21a9e50d9e4d805b63fef0d41c02785d041c7bf728",
+      "video_time_seconds": 118.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000238",
+      "filename": "color_000238.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c0741e3c7b7e3caab08fa078320fcf896667a6284e84b624fc741dc7c7db3551",
+      "video_time_seconds": 118.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000239",
+      "filename": "color_000239.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0ab96d6d0dc914294bafac7adbae1c9269ac547c458b0b10671b88c4dbc1d7d9",
+      "video_time_seconds": 119.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000240",
+      "filename": "color_000240.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1025bb0a37395807e8f9768d2956ec3c40c2e08ff4db9c00ae3db709064bdcad",
+      "video_time_seconds": 119.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000241",
+      "filename": "color_000241.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6302d5b8cf53df79388425b7d782e9a5fad89c2fb6f909b76cad70a8a0e6a97c",
+      "video_time_seconds": 120.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000242",
+      "filename": "color_000242.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7588ce52ad5fd1a9a3eecce3a1cfde6c07f16c10c5350f68c87adb9024e92804",
+      "video_time_seconds": 120.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000243",
+      "filename": "color_000243.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "65dfa4ec81782cb888aad654deddd8120bfeb2a84b02506297d917ffbe556079",
+      "video_time_seconds": 121.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000244",
+      "filename": "color_000244.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "186175c95b46ee3643bf1fc446a43b2cf639a391cdab55b048b0e4d20e8fb40c",
+      "video_time_seconds": 121.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000245",
+      "filename": "color_000245.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2ca1874e5b9cf1567bbffd2089b6795ac7c3819eca8c9ff06dde0ad1c38cbec0",
+      "video_time_seconds": 122.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000246",
+      "filename": "color_000246.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "13b492a4a1a6b7dbe889ba09873fed123bb85c272fc2016530d04c381c7e6169",
+      "video_time_seconds": 122.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000247",
+      "filename": "color_000247.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "49051225032bc138f0b9c42b89e7d4fa206ccc02efd0ec4e6a6ccd6564e5af1c",
+      "video_time_seconds": 123.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000248",
+      "filename": "color_000248.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a1a85eb820eb494119ef9ce2954c263c55b8855d634e0232e3d5a23c83a3830c",
+      "video_time_seconds": 123.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000249",
+      "filename": "color_000249.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ec96b1ec0a07bc0f930a45a17d27dc12286ba58fd882decd1eb03f1c6753e199",
+      "video_time_seconds": 124.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000250",
+      "filename": "color_000250.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "96cc3780d32b04f0644ab64aba5830c750c6cc9d5aec1d2c31e1ac43319f3d04",
+      "video_time_seconds": 124.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000251",
+      "filename": "color_000251.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f935c2f29add162f8682f36c85a144fc37a52b1303fb259b9f4ce240301498dd",
+      "video_time_seconds": 125.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000252",
+      "filename": "color_000252.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7f02583da62e22949b9597db5faa0e67f3fd237a722e54f395ba2f47a7fd6bdf",
+      "video_time_seconds": 125.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000253",
+      "filename": "color_000253.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "139afb938d80b77e386d302968288ebb476be4f6668ac67228550c22689fda71",
+      "video_time_seconds": 126.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000254",
+      "filename": "color_000254.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7174e180e91efa6965fe5eac14e04139cb4e701e58d9b560921b838498301330",
+      "video_time_seconds": 126.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000255",
+      "filename": "color_000255.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "91fd6d6635c816d0f1dd24387fa52268955a1ece44f77d98e424dd1556811855",
+      "video_time_seconds": 127.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000256",
+      "filename": "color_000256.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7b18aa6e2786e6f34f85fdaff57d2135ad83716f141c28fb02753333630933ca",
+      "video_time_seconds": 127.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000257",
+      "filename": "color_000257.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ef3aad5c1d06c71658d74829821793b78a065989e8930c81bf854579434d6a40",
+      "video_time_seconds": 128.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000258",
+      "filename": "color_000258.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "afc18c35c102dc5daa6b4241e24d01d8bbdb13e4e680d4a439b785e73b11c533",
+      "video_time_seconds": 128.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000259",
+      "filename": "color_000259.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f02dbdbb5b8ecb99582daf9538c51c0b9c91ea3fa87d6c146b1f9c6382459abc",
+      "video_time_seconds": 129.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000260",
+      "filename": "color_000260.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6d95d7e345befe4a6cb2ea47de8fdd8dcc2b61b876bff05dfa46fab42988459f",
+      "video_time_seconds": 129.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000261",
+      "filename": "color_000261.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4d9675cf49847d367915460b88ed908a44b287a5798caa23f315fbd50c8828fe",
+      "video_time_seconds": 130.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000262",
+      "filename": "color_000262.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "438b9882fcb40c0898286a562eeda01061db0f9205d5841e4832eeee26ce8937",
+      "video_time_seconds": 130.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000263",
+      "filename": "color_000263.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fd6d54d9702ea0c0a2d644454d966b6a0096c43c1cb42dc048defa71efd96e95",
+      "video_time_seconds": 131.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000264",
+      "filename": "color_000264.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e72cc85164e567cee3e729731c4a74b4d3a44a565db6a912a00cccfdcff18e4a",
+      "video_time_seconds": 131.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000265",
+      "filename": "color_000265.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "de3fe59e852e14cbb7d72c2885bd2d6e6810f61c93f4d7f0a320591327b90f01",
+      "video_time_seconds": 132.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000266",
+      "filename": "color_000266.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "046d6345a36379e932c5facc4eb4baa4d31212e81aa68349535dfc70cd4b3348",
+      "video_time_seconds": 132.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000267",
+      "filename": "color_000267.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "68bfcd59ea64178fca9b019d841687ae875146f9c8f133dcf58528756bdcbd22",
+      "video_time_seconds": 133.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000268",
+      "filename": "color_000268.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "250a54d4946004d9b5f1cedcdf6a1ff9b1944404fec0b95b891410882622ca1b",
+      "video_time_seconds": 133.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000269",
+      "filename": "color_000269.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7b2e9083b752909e509f0b1d88c1f683c707884739228cd4f25ba01eab72ffb3",
+      "video_time_seconds": 134.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000270",
+      "filename": "color_000270.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2ec29121a5a72b5fab78ade4997bc83486b010eb20d42f564f7168f68c29d8e9",
+      "video_time_seconds": 134.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000271",
+      "filename": "color_000271.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "904fe287821c311600fb93796beb49522d03026e7ecfd77f7cf55e1a92354fca",
+      "video_time_seconds": 135.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000272",
+      "filename": "color_000272.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1f16ab3c3cba625ed97dd2aff6d41e2885ab4aac994289370127c71416ad90e9",
+      "video_time_seconds": 135.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000273",
+      "filename": "color_000273.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1938bea8056696e6b8d707cbb9090f8ff545612752b47e9d65d7546ed30bfe04",
+      "video_time_seconds": 136.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000274",
+      "filename": "color_000274.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aa590d95a750e1da4a83666408c5e9582125d9620563a686a322155b4ce001b9",
+      "video_time_seconds": 136.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000275",
+      "filename": "color_000275.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b9a10c46bf8b5b915af8a7d7a875491bd8ef1a8c60d877d9134ddbe5b47448db",
+      "video_time_seconds": 137.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000276",
+      "filename": "color_000276.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f67dc7d7e12614893d72e6b8ddfb611aab703031cb3a86215b7e4eff67da85a7",
+      "video_time_seconds": 137.5,
+      "review_status": "accepted",
+      "training_eligible": true
+    },
+    {
+      "id": "color_000277",
+      "filename": "color_000277.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "db5c010ea1552a28fffb84680c2cc623cc060170443fef177b86fd05f0b70edc",
+      "video_time_seconds": 138.0,
+      "review_status": "accepted",
+      "training_eligible": true
+    }
+  ],
+  "batch_quality_status": "complete"
+}

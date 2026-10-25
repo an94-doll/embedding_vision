@@ -1,0 +1,20 @@
+{
+  "status": "passed_with_limitations",
+  "samples_reviewed": [
+    "v1_f0000_t000000",
+    "v2_f0000_t000000",
+    "v3_f0088_t044000_B_manual",
+    "v4_f0168_t084000_E",
+    "v1_f0087_t043500_C",
+    "v2_f0025_t012500_F",
+    "v3_f0000_t000000_A",
+    "v4_f0000_t000000"
+  ],
+  "observations": [
+    "Reviewed supplied overlays from every source video, including complete frames and small/large crops.",
+    "Target identity and top-surface quadrilaterals are consistent in the reviewed samples; long edge is highlighted consistently.",
+    "Boundaries have blur/rounded corners and some crops have narrow margins; annotations are approximate.",
+    "No exhaustive pixel-level reannotation or deployment accuracy claim."
+  ],
+  "new_media_saved": false
+}

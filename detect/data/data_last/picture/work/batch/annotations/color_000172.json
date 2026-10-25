@@ -1,0 +1,281 @@
+{
+  "frame": 172,
+  "image": "images/train/color_000172.png",
+  "objects": [
+    {
+      "id": 1,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        573.91,
+        181.8921,
+        810.4788,
+        239.7793
+      ],
+      "keypoints_xyv": [
+        [
+          588.78,
+          216.888,
+          2
+        ],
+        [
+          769.708,
+          223.421,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 2,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        561.27,
+        226.2726,
+        788.4114,
+        277.0675
+      ],
+      "keypoints_xyv": [
+        [
+          579.77,
+          261.87,
+          2
+        ],
+        [
+          753.801,
+          262.578,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 3,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        562.8398,
+        264.1332,
+        764.7024,
+        311.1609
+      ],
+      "keypoints_xyv": [
+        [
+          566.274,
+          294.683,
+          2
+        ],
+        [
+          736.616,
+          299.868,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 4,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        555.763,
+        299.0687,
+        749.938,
+        343.7791
+      ],
+      "keypoints_xyv": [
+        [
+          555.763,
+          332.34,
+          2
+        ],
+        [
+          721.163,
+          330.535,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 5,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        547.498,
+        330.8091,
+        730.7332,
+        373.1592
+      ],
+      "keypoints_xyv": [
+        [
+          547.498,
+          361.381,
+          2
+        ],
+        [
+          716.344,
+          361.478,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 6,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        537.94,
+        361.4908,
+        715.2092,
+        401.5532
+      ],
+      "keypoints_xyv": [
+        [
+          538.623,
+          391.927,
+          2
+        ],
+        [
+          702.707,
+          388.337,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 7,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        534.98,
+        389.354,
+        696.4956,
+        427.6462
+      ],
+      "keypoints_xyv": [
+        [
+          538.411,
+          417.989,
+          2
+        ],
+        [
+          678.345,
+          414.298,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 8,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        525.91,
+        414.9747,
+        684.095,
+        450.4714
+      ],
+      "keypoints_xyv": [
+        [
+          533.638,
+          446.028,
+          2
+        ],
+        [
+          665.938,
+          438.429,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 9,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        523.4202,
+        439.335,
+        670.3676,
+        472.6178
+      ],
+      "keypoints_xyv": [
+        [
+          530.216,
+          469.106,
+          2
+        ],
+        [
+          652.426,
+          462.036,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    },
+    {
+      "id": 10,
+      "class_id": 0,
+      "group": "browser_editor",
+      "bbox_xyxy": [
+        570.41,
+        128.62,
+        859.12,
+        213.95
+      ],
+      "keypoints_xyv": [
+        [
+          611.32,
+          164.86,
+          2
+        ],
+        [
+          799.51,
+          181.22,
+          2
+        ]
+      ],
+      "source": "user_browser_annotation"
+    }
+  ],
+  "review_status": "accepted",
+  "training_eligible": true,
+  "screening_complete": true,
+  "native_and_enlarged_review_complete": true,
+  "initial_review_issues": [
+    "标准示例为第83张；两端分别落在实际拐角，连线随透视变化。"
+  ],
+  "unresolved_issues": [],
+  "review_evidence": {
+    "reviewer": "user_browser_editor",
+    "scope": "user decision",
+    "reviewed_at": "2026-10-25T11:04:26.497791+00:00"
+  },
+  "user_reviewed": true,
+  "confirmed_empty": false,
+  "preview_screened": true,
+  "prior_review_before_edge_revision": {
+    "review_status": "requires_correction",
+    "training_eligible": false,
+    "user_reviewed": false,
+    "user_review_note": null,
+    "edited_at": null
+  },
+  "annotation_standard": "reference83_front_lip_junction_corners",
+  "corner_revision": {
+    "revision": "corner_revision_20261025_174348",
+    "geometry_changed": true,
+    "previous_review_status": "requires_correction",
+    "previous_training_eligible": false,
+    "user_object_list_preserved": true
+  },
+  "reference83_revision": "reference83_revision_20261025_181000",
+  "user_review_note": "",
+  "edited_at": "2026-10-25T11:04:26.497791+00:00",
+  "flags": []
+}

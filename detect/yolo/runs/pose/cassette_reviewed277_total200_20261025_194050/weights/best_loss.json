@@ -1,0 +1,13 @@
+{
+  "epoch": 127,
+  "val_total_loss": 0.99246,
+  "loss_components": {
+    "val/box_loss": 0.61509,
+    "val/pose_loss": 0.04887,
+    "val/kobj_loss": 0.08834,
+    "val/cls_loss": 0.23521,
+    "val/l1_loss": 0.00495,
+    "val/rle_loss": 0.0
+  },
+  "selection": "Minimum sum of all val/*_loss columns per epoch; fixed 50-frame validation set. Test frames excluded."
+}

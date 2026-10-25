@@ -1,0 +1,12 @@
+{
+  "epoch": 200,
+  "val_total_loss": 1.00412,
+  "loss_components": {
+    "val/box_loss": 0.61566,
+    "val/pose_loss": 0.04866,
+    "val/kobj_loss": 0.08734,
+    "val/cls_loss": 0.24751,
+    "val/l1_loss": 0.00495,
+    "val/rle_loss": 0.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "五张测试图片",
+    "默认隐藏检测框",
+    "加载并绘制 color_000031",
+    "加载并绘制 color_000083",
+    "加载并绘制 color_000134",
+    "加载并绘制 color_000190",
+    "加载并绘制 color_000259",
+    "人工标注对照",
+    "完整画面查看",
+    "框显示开关",
+    "上一张导航",
+    "最后一张导航边界"
+  ],
+  "screenshot": "/home/ubuntu/BL/detect/yolo/training/cassette_reviewed277_total200_20261025_194050/test_predictions/browser_preview.png",
+  "artifacts": "/tmp/heldout_page_p2eb6vu3",
+  "source_data_changed": false
+}

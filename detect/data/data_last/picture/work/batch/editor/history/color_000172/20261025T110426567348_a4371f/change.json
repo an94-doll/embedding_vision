@@ -1,0 +1,12 @@
+{
+  "frame": "color_000172",
+  "time": "2026-10-25T11:04:26.497791+00:00",
+  "old_status": "requires_correction",
+  "new_status": "accepted",
+  "instances": 10,
+  "note": "",
+  "state": "complete",
+  "missing_before": [
+    "batch/editor/overrides/color_000172.json"
+  ]
+}

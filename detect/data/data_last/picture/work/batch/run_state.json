@@ -1,0 +1,9 @@
+{
+  "status": "user_review_complete",
+  "source_images": 277,
+  "precision_review_accepted": 277,
+  "unresolved": 0,
+  "excluded": 0,
+  "training_started": false,
+  "initial_format_check_is_historical": true
+}

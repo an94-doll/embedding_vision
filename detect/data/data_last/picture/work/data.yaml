@@ -1,0 +1,12 @@
+# 标注规则：以第83张手工示例的左右实际转角为准，详见 annotation_standard.json。
+path: /home/ubuntu/BL/detect/data/data_last/picture/work
+train: batch_train.txt
+val: images/val
+names:
+  0: cassette_front
+kpt_shape:
+- 2
+- 3
+flip_idx:
+- 1
+- 0

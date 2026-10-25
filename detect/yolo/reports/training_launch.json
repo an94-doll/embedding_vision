@@ -1,0 +1,17 @@
+{
+  "job_dir": "/home/ubuntu/BL/detect/yolo/training/cassette_top_yolo26s_20261019_195156",
+  "config": "/home/ubuntu/BL/detect/yolo/training/cassette_top_yolo26s_20261019_195156/train_config.json",
+  "session": "yolo26-20261019_195156",
+  "log": "/home/ubuntu/BL/detect/yolo/training/cassette_top_yolo26s_20261019_195156/train.log",
+  "run_dir": "/home/ubuntu/BL/detect/yolo/runs/pose/cassette_top_yolo26s_20261019_195156",
+  "started": true,
+  "launched_at": "2026-10-19T19:52:12.669155+08:00",
+  "command": [
+    "/home/ubuntu/miniconda3/envs/yolo26/bin/python",
+    "-u",
+    "/home/ubuntu/BL/detect/yolo/scripts/train_cassette.py",
+    "--config",
+    "/home/ubuntu/BL/detect/yolo/training/cassette_top_yolo26s_20261019_195156/train_config.json"
+  ],
+  "tmux_detached": true
+}
