@@ -14,4 +14,4 @@
 
 详细目录和打开方法见 [detect/readme.md](detect/readme.md)。大文件通过 Git LFS 保存，克隆后运行 `git lfs pull`。
 
-仓库原有 `yolo-pose` 分支文件保持保留，原说明见 [README.yolo-pose.md](README.yolo-pose.md)。
+本分支仅保留 `detect/` 包埋盒项目及仓库入口文件。原项目的数据、脚本和训练结果保留在独立的 [yolo-pose 分支](https://github.com/an94-doll/embedding_vision/tree/yolo-pose)，不再混放在本分支目录中。
