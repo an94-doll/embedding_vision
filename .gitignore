@@ -1,0 +1,12 @@
+# Runtime camera media, logs, environment checks and local caches
+/test/
+/reports/
+/.cache/
+/.venv/
+/.conda/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.env
+.env.*

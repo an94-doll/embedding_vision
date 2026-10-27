@@ -1,0 +1,35 @@
+{
+  "epoch": 173,
+  "stored_epoch_zero_based": 172,
+  "val_total_loss": 1.79037,
+  "val_loss_components": {
+    "val/box_loss": 1.22175,
+    "val/pose_loss": 0.01252,
+    "val/kobj_loss": 0.22996,
+    "val/cls_loss": 0.3223,
+    "val/l1_loss": 0.00384,
+    "val/rle_loss": 0.0
+  },
+  "optimizer_preserved": true,
+  "optimizer_state_entries": 498,
+  "ema_preserved": true,
+  "ema_updates": 399,
+  "scaler_preserved": true,
+  "size_bytes": 106838542,
+  "sha256": "e0aab1b377491700318e0b14cd4c558ec3c1684087a13b7dde2298ebdbf2847e",
+  "independent_yolo_load": "passed",
+  "independent_load_device": "cpu",
+  "weights": "cassette_lower_epoch173.pt",
+  "keypoint_order": [
+    "lower_front_left",
+    "lower_front_right"
+  ],
+  "task": "pose",
+  "names": {
+    "0": "cassette_front"
+  },
+  "kpt_shape": [
+    2,
+    3
+  ]
+}

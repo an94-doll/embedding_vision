@@ -1,0 +1,74 @@
+{
+  "epochs": 200,
+  "imgsz": 1280,
+  "batch": 8,
+  "rect": true,
+  "optimizer": "AdamW",
+  "lr0": 0.001,
+  "lrf": 0.01,
+  "amp": false,
+  "seed": 42,
+  "deterministic": true,
+  "nbs": 64,
+  "weight_decay": 0.0005,
+  "momentum": 0.937,
+  "warmup_epochs": 3.0,
+  "warmup_momentum": 0.8,
+  "warmup_bias_lr": 0.1,
+  "mosaic": 0.0,
+  "mixup": 0.0,
+  "cutmix": 0.0,
+  "copy_paste": 0.0,
+  "close_mosaic": 0,
+  "degrees": 5.0,
+  "translate": 0.05,
+  "scale": 0.15,
+  "shear": 0.0,
+  "perspective": 0.0,
+  "flipud": 0.0,
+  "fliplr": 0.5,
+  "hsv_h": 0.01,
+  "hsv_s": 0.2,
+  "hsv_v": 0.2,
+  "pose": 12.0,
+  "kobj": 1.0,
+  "box": 7.5,
+  "cls": 0.5,
+  "dfl": 1.5,
+  "patience": 0,
+  "nms": null,
+  "dataset_summary": {
+    "train_images": 137,
+    "validation_images": 20,
+    "class_names": [
+      "cassette_front"
+    ],
+    "kpt_shape": [
+      2,
+      3
+    ],
+    "flip_idx": [
+      1,
+      0
+    ],
+    "dataset_included": false
+  },
+  "initialization": "Official COCO YOLO26s-Pose; independent fresh training, not initialized from the previous cassette epoch127 model.",
+  "schedule_note": "Trained to epoch 200, then resumed its full state through epoch 300. This retained best checkpoint is from epoch 173 of the initial 200-epoch phase.",
+  "extension_schedule": {
+    "epochs": 300,
+    "resume_from_epoch": 200,
+    "initial_group_lrs": [
+      1.495e-05,
+      1.495e-05,
+      1.495e-05
+    ],
+    "final_group_lrs": [
+      1.495e-06,
+      1.495e-06,
+      1.495e-06
+    ],
+    "criterion_o2m": 0.1,
+    "criterion_o2o": 0.9
+  }
+}

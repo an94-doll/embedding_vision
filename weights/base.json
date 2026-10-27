@@ -1,0 +1,40 @@
+{
+  "selection": "Packaged default: epoch173, minimum validation total loss across the completed 300-epoch run.",
+  "weights": "cassette_lower_epoch173.pt",
+  "sha256": "e0aab1b377491700318e0b14cd4c558ec3c1684087a13b7dde2298ebdbf2847e",
+  "epoch": 173,
+  "model": "YOLO26s-Pose",
+  "task": "pose",
+  "names": {
+    "0": "cassette_front"
+  },
+  "kpt_shape": [
+    2,
+    3
+  ],
+  "flip_idx": [
+    1,
+    0
+  ],
+  "keypoint_order": [
+    "lower_front_left",
+    "lower_front_right"
+  ],
+  "val_total_loss": 1.79037,
+  "inference": {
+    "imgsz": 1280,
+    "rect": true,
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "endpoint_conf": 0.5,
+    "half": false,
+    "quantize": 32
+  },
+  "visualization": {
+    "show_boxes": false,
+    "show_instance_ids": false,
+    "show_keypoints": true,
+    "connect_visible_keypoints": true
+  }
+}

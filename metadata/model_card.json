@@ -1,0 +1,48 @@
+{
+  "model": "YOLO26s-Pose",
+  "checkpoint": "weights/cassette_lower_epoch173.pt",
+  "sha256": "e0aab1b377491700318e0b14cd4c558ec3c1684087a13b7dde2298ebdbf2847e",
+  "size_bytes": 106838542,
+  "epoch": 173,
+  "stored_epoch_zero_based": 172,
+  "selection": "Minimum sum of val/*_loss over epochs 1..300; first epoch wins ties.",
+  "val_total_loss": 1.79037,
+  "val_loss_components": {
+    "val/box_loss": 1.22175,
+    "val/pose_loss": 0.01252,
+    "val/kobj_loss": 0.22996,
+    "val/cls_loss": 0.3223,
+    "val/l1_loss": 0.00384,
+    "val/rle_loss": 0.0
+  },
+  "validation_metrics": {
+    "metrics/precision(B)": 0.9667,
+    "metrics/recall(B)": 0.9181,
+    "metrics/mAP50(B)": 0.93764,
+    "metrics/mAP50-95(B)": 0.58654,
+    "metrics/precision(P)": 0.98297,
+    "metrics/recall(P)": 0.93675,
+    "metrics/mAP50(P)": 0.95993,
+    "metrics/mAP50-95(P)": 0.95963
+  },
+  "training_images": 137,
+  "validation_images": 20,
+  "task": "pose",
+  "class_names": [
+    "cassette_front"
+  ],
+  "kpt_shape": [
+    2,
+    3
+  ],
+  "flip_idx": [
+    1,
+    0
+  ],
+  "keypoint_semantics": "White wax block front lower-left and lower-right actual corners, ordered by image X. Not upper lip or tray corners.",
+  "checkpoint_format": "Original full checkpoint; optimizer, EMA, scaler and original embedded training metadata retained without reserialization.",
+  "original_initialization_sha256": "a083adb42303728ae14c4bd6bd56d80da46f82fb2564dbd6f31dcc92ea321646",
+  "checkpoint_dependency": "ultralytics 8.4.182",
+  "evaluation_note": "Validation metrics are not independent final-test accuracy. No training/validation images or labels are distributed.",
+  "architecture": "models/cassette_lower_yolo26s_pose.yaml"
+}

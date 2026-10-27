@@ -1,0 +1,3 @@
+# Install the exact tested-machine package versions, including D405 SDK and GUI OpenCV.
+# See scripts/setup_env.sh for dedicated Conda creation and compatibility checks.
+-r requirements.lock.txt
