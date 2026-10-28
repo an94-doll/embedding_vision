@@ -51,7 +51,9 @@
       1,
       0
     ],
-    "dataset_included": false
+    "dataset_included": true,
+    "dataset": "data/data.yaml",
+    "dataset_manifest": "data/manifest.json"
   },
   "initialization": "Official COCO YOLO26s-Pose; independent fresh training, not initialized from the previous cassette epoch127 model.",
   "schedule_note": "Trained to epoch 200, then resumed its full state through epoch 300. This retained best checkpoint is from epoch 173 of the initial 200-epoch phase.",

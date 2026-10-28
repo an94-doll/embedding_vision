@@ -1,0 +1,14 @@
+train: images/train
+val: images/val
+names:
+  0: cassette_front
+kpt_shape:
+- 2
+- 3
+flip_idx:
+- 1
+- 0
+kpt_names:
+  0:
+  - front_lower_left
+  - front_lower_right

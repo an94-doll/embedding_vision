@@ -43,6 +43,8 @@
   "checkpoint_format": "Original full checkpoint; optimizer, EMA, scaler and original embedded training metadata retained without reserialization.",
   "original_initialization_sha256": "a083adb42303728ae14c4bd6bd56d80da46f82fb2564dbd6f31dcc92ea321646",
   "checkpoint_dependency": "ultralytics 8.4.182",
-  "evaluation_note": "Validation metrics are not independent final-test accuracy. No training/validation images or labels are distributed.",
+  "evaluation_note": "Validation metrics are not independent final-test accuracy. The exact frozen training/validation images, labels and user-corrected previews are distributed under data/; final-test and gap images are excluded.",
+  "dataset": "data/data.yaml",
+  "dataset_manifest": "data/manifest.json",
   "architecture": "models/cassette_lower_yolo26s_pose.yaml"
 }

@@ -2,7 +2,7 @@
 
 使用第 **173 轮 YOLO26s-Pose** 模型，在 RealSense D405 彩色画面中识别白色蜡块正面**下沿的左、右两个实际角点**。目标不是上方唇缘、底托或篮架角点。两个点按图像 X 方向排列；只有达到显示置信度的点才绘制，两点都可见时连线。
 
-仓库包含运行脚本、原始完整模型权重、模型结构和少量训练配置／指标，不包含训练图片、视频、标签或数据集。
+仓库包含运行脚本、原始完整模型权重、模型结构、训练配置／指标，以及该模型实际使用的训练与验证数据。数据集中存放在 [`data/`](data/README.md)，包含157张原图、157张人工修正后的标注预览和157份YOLO标签，保留137张训练、20张验证的原划分；图片和权重通过Git LFS保存。
 
 ## 安装
 
@@ -101,6 +101,8 @@ test/d405_recordings/recording_日期_时间/
 运行状态每5秒更新到 `reports/d405_live_latest.json`；退出后保留最终帧数、性能、录像信息和错误原因。
 
 ## 模型与指标
+
+对应数据配置为 [`data/data.yaml`](data/data.yaml)。`data/images/` 保存1280×720原图，`data/labels/` 保存两点Pose标签，`data/annotated/` 保存带编辑器页脚的标注预览，仅供查看。最终测试图和隔离图不包含在训练数据包内。数据说明、逐文件来源与校验值见 [`data/README.md`](data/README.md) 和 [`data/manifest.json`](data/manifest.json)。
 
 默认权重为 `weights/cassette_lower_epoch173.pt`，原始完整文件大小为 **106,838,542字节**，SHA-256：
 
