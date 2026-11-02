@@ -1,0 +1,436 @@
+{
+  "scope": "Repeated cached single-image predictions, not a real motion sequence or accuracy evaluation",
+  "source": "box_in_basket/dataset/images/val/frame_0012.jpg",
+  "frames": 60,
+  "counts": {
+    "boxes": 45,
+    "stable": 45,
+    "lost_tracks": 0,
+    "edges": 36,
+    "removed": 0,
+    "partial": 9
+  },
+  "all_current_predictions_retained": true,
+  "records": [
+    {
+      "sequence": 1,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 1.862281933426857
+    },
+    {
+      "sequence": 2,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.776219906285405
+    },
+    {
+      "sequence": 3,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.8515639025717974
+    },
+    {
+      "sequence": 4,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.694921964779496
+    },
+    {
+      "sequence": 5,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.6854500649496913
+    },
+    {
+      "sequence": 6,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.65660700481385
+    },
+    {
+      "sequence": 7,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.648351994343102
+    },
+    {
+      "sequence": 8,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 3.6600070307031274
+    },
+    {
+      "sequence": 9,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1114781266078353
+    },
+    {
+      "sequence": 10,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1525579504668713
+    },
+    {
+      "sequence": 11,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.128625172190368
+    },
+    {
+      "sequence": 12,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1252890583127737
+    },
+    {
+      "sequence": 13,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1222069626674056
+    },
+    {
+      "sequence": 14,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.123825834132731
+    },
+    {
+      "sequence": 15,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.169347950257361
+    },
+    {
+      "sequence": 16,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1184098441153765
+    },
+    {
+      "sequence": 17,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1037328988313675
+    },
+    {
+      "sequence": 18,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.115505049005151
+    },
+    {
+      "sequence": 19,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1134199341759086
+    },
+    {
+      "sequence": 20,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1047950722277164
+    },
+    {
+      "sequence": 21,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1010328782722354
+    },
+    {
+      "sequence": 22,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1784319542348385
+    },
+    {
+      "sequence": 23,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1591379772871733
+    },
+    {
+      "sequence": 24,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1111759124323726
+    },
+    {
+      "sequence": 25,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1160601172596216
+    },
+    {
+      "sequence": 26,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1366130094975233
+    },
+    {
+      "sequence": 27,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.129655913449824
+    },
+    {
+      "sequence": 28,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1082350285723805
+    },
+    {
+      "sequence": 29,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.117273979820311
+    },
+    {
+      "sequence": 30,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.162558026611805
+    },
+    {
+      "sequence": 31,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.122347941622138
+    },
+    {
+      "sequence": 32,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.11813987698406
+    },
+    {
+      "sequence": 33,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1232679719105363
+    },
+    {
+      "sequence": 34,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.107461099512875
+    },
+    {
+      "sequence": 35,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1054029930382967
+    },
+    {
+      "sequence": 36,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.115183975547552
+    },
+    {
+      "sequence": 37,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.092504990287125
+    },
+    {
+      "sequence": 38,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.241851994767785
+    },
+    {
+      "sequence": 39,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1280080545693636
+    },
+    {
+      "sequence": 40,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1229558624327183
+    },
+    {
+      "sequence": 41,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.142369979992509
+    },
+    {
+      "sequence": 42,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1170160034671426
+    },
+    {
+      "sequence": 43,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.098267083056271
+    },
+    {
+      "sequence": 44,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1052859956398606
+    },
+    {
+      "sequence": 45,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.106160973198712
+    },
+    {
+      "sequence": 46,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.174125984311104
+    },
+    {
+      "sequence": 47,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1051750518381596
+    },
+    {
+      "sequence": 48,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.100385958328843
+    },
+    {
+      "sequence": 49,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.122875885106623
+    },
+    {
+      "sequence": 50,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1134429844096303
+    },
+    {
+      "sequence": 51,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1024879533797503
+    },
+    {
+      "sequence": 52,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.0990160992369056
+    },
+    {
+      "sequence": 53,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.10473092738539
+    },
+    {
+      "sequence": 54,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.256414038129151
+    },
+    {
+      "sequence": 55,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.098332974128425
+    },
+    {
+      "sequence": 56,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.108966000378132
+    },
+    {
+      "sequence": 57,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1230150014162064
+    },
+    {
+      "sequence": 58,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.125279977917671
+    },
+    {
+      "sequence": 59,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.1082800813019276
+    },
+    {
+      "sequence": 60,
+      "current": 45,
+      "stable": 45,
+      "lost_ids": 0,
+      "post_ms": 2.106033847667277
+    }
+  ]
+}

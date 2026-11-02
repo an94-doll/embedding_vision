@@ -1,0 +1,56 @@
+{
+  "scope": "Repeated stationary cached predictions, not a real-video accuracy evaluation",
+  "source": "box_in_basket/dataset/images/val/frame_0012.jpg",
+  "settings": {
+    "enabled": true,
+    "max_per_cell": 10,
+    "point_confidence": 0.5,
+    "confirmation_frames": 3,
+    "confirmation_seconds": 0.15,
+    "history_seconds": 1.0,
+    "allow_box_fallback": false,
+    "show_empty_cells": false,
+    "stack_angle_deg": 0.0,
+    "column_distance_ratio": 0.55,
+    "column_match_ratio": 0.65,
+    "layer_pitch_ratio": 0.22,
+    "gap_factor": 2.2,
+    "gap_confirm_seconds": 0.1,
+    "row_match_ratio": 0.65,
+    "row_track_overlap": 0.6,
+    "row_track_span_factor": 1.25,
+    "anchor_alpha": 0.15,
+    "track_memory_seconds": 1.0,
+    "min_scale_px": 4.0
+  },
+  "counts": {
+    "boxes": 45,
+    "stable": 45,
+    "lost_tracks": 0,
+    "edges": 36,
+    "removed": 0,
+    "partial": 9,
+    "rows": 3,
+    "cols": 5,
+    "cells": 10,
+    "assigned": 36,
+    "unassigned": 9
+  },
+  "first_frame": {
+    "sequence": 1,
+    "current": 45,
+    "assigned": 0,
+    "unassigned": 45,
+    "cells": 0
+  },
+  "last_frame": {
+    "sequence": 30,
+    "current": 45,
+    "assigned": 36,
+    "unassigned": 9,
+    "cells": 10
+  },
+  "empty_frame_cells": 0,
+  "expired_internal_rows": 0,
+  "expired_internal_cols": 0
+}

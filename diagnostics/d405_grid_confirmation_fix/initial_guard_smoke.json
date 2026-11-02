@@ -1,0 +1,33 @@
+{
+  "scope": "After guard implementation began; not a pre-fix reproduction",
+  "records": [
+    {
+      "sequence": 1,
+      "rows": 0,
+      "cols": 0,
+      "cells": 0,
+      "assigned": 0
+    },
+    {
+      "sequence": 2,
+      "rows": 0,
+      "cols": 0,
+      "cells": 0,
+      "assigned": 0
+    },
+    {
+      "sequence": 3,
+      "rows": 0,
+      "cols": 0,
+      "cells": 0,
+      "assigned": 0
+    },
+    {
+      "sequence": 4,
+      "rows": 0,
+      "cols": 0,
+      "cells": 0,
+      "assigned": 0
+    }
+  ]
+}

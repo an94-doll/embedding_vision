@@ -1,0 +1,15 @@
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: white_box
+kpt_shape:
+- 2
+- 3
+flip_idx:
+- 1
+- 0
+kpt_names:
+  0:
+  - left_endpoint
+  - right_endpoint

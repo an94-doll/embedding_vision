@@ -1,0 +1,35 @@
+{
+  "selection": "Existing basket detector default, preserved for first-box continuation; not reselected on test data.",
+  "weights": "../runs/pose/basket_white_box_2pt/weights/best.pt",
+  "sha256": "1588bfd032b68c2aea22772fd594ea2289d984fb86e6841e5116a9c1daed1b70",
+  "hash_source": "Copied from existing diagnostics/d405_dedup_validation/validation_predictions.json",
+  "epoch": "unknown",
+  "epoch_source": "Stripped checkpoint; see original training logs, no inferred epoch claim.",
+  "model": "YOLOv8n-Pose fine-tuned for basket white boxes",
+  "task": "pose",
+  "names": {
+    "0": "white_box"
+  },
+  "kpt_shape": [
+    2,
+    3
+  ],
+  "flip_idx": [
+    1,
+    0
+  ],
+  "keypoint_order": [
+    "left_endpoint",
+    "right_endpoint"
+  ],
+  "inference": {
+    "imgsz": 1280,
+    "rect": true,
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "endpoint_conf": 0.5,
+    "half": false,
+    "quantize": 32
+  }
+}

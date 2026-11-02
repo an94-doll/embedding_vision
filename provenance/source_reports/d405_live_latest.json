@@ -1,0 +1,107 @@
+{
+  "status": "failed",
+  "started_at": "2026-10-31T16:55:12.083032+08:00",
+  "weights": "/home/wangjr/projects/yolo_pose_box/runs/pose/basket_white_box_2pt/weights/best.pt",
+  "weights_sha256": "1588bfd032b68c2aea22772fd594ea2289d984fb86e6841e5116a9c1daed1b70",
+  "epoch": "unknown",
+  "weight_selection": "explicit",
+  "weights_sidecar_verified": null,
+  "stored_epoch_zero_based": -1,
+  "epoch_source": "stripped checkpoint; unknown",
+  "initial_inference_settings": {
+    "imgsz": 1280,
+    "rect": true,
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "quantize": 32,
+    "nms": true
+  },
+  "initial_endpoint_conf": 0.5,
+  "camera_requested": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "serial": null
+  },
+  "display_fps_cap": 30,
+  "headless": false,
+  "saved_video": false,
+  "recording_directory": "/home/wangjr/projects/yolo_pose_box/test/d405_recordings",
+  "recording_starts_automatically": false,
+  "initial_recording_mode": "annotated",
+  "recording_mode": "annotated",
+  "snapshot_directory": "/home/wangjr/projects/yolo_pose_box/test/d405_live_20261031_165512",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.143",
+    "opencv": "5.0.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "predictor_end2end": false,
+  "camera": {
+    "name": "RealSense D405",
+    "serial": "335122271342",
+    "firmware": "5.12.14.100",
+    "usb": "3.2",
+    "intrinsics": {
+      "width": 1280,
+      "height": 720,
+      "fx": 654.1087646484375,
+      "fy": 653.1512451171875,
+      "ppx": 642.5098266601562,
+      "ppy": 359.76971435546875,
+      "model": "distortion.inverse_brown_conrady",
+      "coeffs": [
+        -0.05191246047616005,
+        0.06378105282783508,
+        0.00038357413723133504,
+        0.0012621606001630425,
+        -0.022642819210886955
+      ]
+    },
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "format": "format.bgr8"
+  },
+  "updated_at": "2026-10-31T16:55:52.218709+08:00",
+  "camera_received_frames": 1151,
+  "camera_received_fps_last_window": 29.985628855692795,
+  "processed_frames": 1145,
+  "inference_frames": 1145,
+  "skipped_capture_frames": 5,
+  "saved_snapshots": 0,
+  "first_camera_forward_input": [
+    {
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        3,
+        736,
+        1280
+      ]
+    }
+  ],
+  "inference_fps_last_window": 29.84218903498376,
+  "display_update_fps_last_window": 29.842182344590604,
+  "inference_ms_median": 3.982714000130727,
+  "last_frame_number": 1149,
+  "last_displayed_detection_count": 1,
+  "current_conf": 0.25,
+  "current_endpoint_conf": 0.5,
+  "current_iou": 0.7,
+  "recording_active": false,
+  "preview_paused": false,
+  "yolo_enabled": true,
+  "error": "error: OpenCV(5.0.0) /io/opencv/modules/highgui/src/window_QT.cpp:258: error: (-27:Null pointer) NULL guiReceiver (please create a window) in function 'cvGetPropVisible_QT'\n",
+  "recordings": [],
+  "recording_errors": [],
+  "final_conf": 0.25,
+  "final_endpoint_conf": 0.5,
+  "final_iou": 0.7,
+  "finished_at": "2026-10-31T16:55:53.034894+08:00",
+  "fps_note": "Camera RX counts received frames. Infer counts completed predictions. Display/update counts fresh processed frames (headless: would-be updates); paused redraws excluded. No guaranteed 30 FPS."
+}

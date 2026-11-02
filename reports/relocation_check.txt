@@ -1,0 +1,123 @@
+{"status": "offline_image", "output": "/tmp/rack-vision-relocation-tfeixy3j/rack_grasp_vision/reports/offline_preview", "counts": {"boxes": 45, "stable": 45, "lost_tracks": 0, "edges": 36, "removed": 0, "partial": 9, "rows": 3, "cols": 5, "cells": 10, "assigned": 36, "unassigned": 9}}
+D405检测已启动：仅对连续确认且双端点可用的盒子分格，间隔优先、十个兜底。Q/Esc退出，D切换额外去重，R重建格位。
+D405检测已启动：仅对连续确认且双端点可用的盒子分格，间隔优先、十个兜底。Q/Esc退出，D切换额外去重，R重建格位。
+D405检测已启动：仅对连续确认且双端点可用的盒子分格，间隔优先、十个兜底。Q/Esc退出，D切换额外去重，R重建格位。
+D405检测已启动：仅对连续确认且双端点可用的盒子分格，间隔优先、十个兜底。Q/Esc退出，D切换额外去重，R重建格位。
+{
+  "status": "passed_for_standalone_perception_development",
+  "relocation_root": "/tmp/rack-vision-relocation-tfeixy3j/rack_grasp_vision",
+  "original_project_reads_blocked": "/home/wangjr/projects/yolo_pose_box",
+  "environment_modified": false,
+  "robot_commands_sent": false,
+  "copy_inventory": {
+    "files": 2798,
+    "missing": [],
+    "size_mismatches": [],
+    "adapted_files": [
+      "box_in_basket/dataset/data.yaml",
+      "evaluate.py",
+      "scripts/view_d405_yolo.py",
+      "split_dataset.py",
+      "start_live.sh",
+      "train.py"
+    ],
+    "symlinks": 0
+  },
+  "datasets": {
+    "data_origin": {
+      "images": 477,
+      "labels": 477,
+      "objects": 17423,
+      "all_images_decoded": true,
+      "labels_valid_11_columns": true
+    },
+    "white_box_pose": {
+      "images": 320,
+      "labels": 320,
+      "objects": 12987,
+      "all_images_decoded": true,
+      "labels_valid_11_columns": true
+    },
+    "dataset": {
+      "images": 477,
+      "labels": 477,
+      "objects": 17423,
+      "all_images_decoded": true,
+      "labels_valid_11_columns": true
+    }
+  },
+  "split_counts": {
+    "train": 334,
+    "val": 95,
+    "test": 48
+  },
+  "training_configuration": {
+    "initial_weights": "weights/yolov8n-pose.pt",
+    "data": "box_in_basket/dataset/data.yaml",
+    "training_started": false,
+    "configuration_resolved": true
+  },
+  "pretrained_weights_loadable": true,
+  "viewer_default_matches_first_box_detector": true,
+  "evaluation_data_loadable": true,
+  "real_image_inference": {
+    "device": "cpu",
+    "source": "box_in_basket/dataset/images/val/frame_0012.jpg",
+    "counts": {
+      "boxes": 45,
+      "stable": 45,
+      "lost_tracks": 0,
+      "edges": 36,
+      "removed": 0,
+      "partial": 9,
+      "rows": 3,
+      "cols": 5,
+      "cells": 10,
+      "assigned": 36,
+      "unassigned": 9
+    },
+    "cells": 10,
+    "status": "offline_image",
+    "preview": "reports/offline_preview/preview.jpg",
+    "geometry_without_intrinsics": "missing_intrinsics"
+  },
+  "recording_smoke": {
+    "raw": {
+      "written_frames": 5,
+      "decoded_frames": 5,
+      "size": [
+        320,
+        180
+      ],
+      "source": "synthetic packets, no physical camera"
+    },
+    "annotated": {
+      "written_frames": 5,
+      "decoded_frames": 5,
+      "size": [
+        320,
+        180
+      ],
+      "source": "synthetic packets, no physical camera"
+    }
+  },
+  "unit_tests": {
+    "run": 111,
+    "failures": 0,
+    "errors": 0
+  },
+  "cuda_visible": false,
+  "d405_visible": false,
+  "camera_probe_error": "could not initialize udev monitor",
+  "hardware_acceptance": {
+    "live_window_tested": false,
+    "gpu_inference_tested": false,
+    "physical_camera_stream_tested": false,
+    "robot_closed_loop_tested": false
+  },
+  "blocked_read_attempts": []
+}
+
+/home/wangjr/miniconda3/envs/yolo-pose/lib/python3.12/site-packages/torch/cuda/__init__.py:1061: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+检测程序停止：RuntimeError: simulated inference failure

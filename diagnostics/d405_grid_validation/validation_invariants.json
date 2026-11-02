@@ -1,0 +1,9 @@
+{
+  "scope": "Static cached predictions, per-image reset. Checks data conservation/capacity only; not physical grid accuracy.",
+  "images": 95,
+  "predictions": 3641,
+  "kept": 3641,
+  "assigned": 3641,
+  "unassigned": 0,
+  "max_cell_count": 10
+}

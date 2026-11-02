@@ -1,0 +1,181 @@
+{
+  "scope": "Repeated cached single-image predictions; not a real motion sequence or physical grid accuracy evaluation",
+  "source": "box_in_basket/dataset/images/val/frame_0012.jpg",
+  "counts": {
+    "boxes": 45,
+    "stable": 45,
+    "lost_tracks": 0,
+    "edges": 36,
+    "removed": 0,
+    "partial": 9,
+    "rows": 3,
+    "cols": 5,
+    "cells": 12,
+    "assigned": 45,
+    "unassigned": 0
+  },
+  "grid_settings": {
+    "enabled": true,
+    "max_per_cell": 10,
+    "point_confidence": 0.5,
+    "stack_angle_deg": 0.0,
+    "column_distance_ratio": 0.55,
+    "column_match_ratio": 0.65,
+    "layer_pitch_ratio": 0.22,
+    "gap_factor": 2.2,
+    "gap_confirm_seconds": 0.1,
+    "row_match_ratio": 0.65,
+    "row_track_overlap": 0.6,
+    "row_track_span_factor": 1.25,
+    "anchor_alpha": 0.15,
+    "track_memory_seconds": 1.0,
+    "min_scale_px": 4.0
+  },
+  "grid_source_sha256": "c759a135425a4630313fa84a3b41706ce656e537faf8cc5a29c0e05000abf82c",
+  "cells": [
+    {
+      "row": 0,
+      "col": 0,
+      "count": 3,
+      "source": "gap",
+      "bounds": [
+        383.9736328125,
+        183.99676513671875,
+        479.4736328125,
+        249.1651611328125
+      ]
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "count": 2,
+      "source": "gap",
+      "bounds": [
+        478.0266418457031,
+        207.07635498046875,
+        571.4887084960938,
+        249.8033447265625
+      ]
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "count": 3,
+      "source": "count",
+      "bounds": [
+        570.80810546875,
+        187.2777557373047,
+        662.03173828125,
+        250.88095092773438
+      ]
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "count": 1,
+      "source": "gap",
+      "bounds": [
+        750.892822265625,
+        230.58346557617188,
+        841.704833984375,
+        251.09442138671875
+      ]
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "count": 2,
+      "source": "start",
+      "bounds": [
+        379.9736328125,
+        426.9111328125,
+        478.8472900390625,
+        478.0587158203125
+      ]
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "count": 2,
+      "source": "gap",
+      "bounds": [
+        476.489013671875,
+        425.7598571777344,
+        571.590576171875,
+        477.1778869628906
+      ]
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "count": 10,
+      "source": "gap",
+      "bounds": [
+        570.2802734375,
+        252.2957763671875,
+        663.8614501953125,
+        475.71923828125
+      ]
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "count": 6,
+      "source": "gap",
+      "bounds": [
+        663.0615234375,
+        340.4549865722656,
+        756.2626953125,
+        474.8558349609375
+      ]
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "count": 1,
+      "source": "start",
+      "bounds": [
+        754.8192138671875,
+        447.8357238769531,
+        846.4503173828125,
+        473.2724304199219
+      ]
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "count": 6,
+      "source": "start",
+      "bounds": [
+        470.4157409667969,
+        569.3162231445312,
+        570.3521728515625,
+        716.8159790039062
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "count": 5,
+      "source": "start",
+      "bounds": [
+        570.217041015625,
+        634.5028076171875,
+        672.0196533203125,
+        717.1953125
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "count": 4,
+      "source": "start",
+      "bounds": [
+        667.944091796875,
+        611.938720703125,
+        761.789306640625,
+        711.2312622070312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "environment_changed": false,
+  "environment_name": "yolo-pose",
+  "python": "/home/wangjr/miniconda3/envs/yolo-pose/bin/python",
+  "python_version": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "ultralytics": "8.4.143",
+    "numpy": "2.5.2",
+    "opencv-python": "5.0.0.93",
+    "pyrealsense2": "2.59.1.11053",
+    "pyyaml": "6.0.3",
+    "pillow": "12.3.0"
+  },
+  "ultralytics_module": "/home/wangjr/projects/yolo_pose/ultralytics/ultralytics/__init__.py",
+  "cuda_visible_in_this_process": false,
+  "dataset_resolves_within_bundle": true
+}

@@ -1,0 +1,203 @@
+{
+  "weights": "/home/wangjr/projects/yolo_pose_box/runs/pose/basket_white_box_2pt/weights/best.pt",
+  "weights_sha256": "1588bfd032b68c2aea22772fd594ea2289d984fb86e6841e5116a9c1daed1b70",
+  "data": "/home/wangjr/projects/yolo_pose_box/box_in_basket/dataset/data.yaml",
+  "split": "test",
+  "images": 48,
+  "class_names": {
+    "0": "white_box"
+  },
+  "ultralytics_version": "8.4.143",
+  "coordinate_system": "original image pixels",
+  "settings": {
+    "imgsz": 1280,
+    "device": 0,
+    "iou": 0.7,
+    "max_det": 300,
+    "quantize": 32,
+    "rect": true,
+    "augment": false,
+    "nms": true,
+    "confidence": 0.25,
+    "point_confidence": 0.5,
+    "match_iou": 0.5,
+    "ap_confidence": 0.001,
+    "pixel_thresholds": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "pair_error_px": 5.0,
+    "center_error_px": 5.0,
+    "angle_error_deg": 5.0
+  },
+  "standard_yolo_metrics": {
+    "metrics/precision(B)": 0.9791231058418459,
+    "metrics/recall(B)": 0.9653485239671138,
+    "metrics/mAP50(B)": 0.9815797656193244,
+    "metrics/mAP50-95(B)": 0.7165018406666823,
+    "metrics/precision(P)": 0.9849219969034669,
+    "metrics/recall(P)": 0.9714122355631789,
+    "metrics/mAP50(P)": 0.984181820799358,
+    "metrics/mAP50-95(P)": 0.9841197857695759,
+    "fitness": 1.7006216264362584
+  },
+  "oks_sigmas": [
+    0.5,
+    0.5
+  ],
+  "policy": {
+    "matching": "Class-aware global assignment: maximize match count, then total bbox IoU; endpoint errors are not used.",
+    "raw_errors": "All matched, finite predictions, including low-confidence points. Endpoint IDs are never reordered.",
+    "pck": "Pixel thresholds; all-GT denominators include misses. Available PCK also requires point confidence and in-image coordinates.",
+    "pairs": "Both GT endpoints have visibility > 0; misses count as failures. Degenerate GT edges are reported and fail pair qualification.",
+    "geometry": "Both GT endpoints known with nonzero length; raw errors include low-confidence matches. Angle is modulo 180 degrees.",
+    "localization": "Both endpoints qualified AND center/angle tolerances met. Diagnostic 2D criterion, not robot grasp approval.",
+    "duplicates": "Unmatched predictions overlapping a GT at MATCH_IOU are duplicate candidates, a subset of false positives.",
+    "map": "Standard framework AP uses its own matching/OKS; its counts may differ from supplementary global matching. Not a hard pixel tolerance.",
+    "split": "Random frame split; adjacent frames may share train/val/test. Use an independent capture for final acceptance."
+  },
+  "detection": {
+    "gt_instances": 1749,
+    "pred_instances": 1826,
+    "matched_instances": 1713,
+    "missed_instances": 36,
+    "false_positives_including_duplicates": 113,
+    "duplicate_candidates": 30,
+    "precision": 0.9381161007667032,
+    "recall": 0.9794168096054888
+  },
+  "endpoints": {
+    "all": {
+      "evaluable_gt_points": 3340,
+      "matched_points": 3292,
+      "available_points": 3284,
+      "pixel_error_raw_matched": {
+        "count": 3292,
+        "mean": 2.8356978941073416,
+        "median": 1.9660515227380815,
+        "p95": 7.95295547773434,
+        "rmse": 4.30362118724831
+      },
+      "pck_pixels": {
+        "2.0": {
+          "raw_matched": 0.5100243013365735,
+          "raw_all_gt": 0.5026946107784431,
+          "available_all_gt": 0.5026946107784431
+        },
+        "5.0": {
+          "raw_matched": 0.8803159173754557,
+          "raw_all_gt": 0.8676646706586826,
+          "available_all_gt": 0.8664670658682635
+        },
+        "10.0": {
+          "raw_matched": 0.9665856622114216,
+          "raw_all_gt": 0.9526946107784431,
+          "available_all_gt": 0.9502994011976048
+        }
+      }
+    },
+    "left_endpoint": {
+      "evaluable_gt_points": 1679,
+      "matched_points": 1654,
+      "available_points": 1650,
+      "pixel_error_raw_matched": {
+        "count": 1654,
+        "mean": 2.838187023285898,
+        "median": 1.9066375816830772,
+        "p95": 8.273076674328614,
+        "rmse": 4.494932439020391
+      },
+      "pck_pixels": {
+        "2.0": {
+          "raw_matched": 0.528415961305925,
+          "raw_all_gt": 0.5205479452054794,
+          "available_all_gt": 0.5205479452054794
+        },
+        "5.0": {
+          "raw_matched": 0.8827085852478839,
+          "raw_all_gt": 0.8695652173913043,
+          "available_all_gt": 0.8683740321620012
+        },
+        "10.0": {
+          "raw_matched": 0.9613059250302297,
+          "raw_all_gt": 0.9469922572960096,
+          "available_all_gt": 0.9446098868374032
+        }
+      }
+    },
+    "right_endpoint": {
+      "evaluable_gt_points": 1661,
+      "matched_points": 1638,
+      "available_points": 1634,
+      "pixel_error_raw_matched": {
+        "count": 1638,
+        "mean": 2.833184451090655,
+        "median": 2.036150613005832,
+        "p95": 7.549878229363761,
+        "rmse": 4.101396212589123
+      },
+      "pck_pixels": {
+        "2.0": {
+          "raw_matched": 0.49145299145299143,
+          "raw_all_gt": 0.48464780252859724,
+          "available_all_gt": 0.48464780252859724
+        },
+        "5.0": {
+          "raw_matched": 0.8778998778998779,
+          "raw_all_gt": 0.8657435279951836,
+          "available_all_gt": 0.8645394340758579
+        },
+        "10.0": {
+          "raw_matched": 0.9719169719169719,
+          "raw_all_gt": 0.9584587597832631,
+          "available_all_gt": 0.9560505719446116
+        }
+      }
+    }
+  },
+  "pairs": {
+    "evaluable_gt_pairs": 1618,
+    "partial_or_unknown_gt": 131,
+    "degenerate_gt_edges": 0,
+    "both_confident_matched_pairs": 1592,
+    "qualified_pairs": 1312,
+    "qualified_pair_rate_all_evaluable_gt": 0.8108776266996292,
+    "reversed_order_matched": 0
+  },
+  "geometry": {
+    "evaluable_gt_edges": 1618,
+    "raw_matched": {
+      "center_error_px": {
+        "count": 1598,
+        "mean": 2.164949041492145,
+        "median": 1.5247889458226833,
+        "p95": 5.83662708116393,
+        "rmse": 3.4212202021014266
+      },
+      "angle_error_deg": {
+        "count": 1598,
+        "mean": 1.100022618457118,
+        "median": 0.8687210933828524,
+        "p95": 2.872238214307598,
+        "rmse": 1.4556375428525887
+      },
+      "length_error_px": {
+        "count": 1598,
+        "mean": 2.665279155710117,
+        "median": 1.7233293706986643,
+        "p95": 7.8277106855241705,
+        "rmse": 4.443486872452451
+      },
+      "relative_length_error": {
+        "count": 1598,
+        "mean": 0.02917048791822733,
+        "median": 0.021633822443451252,
+        "p95": 0.08415689980992727,
+        "rmse": 0.04084679246701572
+      }
+    },
+    "qualified_localizations": 1311,
+    "qualified_localization_rate_all_evaluable_gt": 0.8102595797280593
+  }
+}

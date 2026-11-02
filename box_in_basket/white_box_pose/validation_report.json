@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-28T14:50:12+08:00",
+  "image_count": 320,
+  "label_count": 320,
+  "object_count": 12987,
+  "errors": [],
+  "keypoint_visibility_counts": {
+    "2": 24949,
+    "0": 1025
+  },
+  "checks_passed": [
+    "unique image/label pairing",
+    "image decoding",
+    "11 fields per row",
+    "class id 0",
+    "finite coordinates within image",
+    "keypoints within bounding boxes",
+    "left keypoint 0 before right keypoint 1",
+    "unknown keypoint encoded as 0 0 0"
+  ],
+  "coordinate_definition": "normalized x/width and y/height; screen-left precedes screen-right"
+}
