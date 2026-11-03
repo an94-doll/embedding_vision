@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "ratios": [
+    7,
+    2,
+    1
+  ],
+  "valid_images": 477,
+  "excluded_count": 0,
+  "counts": {
+    "train": {
+      "front": 0,
+      "back": 0,
+      "mixed": 334
+    },
+    "val": {
+      "front": 0,
+      "back": 0,
+      "mixed": 95
+    },
+    "test": {
+      "front": 0,
+      "back": 0,
+      "mixed": 48
+    }
+  },
+  "group_counts": {
+    "all": {
+      "train": 334,
+      "val": 95,
+      "test": 48
+    }
+  },
+  "strategy": "random image split",
+  "counts_note": "Image counts by folder category, not object counts. Label contents are not inspected.",
+  "image_format": "jpg",
+  "jpeg_quality": 95,
+  "sequence_note": "Adjacent frames may appear in different splits; this is not an independent-sequence evaluation."
+}

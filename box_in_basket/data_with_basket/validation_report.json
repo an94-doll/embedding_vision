@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-11-03T14:13:33.536753+08:00",
+  "images": 477,
+  "label_files": 477,
+  "white_box_instances": 17423,
+  "basket_instances": 477,
+  "reviewed_and_current": 477,
+  "kpt_shape": [
+    4,
+    3
+  ],
+  "flip_idx": [
+    1,
+    0,
+    3,
+    2
+  ],
+  "classes": {
+    "0": "white_box",
+    "1": "basket"
+  },
+  "checks": {
+    "image_label_pairing": "pass",
+    "17_columns": "pass",
+    "finite_normalized_coordinates": "pass",
+    "review_state_matches_current_labels": "pass"
+  }
+}

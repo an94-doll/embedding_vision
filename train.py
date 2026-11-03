@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 
 if __name__ == "__main__":
     # 使用 COCO 预训练权重开始新实验，数据配置负责指定单类和两个关键点。
-    model = YOLO(str(ROOT / "weights/yolov8n-pose.pt"))
+    model = YOLO(str(ROOT / "weights/yolov8s-pose.pt"))
 
     model.train(
         data=str(ROOT / "box_in_basket/dataset/data.yaml"),
@@ -24,7 +24,7 @@ if __name__ == "__main__":
         seed=42,
         deterministic=True,
         project=str(ROOT / "runs/pose"),
-        name="basket_white_box_2pt",
+        name="white_box_basket_4pt",
         exist_ok=False,
 
         optimizer="AdamW",
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         # data.yaml 的 flip_idx=[1, 0] 会在水平翻转时交换左右端点。
         fliplr=0.5,
         flipud=0.0,
-        mosaic=0.2,
+        mosaic=0.0,
         close_mosaic=100,
         mixup=0.0,
         cutmix=0.0,

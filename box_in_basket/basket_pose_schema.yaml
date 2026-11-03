@@ -1,0 +1,7 @@
+# White boxes use two endpoints; keypoints 2 and 3 are zero placeholders.
+# Basket corners: top-left, top-right, bottom-right, bottom-left.
+names:
+  0: white_box
+  1: basket
+kpt_shape: [4, 3]
+flip_idx: [1, 0, 3, 2]
