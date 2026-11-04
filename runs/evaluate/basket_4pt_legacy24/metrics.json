@@ -1,0 +1,538 @@
+{
+  "schema_version": 3,
+  "report_class_names": {
+    "0": "white_box",
+    "1": "basket"
+  },
+  "weights": "/home/wangjr/projects/grasp_vision/runs/pose/basket_4pt/weights/best.pt",
+  "data": "/home/wangjr/projects/grasp_vision/box_in_basket/basket_test_legacy_24/data.yaml",
+  "split": "test",
+  "images": 24,
+  "class_names": {
+    "0": "basket"
+  },
+  "ultralytics_version": "8.4.143",
+  "coordinate_system": "original image pixels",
+  "settings": {
+    "imgsz": 1280,
+    "device": "cpu",
+    "iou": 0.7,
+    "max_det": 300,
+    "quantize": 32,
+    "rect": true,
+    "augment": false,
+    "nms": true,
+    "confidence": 0.25,
+    "point_confidence": 0.5,
+    "match_iou": 0.5,
+    "ap_confidence": 0.001,
+    "pixel_thresholds": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "pair_error_px": 5.0,
+    "center_error_px": 5.0,
+    "angle_error_deg": 5.0,
+    "corner_error_px": 5.0
+  },
+  "standard_yolo_metrics": {
+    "metrics/precision(B)": 0.5,
+    "metrics/recall(B)": 0.375,
+    "metrics/mAP50(B)": 0.23015384615384615,
+    "metrics/mAP50-95(B)": 0.07208356643356643,
+    "metrics/precision(P)": 0.5,
+    "metrics/recall(P)": 0.375,
+    "metrics/mAP50(P)": 0.23634265734265736,
+    "metrics/mAP50-95(P)": 0.05143426573426574,
+    "fitness": 0.12351783216783217
+  },
+  "standard_yolo_metrics_by_class": {
+    "basket": {
+      "metrics/precision(B)": 0.5,
+      "metrics/recall(B)": 0.375,
+      "metrics/mAP50(B)": 0.23015384615384615,
+      "metrics/mAP50-95(B)": 0.07208356643356643,
+      "metrics/precision(P)": 0.5,
+      "metrics/recall(P)": 0.375,
+      "metrics/mAP50(P)": 0.23634265734265736,
+      "metrics/mAP50-95(P)": 0.05143426573426574
+    }
+  },
+  "oks_sigmas": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "policy": {
+    "class_ids": "CSV class IDs use white_box=0/basket=1; class_names records model-local IDs, report_class_names records CSV IDs.",
+    "matching": "Class-aware global assignment: maximize match count, then total bbox IoU; endpoint errors are not used.",
+    "raw_errors": "All matched, finite predictions, including low-confidence points. Endpoint IDs are never reordered.",
+    "pck": "Pixel thresholds; all-GT denominators include misses. Available PCK also requires point confidence and in-image coordinates.",
+    "pairs": "Both GT endpoints have visibility > 0; misses count as failures. Degenerate GT edges are reported and fail pair qualification.",
+    "geometry": "Both GT endpoints known with nonzero length; raw errors include low-confidence matches. Angle is modulo 180 degrees.",
+    "localization": "Both endpoints qualified AND center/angle tolerances met. Diagnostic 2D criterion, not robot grasp approval.",
+    "basket": "Fixed corner IDs; only visibility > 0 points evaluated. Four-corner rate requires all four GT known, all predictions available and each error within corner_error_px; misses fail.",
+    "legacy_sections": "Top-level endpoints/pairs/geometry describe white_box only; detection covers both classes. by_class separates all metrics.",
+    "duplicates": "Unmatched predictions overlapping a same-class GT at MATCH_IOU are duplicate candidates, a subset of false positives.",
+    "map": "Standard framework AP uses its own matching/OKS; its counts may differ from supplementary global matching. Not a hard pixel tolerance.",
+    "split": "Random frame split; adjacent frames may share train/val/test. Use an independent capture for final acceptance."
+  },
+  "detection": {
+    "gt_instances": 24,
+    "pred_instances": 5,
+    "matched_instances": 2,
+    "missed_instances": 22,
+    "false_positives_including_duplicates": 3,
+    "duplicate_candidates": 0,
+    "precision": 0.4,
+    "recall": 0.08333333333333333
+  },
+  "endpoints": {
+    "all": {
+      "evaluable_gt_points": 0,
+      "matched_points": 0,
+      "available_points": 0,
+      "pixel_error_raw_matched": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      },
+      "pck_pixels": {
+        "2.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        },
+        "5.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        },
+        "10.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        }
+      }
+    },
+    "left_endpoint": {
+      "evaluable_gt_points": 0,
+      "matched_points": 0,
+      "available_points": 0,
+      "pixel_error_raw_matched": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      },
+      "pck_pixels": {
+        "2.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        },
+        "5.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        },
+        "10.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        }
+      }
+    },
+    "right_endpoint": {
+      "evaluable_gt_points": 0,
+      "matched_points": 0,
+      "available_points": 0,
+      "pixel_error_raw_matched": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      },
+      "pck_pixels": {
+        "2.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        },
+        "5.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        },
+        "10.0": {
+          "raw_matched": null,
+          "raw_all_gt": null,
+          "available_all_gt": null
+        }
+      }
+    }
+  },
+  "pairs": {
+    "evaluable_gt_pairs": 0,
+    "partial_or_unknown_gt": 0,
+    "degenerate_gt_edges": 0,
+    "both_confident_matched_pairs": 0,
+    "qualified_pairs": 0,
+    "qualified_pair_rate_all_evaluable_gt": null,
+    "reversed_order_matched": 0
+  },
+  "geometry": {
+    "evaluable_gt_edges": 0,
+    "raw_matched": {
+      "center_error_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      },
+      "angle_error_deg": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      },
+      "length_error_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      },
+      "relative_length_error": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "rmse": null
+      }
+    },
+    "qualified_localizations": 0,
+    "qualified_localization_rate_all_evaluable_gt": null
+  },
+  "by_class": {
+    "white_box": {
+      "detection": {
+        "gt_instances": 0,
+        "pred_instances": 0,
+        "matched_instances": 0,
+        "missed_instances": 0,
+        "false_positives_including_duplicates": 0,
+        "duplicate_candidates": 0,
+        "precision": null,
+        "recall": null
+      },
+      "endpoints": {
+        "all": {
+          "evaluable_gt_points": 0,
+          "matched_points": 0,
+          "available_points": 0,
+          "pixel_error_raw_matched": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            },
+            "5.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            },
+            "10.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            }
+          }
+        },
+        "left_endpoint": {
+          "evaluable_gt_points": 0,
+          "matched_points": 0,
+          "available_points": 0,
+          "pixel_error_raw_matched": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            },
+            "5.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            },
+            "10.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            }
+          }
+        },
+        "right_endpoint": {
+          "evaluable_gt_points": 0,
+          "matched_points": 0,
+          "available_points": 0,
+          "pixel_error_raw_matched": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            },
+            "5.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            },
+            "10.0": {
+              "raw_matched": null,
+              "raw_all_gt": null,
+              "available_all_gt": null
+            }
+          }
+        }
+      },
+      "pairs": {
+        "evaluable_gt_pairs": 0,
+        "partial_or_unknown_gt": 0,
+        "degenerate_gt_edges": 0,
+        "both_confident_matched_pairs": 0,
+        "qualified_pairs": 0,
+        "qualified_pair_rate_all_evaluable_gt": null,
+        "reversed_order_matched": 0
+      },
+      "geometry": {
+        "evaluable_gt_edges": 0,
+        "raw_matched": {
+          "center_error_px": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          },
+          "angle_error_deg": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          },
+          "length_error_px": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          },
+          "relative_length_error": {
+            "count": 0,
+            "mean": null,
+            "median": null,
+            "p95": null,
+            "rmse": null
+          }
+        },
+        "qualified_localizations": 0,
+        "qualified_localization_rate_all_evaluable_gt": null
+      }
+    },
+    "basket": {
+      "detection": {
+        "gt_instances": 24,
+        "pred_instances": 5,
+        "matched_instances": 2,
+        "missed_instances": 22,
+        "false_positives_including_duplicates": 3,
+        "duplicate_candidates": 0,
+        "precision": 0.4,
+        "recall": 0.08333333333333333
+      },
+      "corners": {
+        "all": {
+          "evaluable_gt_points": 73,
+          "matched_points": 8,
+          "available_points": 6,
+          "pixel_error_raw_matched": {
+            "count": 8,
+            "mean": 116.07566767800218,
+            "median": 104.09874293746843,
+            "p95": 173.97304450141996,
+            "rmse": 123.31332942103155
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "5.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "10.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            }
+          }
+        },
+        "top_left": {
+          "evaluable_gt_points": 16,
+          "matched_points": 2,
+          "available_points": 2,
+          "pixel_error_raw_matched": {
+            "count": 2,
+            "mean": 140.27724698801336,
+            "median": 140.27724698801336,
+            "p95": 172.46858445602544,
+            "rmse": 144.76555796572612
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "5.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "10.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            }
+          }
+        },
+        "top_right": {
+          "evaluable_gt_points": 20,
+          "matched_points": 2,
+          "available_points": 2,
+          "pixel_error_raw_matched": {
+            "count": 2,
+            "mean": 156.33441797898203,
+            "median": 156.33441797898203,
+            "p95": 168.74538810956193,
+            "rmse": 156.94143311916193
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "5.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "10.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            }
+          }
+        },
+        "bottom_right": {
+          "evaluable_gt_points": 18,
+          "matched_points": 2,
+          "available_points": 2,
+          "pixel_error_raw_matched": {
+            "count": 2,
+            "mean": 64.81029712557952,
+            "median": 64.81029712557952,
+            "p95": 83.9352754744912,
+            "rmse": 68.20510311621834
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "5.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "10.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            }
+          }
+        },
+        "bottom_left": {
+          "evaluable_gt_points": 19,
+          "matched_points": 2,
+          "available_points": 0,
+          "pixel_error_raw_matched": {
+            "count": 2,
+            "mean": 102.88070861943378,
+            "median": 102.88070861943378,
+            "p95": 103.60762332818662,
+            "rmse": 102.88387899900079
+          },
+          "pck_pixels": {
+            "2.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "5.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            },
+            "10.0": {
+              "raw_matched": 0.0,
+              "raw_all_gt": 0.0,
+              "available_all_gt": 0.0
+            }
+          }
+        }
+      },
+      "quadrilaterals": {
+        "evaluable_gt_baskets": 12,
+        "partial_or_unknown_gt": 12,
+        "all_confident_matched": 0,
+        "qualified_baskets": 0,
+        "qualified_rate_all_evaluable_gt": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "split": "val",
+  "weights": "/home/wangjr/projects/grasp_vision/runs/pose/white_box_basket_4pt/weights/best.pt",
+  "data": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/data.yaml",
+  "config": {
+    "band_fraction": 0.04,
+    "max_band_px": 32,
+    "min_confidence": 0.5,
+    "angle_degrees": 15,
+    "min_coverage": 0.45,
+    "ambiguity_margin": 0.04
+  },
+  "inference": {
+    "imgsz": 1280,
+    "conf": 0.25,
+    "iou": 0.7,
+    "device": "cpu"
+  },
+  "corner_error_px": 5.0,
+  "match_iou": 0.5,
+  "policy": "Same class/box matching before refinement. Unknown GT excluded; misses/rejections fail full-quad rate. No raw fallback counted as refined.",
+  "gt_baskets": 95,
+  "complete_gt_baskets": 21,
+  "prediction_refinement_reasons": {
+    "insufficient_edge_support": 22,
+    "invalid_coarse_quad": 3,
+    "low_confidence": 71,
+    "ambiguous_edges": 8,
+    "accepted": 1,
+    "invalid_intersections": 3
+  },
+  "matched_gt_acceptance_rate": 0.010526315789473684,
+  "raw_error_px": {
+    "count": 211,
+    "mean": 19.160912394786237,
+    "median": 15.879101980401815,
+    "p95": 39.92207422190677,
+    "rmse": 23.834637695631553
+  },
+  "accepted_raw_error_px": {
+    "count": 4,
+    "mean": 15.74850758595052,
+    "median": 14.059410632758157,
+    "p95": 22.311258651191775,
+    "rmse": 16.44071946071142
+  },
+  "accepted_refined_error_px": {
+    "count": 4,
+    "mean": 14.475999233208718,
+    "median": 12.797419646057316,
+    "p95": 22.89900172255549,
+    "rmse": 15.756397205767982
+  },
+  "worsened_accepted_instances": 0,
+  "compared_accepted_instances": 1,
+  "raw_qualified": 0,
+  "refined_qualified": 0,
+  "raw_qualified_rate": 0.0,
+  "refined_qualified_rate": 0.0,
+  "refinement_ms": {
+    "count": 108,
+    "mean": 5.107878370406777,
+    "median": 0.042178000057901954,
+    "p95": 19.82420535041456,
+    "rmse": 9.254296107222753
+  }
+}

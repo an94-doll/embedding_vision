@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-11-04T15:13:53.628550+08:00",
+  "images": 125,
+  "labels": 125,
+  "basket_instances": 125,
+  "reviewed_and_current": 125,
+  "visibility_counts": {
+    "2": 464,
+    "0": 36
+  },
+  "errors": [],
+  "checks": [
+    "image decoding",
+    "unique image-label pairing",
+    "class 1 and four keypoints",
+    "coordinate bounds",
+    "current labels match saved review state"
+  ],
+  "train_val_split": null
+}

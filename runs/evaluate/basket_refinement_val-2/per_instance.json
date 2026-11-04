@@ -1,0 +1,1350 @@
+[
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0012.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      13.755400550371064,
+      16.195452353021196,
+      32.34122260140113,
+      31.09973475332666
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0014.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "invalid_coarse_quad",
+    "raw_errors": [
+      24.15220407661846,
+      18.68489884883112,
+      26.7772768543674
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0028.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      3.407738158961269,
+      13.456963676321044,
+      10.147097038003336,
+      10.844576293298704
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0030.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      4.915880408023289,
+      15.3235373112359,
+      16.86668118949901,
+      9.34271890792137
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0038.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "invalid_coarse_quad",
+    "raw_errors": [
+      23.817319073214993,
+      14.264013663989068
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0048.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      33.232371917440254,
+      35.01512167728334
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0066.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      20.487741684877747,
+      20.234286584746318,
+      8.162148638312384
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0074.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      11.324179691895516,
+      18.343794188358462,
+      16.072648451399495
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0078.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      15.583599377527902,
+      18.615159269276692,
+      30.296408471898268,
+      24.96138490743323
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0085.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      15.369862381848035,
+      12.6445842198925,
+      23.360587103156227,
+      16.722372914049814
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0088.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      6.383189697833935,
+      10.695040663874915,
+      18.868022546467436,
+      14.758233354352528
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0115.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      13.754398829768364,
+      6.023870343663712,
+      20.07847762482219,
+      5.070436668681497
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0121.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      5.825746865480399,
+      12.777048761185549,
+      11.292201129330413
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0129.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      14.222413578037107,
+      8.333723665067561,
+      12.121153299125238,
+      38.4224521451926
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0136.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "accepted",
+    "raw_errors": [
+      12.957556330313427,
+      23.573022248130993,
+      11.302186830154774,
+      15.161264935202887
+    ],
+    "refined_errors": [
+      15.366119350113225,
+      24.228333905927656,
+      8.080823734792586,
+      10.228719942001407
+    ],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0142.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      17.09908204332151,
+      4.948992345173309,
+      18.115071103553475,
+      20.35632857979088
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0155.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "invalid_intersections",
+    "raw_errors": [
+      15.879101980401815,
+      27.210774744906885,
+      5.317043555047388,
+      11.54549001198147
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0162.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      11.23103879514411,
+      9.205777740022326,
+      18.462840198085104
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0167.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      13.23728766384724,
+      9.340627883149097
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0172.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "invalid_coarse_quad",
+    "raw_errors": [
+      14.993124245169666,
+      10.238697748992388
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0178.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      18.27161452879677,
+      2.5078369517838675
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0180.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      6.409951404451031,
+      18.598453034252163
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0182.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      9.227746300302147,
+      33.80379779838606
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0184.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "invalid_intersections",
+    "raw_errors": [
+      30.45224594951156,
+      28.680481810228173,
+      42.97940432945545,
+      33.26056079351345
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0191.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      22.236927242105633,
+      9.287422720335455,
+      3.5255173099887274
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0192.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      11.945056532931096,
+      14.511022435891682,
+      9.500292341219472
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0197.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      2.683713743107199,
+      18.343897760141196,
+      20.944280194169217,
+      16.14551481502574
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0210.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      20.22742630906141,
+      23.688711320964018
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0212.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      10.027682919183185,
+      15.697992612145685
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0217.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      9.001514455319327,
+      32.0631466737898
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0224.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      14.242907891204046,
+      29.532461265443136
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0231.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      16.50173593510325,
+      9.91327721498442,
+      26.66406213259987
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0238.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      3.027055039807586,
+      8.457606358213487
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0244.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      19.772364088854584,
+      21.98327394291816
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0245.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      9.84135047929534,
+      15.214392272983993
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0246.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      30.678733133739595,
+      13.311784398519578
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0251.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      14.662902512718311,
+      31.80700384652304
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0253.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      21.945989933684075,
+      21.835179297061913
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0257.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      23.22475128284905,
+      11.408673635618573
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0258.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      13.791807631303364,
+      8.50613885925921
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0262.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      16.8035384835219
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0263.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      13.35982880849582
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0268.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      22.614417737624866,
+      21.879378150825634
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0273.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      23.24141155866554,
+      12.93277725798408
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0290.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0300.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0301.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      48.021012976946785
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0308.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      23.045343102017476,
+      11.932571320220736
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0320.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      12.505917290325506
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0323.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      9.03741247412356
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0331.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      10.758322730838925,
+      32.715763582654965
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0337.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      31.558379643338185,
+      18.284706575010205
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0346.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      28.76847568324238,
+      15.995790125938102
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0350.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      4.412500054780488,
+      17.89180281716364
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0354.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      18.24385143360461,
+      15.381282381008322
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0359.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      9.340110837195299,
+      3.5571891156640936
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0363.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      7.627283195284651,
+      8.437067170100388,
+      21.949549289665445,
+      23.445024573199916
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0364.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      12.508088165361343,
+      26.917746132920183,
+      11.404883986172365,
+      9.444533251463936
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0373.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      11.945082045831134,
+      8.899578196961574,
+      10.83016437792566,
+      7.095469425678846
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0376.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      7.623395624077423,
+      10.135074194799676,
+      15.390453925830553,
+      16.691952962591678
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0377.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      1.8568076502793414,
+      15.402253593572883,
+      12.619370151504807,
+      13.681457540814371
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0379.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      15.65231800447464,
+      2.4520093698801846,
+      8.578565612462336,
+      17.986658071531036
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0380.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      12.689213524749954,
+      1.7091952120972362,
+      10.145782251362274,
+      14.372227300253739
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/frame_0382.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": true,
+    "reason": "ambiguous_edges",
+    "raw_errors": [
+      9.373713351436578,
+      2.3077424385958825,
+      11.985007789283634,
+      14.896953819874634
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000006.jpg",
+    "gt_index": 0,
+    "pred_index": 1,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      91.20583662730814
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000007.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      35.46752988944779,
+      20.685633881140543
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000008.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000010.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      39.8756858523746,
+      66.85763801200531
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000024.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      24.307714409040933,
+      21.764343144275593
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000037.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      69.83009855153193
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000039.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      114.90407859939407
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000044.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      19.736038219148533
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000059.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      26.271320895625877,
+      37.70594307469375
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000067.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000068.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      16.350571070962392
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000072.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "invalid_intersections",
+    "raw_errors": [
+      22.110245755055672,
+      4.906777142846008
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000073.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000080.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000086.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      9.722380337523484,
+      7.86118384348554
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000096.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      57.44501290426239,
+      48.67887670107409
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000099.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      13.188208295980036
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000100.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      23.969972634859563,
+      19.266139607562785,
+      25.65535113278157
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000111.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      33.03524603261565,
+      27.46708193867092
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000119.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      35.299544944036846,
+      29.979340314612454
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000120.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "insufficient_edge_support",
+    "raw_errors": [
+      33.18578417123305
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000129.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000140.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      39.968462591438936,
+      24.176534667784132
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/new_000141.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      61.06223596904309,
+      8.039118510964228
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000007.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      12.968897545252085,
+      60.270236895139
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000013.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000061.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      7.6395477448241795,
+      21.091650608113238
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000068.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      16.557843554283437,
+      27.650436298436514
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000073.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      18.26568536128672,
+      24.112158956640137
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000089.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      17.99176243964561
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  },
+  {
+    "image": "/home/wangjr/projects/grasp_vision/box_in_basket/dataset/images/val/old_000093.jpg",
+    "gt_index": 0,
+    "pred_index": 0,
+    "complete_gt": false,
+    "reason": "low_confidence",
+    "raw_errors": [
+      23.121611000448723
+    ],
+    "refined_errors": [],
+    "raw_qualified": false,
+    "refined_qualified": false
+  }
+]

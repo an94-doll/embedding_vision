@@ -1,0 +1,158 @@
+{
+  "seed": 42,
+  "excluded": {
+    "same_filename": 107,
+    "no_known_corners": 45
+  },
+  "eligible": {
+    "True": 63,
+    "False": 262
+  },
+  "selected": [
+    {
+      "image": "frame_0202.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0202.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 48.755859375
+    },
+    {
+      "image": "frame_0115.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0115.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 48.21875
+    },
+    {
+      "image": "frame_0364.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0364.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 50.828125
+    },
+    {
+      "image": "frame_0199.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0199.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 47.748046875
+    },
+    {
+      "image": "frame_0103.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0103.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 50.0322265625
+    },
+    {
+      "image": "new_000143.png",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/new_000143.png",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 45.6123046875
+    },
+    {
+      "image": "frame_0380.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0380.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 48.0146484375
+    },
+    {
+      "image": "frame_0374.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0374.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 47.0498046875
+    },
+    {
+      "image": "frame_0314.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0314.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 49.5400390625
+    },
+    {
+      "image": "frame_0156.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0156.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 49.111328125
+    },
+    {
+      "image": "new_000136.png",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/new_000136.png",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 39.8515625
+    },
+    {
+      "image": "frame_0197.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0197.jpg",
+      "known_corners": 4,
+      "nearest_training_thumbnail_MAE": 49.251953125
+    },
+    {
+      "image": "frame_0230.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0230.jpg",
+      "known_corners": 3,
+      "nearest_training_thumbnail_MAE": 46.5234375
+    },
+    {
+      "image": "frame_0323.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0323.jpg",
+      "known_corners": 1,
+      "nearest_training_thumbnail_MAE": 47.546875
+    },
+    {
+      "image": "frame_0305.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0305.jpg",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 47.71484375
+    },
+    {
+      "image": "frame_0192.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0192.jpg",
+      "known_corners": 3,
+      "nearest_training_thumbnail_MAE": 46.21484375
+    },
+    {
+      "image": "frame_0229.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0229.jpg",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 47.7646484375
+    },
+    {
+      "image": "frame_0311.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0311.jpg",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 49.23046875
+    },
+    {
+      "image": "frame_0278.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0278.jpg",
+      "known_corners": 1,
+      "nearest_training_thumbnail_MAE": 49.560546875
+    },
+    {
+      "image": "frame_0062.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0062.jpg",
+      "known_corners": 3,
+      "nearest_training_thumbnail_MAE": 49.8310546875
+    },
+    {
+      "image": "frame_0212.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0212.jpg",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 48.5546875
+    },
+    {
+      "image": "frame_0217.jpg",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/frame_0217.jpg",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 48.677734375
+    },
+    {
+      "image": "new_000063.png",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/new_000063.png",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 38.1142578125
+    },
+    {
+      "image": "old_000007.png",
+      "source": "/home/wangjr/projects/grasp_vision/box_in_basket/data_with_basket/images/old_000007.png",
+      "known_corners": 2,
+      "nearest_training_thumbnail_MAE": 44.349609375
+    }
+  ],
+  "policy": "12 complete + 12 partial; excludes same filenames and 32x32 grayscale MAE <8 versus current train+val. Historical convenience sample; independent capture not established."
+}

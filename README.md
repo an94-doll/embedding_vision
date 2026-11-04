@@ -74,9 +74,9 @@ provenance/                文件来源清单、原项目文档和历史运行�
 reports/                   本次拆分验证及后续运行输出
 ```
 
-默认保留 `runs/pose/basket_white_box_2pt/weights/best.pt`，与原首盒主入口一致；`start_live.sh` 和 `weights/base.json` 也已对齐到这个模型，不再误用旧的第 173 轮 YOLO26 模型。第二个实验完整保留，`evaluate.py` 默认仍评估第二个模型，切换时修改顶部 `WEIGHTS`。
+默认保留 `runs/pose/basket_white_box_2pt/weights/best.pt`，与原首盒主入口一致；`start_live.sh` 和 `weights/base.json` 也已对齐到这个模型，不再误用旧的第 173 轮 YOLO26 模型。第二个实验完整保留，`evaluate.py` 默认评估 `runs/pose/white_box_basket_4pt/weights/best.pt`，切换时修改顶部 `WEIGHTS` 和匹配的 `DATA`。
 
-数据是单类 `white_box`，`kpt_shape=[2,3]`，两个点为图像左、右底边实际端点；`flip_idx=[1,0]`。没有重新划分数据或改写标签。原随机帧划分可能把相邻帧放入不同集合，最终抓取验收应使用独立采集场景。
+当前训练数据为 `white_box` 和 `basket` 两类，`kpt_shape=[4,3]`、`flip_idx=[1,0,3,2]`。白盒仅点 0/1 为左右底边端点，点 2/3 为零占位；铁篮点 0/1/2/3 依次为左上、右上、右下、左下。原随机帧划分可能把相邻帧放入不同集合，最终抓取验收应使用独立采集场景。
 
 历史 48 张测试图上，第一个模型的检测 precision / recall 为 0.9381 / 0.9794；两端点均不超过 5 像素且置信度等条件满足的比例为 1312/1618（81.09%）。原报告位于 `runs/evaluate/basket_white_box_2pt_test/metrics.json`。这是原测试集二维结果，不能换算为机械臂毫米精度。
 
@@ -90,7 +90,32 @@ python evaluate.py
 python -m unittest discover -s tests -v
 ```
 
-`train.py` 的参数在文件顶部及 `model.train()` 中修改；初始化权重已经改为本目录的 `weights/yolov8n-pose.pt`。默认是从 COCO 预训练模型开始新实验，不是自动续训。若想从现有篮架权重再次微调，可把 `YOLO(...)` 的路径改为本目录中的 `best.pt`。
+`train.py` 的参数在文件顶部及 `model.train()` 中修改；初始化权重已经改为本目录的 `weights/yolov8s-pose.pt`。默认是从 COCO 预训练模型开始新实验，不是自动续训。若想从现有篮架权重再次微调，可把 `YOLO(...)` 的路径改为本目录中的 `best.pt`。
+
+### 白盒与铁篮评估
+
+运行 `python evaluate.py`，默认在 48 张 test 图片上评估新四点模型；调参时将顶部 `SPLIT` 改成 `val`。输出位于 `runs/evaluate/white_box_basket_4pt_test/`，重跑会自动递增目录。
+
+- `metrics.json`：`standard_yolo_metrics_by_class` 分类别报告框与 Pose 的 precision、recall、mAP；`by_class.white_box` 保留端点、底边中点、角度和长度误差；`by_class.basket` 报告四角逐点误差、像素 PCK 和四角同时合格率。
+- 四角同时合格：四个 GT 点均已标注，预测均在图内、置信度至少 `POINT_CONF=0.5`，且每角误差不超过 `CORNER_ERROR_PX=5` 像素。完整 GT 的漏检计失败；部分标注只统计已知角点，不进入四角合格率分母。固定角点 ID，不按距离重排。
+- 白盒只评估前两个点，后两个占位点不进入误差或中心计算。顶层 `endpoints/pairs/geometry` 仍仅指白盒；顶层 `detection` 包含两类。
+- `per_instance.csv`、`per_keypoint.csv`、`per_prediction.csv` 均带类别字段；不适用的指标留空。`visualizations/` 左侧为 GT、右侧为预测，铁篮四边闭合并标角点编号。
+- 旧两点模型仍可评估，但必须同时选择对应的单类两点数据配置。
+
+### 铁篮外框精修实验（不改模型与标签）
+
+```bash
+python evaluate_basket_refinement.py --split val --device cpu
+```
+
+- `scripts/basket_refinement.py` 是纯 OpenCV/NumPy 模块：`refine_basket(image, points)` 接收原图和 `(4,3)` 的原始像素坐标＋置信度，返回 `corners`、`valid`、`reason`、候选边和支持覆盖率。角点顺序固定为左上、右上、右下、左下。
+- 算法在粗边附近提取 Canny/Hough 线段，使用 Huber 直线拟合，每边保留最多两个候选，再联合比较四边形。方向、覆盖率、交点、修正幅度或候选歧义不通过时返回 `corners=None`；不会用原始预测冒充精修成功。
+- 为保持第一版简洁，只接受或拒绝完整四边形，暂不输出部分有效精修角点；低置信度、粗角点出画等情况直接拒绝。它未接入实时程序。
+- `evaluate_basket_refinement.py` 复用 `evaluate.py` 的模型、数据、匹配与阈值；默认只跑验证集，不重复算标准 mAP。输出至自动递增的 `runs/evaluate/basket_refinement_val/`。
+- `metrics.json` 报告接受率、拒绝原因、接受样本配对误差、修坏实例数、全部完整 GT 的四角合格率和精修耗时；`per_instance.json` 保留匹配与误差，`predictions.json` 保留原始/精修角点和拟合边。三栏图片依次为 GT、Pose、精修（灰色为候选边，失败时不绘制精修角点）。
+- 参数固定后可用 `--split test` 做对照。未知 GT 不参与误差；漏检、拒绝计入整体失败。标签不进入精修模块，已有训练/推理入口保持不变。
+
+首轮验证集结果（`runs/evaluate/basket_refinement_val-2/metrics.json`）：95 个 GT 篮子均匹配，只有 1 个接受精修；该样本四角平均误差从 15.75 降至 14.48 像素，其中两个角点误差反而增加。21 个完整标注篮子的四角 ≤5 像素合格数，原始和精修均为 0。完整样本拒绝原因主要是边缘支持不足（11）和候选歧义（7），另有交点检查失败（2）。当前版本仅用于离线实验，不建议替代 Pose 输出；尚未运行独立测试集或实时视频验收。
 
 四个 `best.pt` / `last.pt` 的保存轮次为 `epoch=-1`，属于精简检查点；不要把它们当作完整优化器断点来承诺无缝恢复训练。原轮次指标和配置保留在相应训练目录。
 

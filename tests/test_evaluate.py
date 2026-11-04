@@ -137,5 +137,88 @@ class EvaluationTests(unittest.TestCase):
                 self.assertEqual(next(csv.reader(handle)), ev.POINT_FIELDS)
 
 
+class BasketEvaluationTests(unittest.TestCase):
+    def basket(self, scores=(2, 2, 2, 2), xy=None):
+        return instance(box=(0, 0, 100, 80), xy=xy or ((10, 10), (90, 10), (90, 70), (10, 70)),
+                        scores=scores, class_id=1)
+
+    def test_mixed_classes_ignore_white_padding(self):
+        white = instance()
+        white.points = np.vstack([white.points, [[0, 0, 0], [0, 0, 0]]])
+        rows, summary = analyze([white, self.basket()], [white, self.basket()])
+        self.assertEqual(len(rows[1]), 6)
+        self.assertEqual(summary['endpoints']['all']['evaluable_gt_points'], 2)
+        self.assertEqual(summary['geometry']['raw_matched']['center_error_px']['mean'], 0)
+        self.assertEqual(summary['by_class']['basket']['quadrilaterals']['qualified_baskets'], 1)
+        with tempfile.TemporaryDirectory() as d:
+            for filename, data, fields in [('instances', rows[0], ev.INSTANCE_FIELDS),
+                                            ('points', rows[1], ev.POINT_FIELDS),
+                                            ('predictions', rows[2], ev.PREDICTION_FIELDS)]:
+                ev.save_csv(Path(d)/filename, data, fields)
+        json.dumps(summary, allow_nan=False)
+
+    def test_missing_basket_and_partial_corners_denominators(self):
+        _, summary = analyze([self.basket(), self.basket(scores=(2, 2, 0, 0))], [])
+        basket = summary['by_class']['basket']
+        self.assertEqual(basket['corners']['all']['evaluable_gt_points'], 6)
+        self.assertEqual(basket['quadrilaterals']['evaluable_gt_baskets'], 1)
+        self.assertEqual(basket['quadrilaterals']['qualified_rate_all_evaluable_gt'], 0)
+        self.assertEqual(basket['corners']['all']['pck_pixels']['5.0']['available_all_gt'], 0)
+
+    def test_low_confidence_and_fixed_corner_ids(self):
+        for pred in [self.basket(scores=(.9, .9, .9, .1)),
+                     self.basket(xy=((90, 10), (10, 10), (10, 70), (90, 70)))]:
+            rows, summary = analyze([self.basket()], [pred])
+            self.assertFalse(rows[0][0]['corners_qualified'])
+        self.assertEqual(summary['by_class']['basket']['corners']['top_left']['pixel_error_raw_matched']['mean'], 80)
+
+    def test_wrong_class_overlap_is_not_duplicate(self):
+        _, summary = analyze([instance()], [instance(class_id=1)])
+        self.assertEqual(summary['detection']['duplicate_candidates'], 0)
+        self.assertEqual(summary['by_class']['basket']['detection']['false_positives_including_duplicates'], 1)
+
+    def test_four_point_label_loading(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            label = root/'labels/test/a.txt'; label.parent.mkdir(parents=True)
+            label.write_text('0 .5 .5 .5 .4 .25 .7 2 .75 .7 2 0 0 0 0 0 0\n'
+                             '1 .5 .5 1 1 0 0 2 1 0 2 1 1 2 0 1 2\n')
+            truth = ev.read_truth(root/'images/test/a.jpg', 200, 100, [4, 3])
+            self.assertEqual([g.class_id for g in truth], [0, 1])
+            np.testing.assert_allclose(truth[1].points[2], [200, 100, 2])
+
+    def test_corner_tolerance_boundary_and_out_of_image(self):
+        shifted = ((13, 14), (93, 14), (93, 74), (13, 74))
+        rows, _ = analyze([self.basket()], [self.basket(xy=shifted)])
+        self.assertTrue(rows[0][0]['corners_qualified'])
+        self.assertEqual(rows[0][0]['max_corner_error_px'], 5)
+        rows, _ = analyze([self.basket()], [self.basket(xy=((-1, 10), (90, 10), (90, 70), (10, 70)))])
+        self.assertFalse(rows[1][0]['available'])
+
+    def test_single_basket_model_maps_to_semantic_basket(self):
+        names, shape = ev.dataset_layout({'names': {0: 'basket'}, 'kpt_shape': [4, 3]})
+        local = self.basket()
+        local.class_id = 0
+        truth = ev.semantic_instances([local], names)
+        self.assertEqual(truth[0].class_id, 1)
+        self.assertEqual(local.class_id, 0)
+        _, summary = analyze(truth, truth)
+        self.assertEqual(summary['by_class']['basket']['quadrilaterals']['qualified_baskets'], 1)
+        self.assertEqual(summary['pairs']['evaluable_gt_pairs'], 0)
+
+    def test_dataset_layout_rejects_wrong_class_semantics(self):
+        ev.dataset_layout({'names': {0: 'white_box', 1: 'basket'}, 'kpt_shape': [4, 3]})
+        with self.assertRaises(ValueError):
+            ev.dataset_layout({'names': {0: 'basket', 1: 'white_box'}, 'kpt_shape': [4, 3]})
+
+    def test_basket_draw_handles_missing_and_nonfinite(self):
+        pred = self.basket(xy=((float('nan'), 10), (90, 10), (90, 70), (10, 70)))
+        rows, summary = analyze([self.basket()], [pred])
+        json.dumps(summary, allow_nan=False)
+        canvas = ev.draw_comparison(np.zeros((100, 200, 3), np.uint8),
+                                    [self.basket()], [pred], rows[0], rows[2])
+        self.assertEqual(canvas.shape, (128, 400, 3))
+
+
 if __name__ == "__main__":
     unittest.main()

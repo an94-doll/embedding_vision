@@ -1,0 +1,20 @@
+train: /home/wangjr/projects/grasp_vision/box_in_basket/basket_dataset/images/train
+val: /home/wangjr/projects/grasp_vision/box_in_basket/basket_dataset/images/val
+kpt_shape:
+- 4
+- 3
+flip_idx:
+- 1
+- 0
+- 3
+- 2
+names:
+  0: basket
+kpt_names:
+  0:
+  - top_left
+  - top_right
+  - bottom_right
+  - bottom_left
+path: /home/wangjr/projects/grasp_vision/box_in_basket/basket_test_legacy_24
+test: images/test

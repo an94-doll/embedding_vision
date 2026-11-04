@@ -1,0 +1,18 @@
+{
+  "source": "/home/wangjr/projects/grasp_vision/box_in_basket/basket_pose",
+  "seed": 42,
+  "ratios": [
+    8,
+    2
+  ],
+  "images": 125,
+  "counts": {
+    "train": 100,
+    "val": 25
+  },
+  "class_mapping": {
+    "1": 0
+  },
+  "strategy": "seeded random image split",
+  "sequence_note": "Adjacent frames may cross splits; this is not an independent-sequence evaluation."
+}
