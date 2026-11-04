@@ -19,8 +19,9 @@ from d405_camera import D405Capture, Rate
 from d405_recording import RawVideoRecorder
 sys.path.insert(0, str(ROOT))
 from scripts.first_box_panel import append_first_box_panel, PANEL_WIDTH
+from scripts.pose_schema import validate_model, prediction_arrays, DEFAULT_BASKET_WEIGHTS
 from scripts.first_box import locate_first_boxes, draw_first_boxes
-from scripts.grid_counter import GridCounter, GridConfig
+from scripts.basket_grid import BasketGridCounter, BasketGridConfig, draw_basket_grid, grid_report
 from scripts.video_postprocess import VideoPostprocessor, TemporalConfig
 from scripts.postprocess import DedupConfig
 
@@ -224,6 +225,7 @@ def save_snapshot(directory, packet, canvas, detections, displayed, context):
 def parse_args(argv=None):
     parser=argparse.ArgumentParser(description=__doc__,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--weights',help='Explicit local pose checkpoint for this viewer; default keeps weights/base.json selection')
+    parser.add_argument('--basket-weights', default=DEFAULT_BASKET_WEIGHTS, help='Dedicated single-class basket four-corner checkpoint')
     parser.add_argument('--serial',help='D405 serial; required only when multiple D405 cameras are connected')
     parser.add_argument('--width',type=int,default=1280)
     parser.add_argument('--height',type=int,default=720)
@@ -263,14 +265,16 @@ class FirstBoxReadout:
         self.signature = None
         self.rows = []
         self.last_sequence = None
+        self.grid_result = None
 
-    def update(self, packet, detections, intrinsics, controls):
+    def update(self, packet, detections, intrinsics, controls, basket_points=()):
         import numpy as np
         signature = (controls.enabled, controls.conf, controls.iou, controls.endpoint_conf)
         if signature != self.signature:
             self.post = VideoPostprocessor(dedup_config=DedupConfig(point_confidence=controls.endpoint_conf),
                 temporal_config=TemporalConfig(point_confidence=controls.endpoint_conf))
-            self.grid = GridCounter(GridConfig(point_confidence=controls.endpoint_conf))
+            self.grid = BasketGridCounter(BasketGridConfig(point_confidence=controls.endpoint_conf))
+            self.grid_result = None
             self.rows = []
             self.last_sequence = None
             self.signature = signature
@@ -284,7 +288,9 @@ class FirstBoxReadout:
         filtered = self.post.update(boxes, points, scores, np.zeros(len(boxes), dtype=int),
             packet['image'].shape, sequence=packet['sequence'], timestamp=packet['received_at'])
         grid = self.grid.update(boxes, points, filtered.keep_indices, filtered.track_ids,
-            packet['image'].shape, sequence=packet['sequence'], timestamp=packet['received_at'])
+            packet['image'].shape, sequence=packet['sequence'], timestamp=packet['received_at'],
+            basket_points=basket_points)
+        self.grid_result = grid
         self.rows = locate_first_boxes(grid, boxes, points, intrinsics, packet['image'].shape,
             point_conf=controls.endpoint_conf, lost_count=filtered.lost_count)
         self.last_sequence = packet['sequence']
@@ -328,6 +334,7 @@ def main(argv=None):
     recording_errors=[]
     recording_error=None
     weights,metadata=resolve_live_weights(args.weights)
+    basket_weights=project_path(args.basket_weights)
     settings=dict(metadata['inference'])
     endpoint=settings.pop('endpoint_conf')
     settings['nms']=True  # Explicit one-to-many + box NMS; makes the IoU control effective.
@@ -337,7 +344,7 @@ def main(argv=None):
     controls=Controls(settings['conf'],endpoint,settings['iou'],args.show_boxes,args.diagnostics,
                       record_mode=args.record_mode)
     report={'status':'starting','started_at':datetime.now(ZoneInfo('Asia/Shanghai')).isoformat(),
-            'weights':str(weights),'weights_sha256':metadata['sha256'],'epoch':metadata['epoch'],
+            'weights':str(weights),'basket_weights':str(basket_weights),'weights_sha256':metadata['sha256'],'epoch':metadata['epoch'],
             'weight_selection':'explicit' if args.weights is not None else 'default_base',
             'weights_sidecar_verified':metadata.get('sidecar_verified'),
             'stored_epoch_zero_based':metadata.get('stored_epoch_zero_based'),
@@ -351,6 +358,7 @@ def main(argv=None):
     write_report(report_path,report)
     capture=None;window=False;processed=inferences=skipped=saved=0
     infer_ms=deque(maxlen=300);infer_rate=Rate();display_rate=Rate()
+    basket_points=np.empty((0,4,3));basket_detections=[]
     packet=None;canvas=None;detections=[];displayed={};used_settings=None;last_sequence=0
     first_readout = FirstBoxReadout()
     first_input=[];prediction_signature=None;predicted_sequence=None;last_report=time.monotonic()
@@ -359,12 +367,17 @@ def main(argv=None):
         if not args.headless and not (os.environ.get('DISPLAY') or os.environ.get('WAYLAND_DISPLAY')):
             raise RuntimeError('No desktop display. Run from the host desktop terminal, or use --headless for verification.')
         model=YOLO(str(weights)).to(f'cuda:{args.device}')
-        if model.task!='pose' or list(model.model.model[-1].kpt_shape)!=[2,3] or len(model.names)!=1:
-            raise RuntimeError('Expected a single-class two-endpoint pose model.')
+        validate_model(model, role="white_box")
+        if not basket_weights.is_file():
+            raise FileNotFoundError(str(basket_weights))
+        basket_model=YOLO(str(basket_weights)).to(f'cuda:{args.device}')
+        validate_model(basket_model, role="basket")
         report['gpu']=torch.cuda.get_device_name(args.device)
         # Warm up before opening the camera, using no camera images or disk output.
         model.predict(np.zeros((args.height,args.width,3),dtype=np.uint8),**settings,
                       device=args.device,save=False,save_txt=False,show=False,verbose=False)
+        basket_model.predict(np.zeros((args.height,args.width,3),dtype=np.uint8),**settings,
+                             device=args.device,save=False,verbose=False)
         torch.cuda.synchronize(args.device)
         report['predictor_end2end']=bool(model.predictor.model.end2end)
         if report['predictor_end2end']:raise RuntimeError('Expected box NMS, but backend is end-to-end; IoU control would be ineffective.')
@@ -405,13 +418,16 @@ def main(argv=None):
                     started=time.perf_counter()
                     result=model.predict(packet['image'],**used_settings,device=args.device,
                                          save=False,save_txt=False,save_crop=False,show=False,verbose=False)[0]
+                    basket_result=basket_model.predict(packet['image'],**used_settings,device=args.device,
+                                                       save=False,verbose=False)[0]
                     torch.cuda.synchronize(args.device)
                     duration=(time.perf_counter()-started)*1000
                     if result.boxes.data.device.type!='cuda' or result.keypoints.data.device.type!='cuda':
                         raise RuntimeError('Expected CUDA prediction outputs.')
-                    boxes=result.boxes.xyxy.cpu().numpy();points=result.keypoints.data.cpu().numpy();scores=result.boxes.conf.cpu().numpy()
-                    if points.shape!=(len(boxes),2,3) or not all(np.isfinite(a).all() for a in (boxes,points,scores)):
-                        raise RuntimeError('Invalid two-endpoint model output.')
+                    boxes, points, scores, classes = prediction_arrays(result)
+                    basket_boxes, basket_points, basket_scores, _ = prediction_arrays(basket_result, class_id=0, point_count=4)
+                    basket_detections = [dict(bbox=b.tolist(), keypoints=p.tolist(), confidence=float(c), class_id=0, class_name="basket")
+                                         for b, p, c in zip(basket_boxes, basket_points, basket_scores)]
                     order=sorted(range(len(boxes)),key=lambda i:(boxes[i,1],boxes[i,0]))
                     detections=[{'bbox':boxes[i].tolist(),'keypoints':points[i].tolist(),'confidence':float(scores[i]),'class_id':0} for i in order]
                     predicted_sequence=packet['sequence']
@@ -428,12 +444,24 @@ def main(argv=None):
                 if recording_error:
                     recording_status['error']=recording_error
                 canvas,displayed=render(packet,detections if controls.enabled else [],controls,metrics,metadata['epoch'],args.overlap_iou,recording_status)
-                first_rows = first_readout.update(packet, detections, capture.info.get('intrinsics'), controls)
+                first_rows = first_readout.update(packet, detections, capture.info.get('intrinsics'), controls, basket_points)
                 state = 'PAUSED' if controls.paused else 'YOLO OFF' if not controls.enabled else 'STALE' if time.monotonic() - packet['received_at'] > .5 else 'LIVE'
                 if state in ('STALE', 'YOLO OFF'):
                     first_rows = []
+                if controls.enabled and state != 'STALE':
+                    grid = first_readout.grid_result
+                    if grid is not None:
+                        draw_basket_grid(canvas, grid, HEADER_HEIGHT)
+                        cv2.putText(canvas, f'Basket 3x5: {grid.status.upper()} | Unassigned: {len(grid.unassigned_indices)}',
+                                    (10, HEADER_HEIGHT + 22), cv2.FONT_HERSHEY_SIMPLEX, .55, (80, 220, 240), 1, cv2.LINE_AA)
+                        displayed['grid'] = grid_report(grid)
+                displayed['baskets'] = basket_detections if controls.enabled and state != 'STALE' else []
                 draw_first_boxes(canvas, first_rows, HEADER_HEIGHT)
-                canvas, controls.panel_page = append_first_box_panel(canvas, first_rows, controls.panel_page, state)
+                panel_state = state
+                if state == 'LIVE' and first_readout.grid_result is not None and first_readout.grid_result.status != 'current':
+                    panel_state = 'GRID ' + first_readout.grid_result.status.upper()
+                canvas, controls.panel_page = append_first_box_panel(canvas, first_rows, controls.panel_page, panel_state,
+                    grid=first_readout.grid_result, show_counts=True)
                 displayed['first_boxes'] = first_rows
                 displayed['first_box_state'] = state
                 if (fresh is not None and controls.enabled and predicted_sequence == packet['sequence']
@@ -453,7 +481,7 @@ def main(argv=None):
                             controls.paused=False
                         camera_fps=float(capture.info['fps'])
                         container_fps=min(camera_fps,args.display_fps) if controls.record_mode == 'annotated' and args.display_fps>0 else camera_fps
-                        context={'weights':str(weights),'weights_sha256':metadata['sha256'],
+                        context={'weights':str(weights),'basket_weights':str(basket_weights),'weights_sha256':metadata['sha256'],
                                  'epoch':metadata['epoch'],'container_fps':container_fps,
                                  'initial_inference_settings':{**settings,'conf':controls.conf,'iou':controls.iou},
                                  'initial_endpoint_conf':controls.endpoint_conf,
@@ -471,7 +499,7 @@ def main(argv=None):
                     print('Recording error: '+recording_errors[-1],file=sys.stderr,flush=True)
             if controls.key(key,recorder.status()) and packet is not None and canvas is not None:
                 save_snapshot(snapshots,packet,canvas,detections if controls.enabled else [],displayed,
-                              {'weights':str(weights),'weights_sha256':metadata['sha256'],'epoch':metadata['epoch'],
+                              {'weights':str(weights),'basket_weights':str(basket_weights),'weights_sha256':metadata['sha256'],'epoch':metadata['epoch'],
                                'camera':capture.info,'inference_settings_for_this_frame':used_settings,
                                'endpoint_display_threshold':controls.endpoint_conf,'yolo_enabled':controls.enabled})
                 saved+=1

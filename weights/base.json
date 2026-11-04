@@ -1,11 +1,11 @@
 {
-  "selection": "Existing basket detector default, preserved for first-box continuation; not reselected on test data.",
+  "selection": "User-selected dedicated white-box model; basket uses independent basket_4pt model.",
   "weights": "../runs/pose/basket_white_box_2pt/weights/best.pt",
   "sha256": "1588bfd032b68c2aea22772fd594ea2289d984fb86e6841e5116a9c1daed1b70",
-  "hash_source": "Copied from existing diagnostics/d405_dedup_validation/validation_predictions.json",
+  "hash_source": "Selected checkpoint; required by resolve_base integrity verification.",
   "epoch": "unknown",
-  "epoch_source": "Stripped checkpoint; see original training logs, no inferred epoch claim.",
-  "model": "YOLOv8n-Pose fine-tuned for basket white boxes",
+  "epoch_source": "Checkpoint epoch not inspected during model selection.",
+  "model": "YOLOv8n-Pose white_box two endpoints",
   "task": "pose",
   "names": {
     "0": "white_box"

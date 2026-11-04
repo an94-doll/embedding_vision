@@ -67,6 +67,11 @@ def locate_first_boxes(grid, boxes, points, intrinsics, image_shape, *, angle_de
     Group IDs are image-space IDs, not persistent physical slot IDs. Incomplete
     grouping is reported separately from geometric conversion.
     """
+    fixed = hasattr(grid, 'homography')
+    if fixed and grid.status != 'current':
+        return []
+    if fixed:
+        from scripts.basket_grid import project_points
     down = np.array([math.sin(math.radians(angle_deg)), math.cos(math.radians(angle_deg))])
     h, w = image_shape[:2]
     rows = []
@@ -77,6 +82,8 @@ def locate_first_boxes(grid, boxes, points, intrinsics, image_shape, *, angle_de
         if not cell.indices:
             continue
         def position(i):
+            if fixed and i in grid.positions:
+                return grid.positions[i][1]
             p = points[i]
             center = p[:, :2].mean(0) if np.isfinite(p[:, :2]).all() else (boxes[i, :2] + boxes[i, 2:]) / 2
             return float(center @ down)
@@ -101,10 +108,21 @@ def locate_first_boxes(grid, boxes, points, intrinsics, image_shape, *, angle_de
         blockers = []
         for j in grid.unassigned_indices:
             center = (boxes[j, :2] + boxes[j, 2:]) / 2
-            if lo <= center @ across <= hi and center @ down <= position(i):
+            if fixed:
+                uv = grid.positions.get(j)
+                if uv is None:
+                    uv = project_points([center], grid.homography)[0]
+                if (cell.col <= uv[0] < cell.col + 1
+                        and cell.row <= uv[1] <= position(i)):
+                    blockers.append(int(j))
+            elif lo <= center @ across <= hi and center @ down <= position(i):
                 blockers.append(int(j))
         row.update(selection_status='incomplete_observation' if blockers else 'observed_candidate',
                    unassigned_above=blockers, temporarily_lost_tracks=int(lost_count))
+        if fixed:
+            row['assignment_state'] = grid.assignment_states[i]
+            if row['assignment_state'] != 'assigned':
+                row['selection_status'] = 'uncertain_assignment'
         if intrinsics is None:
             row['status'] = 'missing_intrinsics'
             continue
@@ -122,7 +140,7 @@ def draw_first_boxes(canvas, rows, y_offset=0):
             continue
         x, y = np.rint(row['display_midpoint_px']).astype(int)
         y += y_offset
-        color = (255, 80, 255) if row['status'] in ('rays_only', 'plane_localized') and not row.get('unassigned_above') else (0, 180, 255)
+        color = (255, 80, 255) if row['status'] in ('rays_only', 'plane_localized') and row.get('selection_status') == 'observed_candidate' else (0, 180, 255)
         cv2.drawMarker(canvas, (x, y), color, cv2.MARKER_CROSS, 16, 2)
         cv2.putText(canvas, f"F{row['row']},{row['col']}",
                     (max(0, x - 18), max(15, y - 7)), cv2.FONT_HERSHEY_SIMPLEX, .4, color, 1)

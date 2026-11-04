@@ -14,4 +14,5 @@ if ! command -v "$yolo_python" >/dev/null 2>&1; then
 fi
 exec "$yolo_python" -u "$package_root/scripts/view_d405_yolo.py" \
   --weights "$package_root/runs/pose/basket_white_box_2pt/weights/best.pt" \
+  --basket-weights "$package_root/runs/pose/basket_4pt/weights/best.pt" \
   --width 1280 --height 720 --fps 30 --display-fps 30 --record-mode annotated "$@"

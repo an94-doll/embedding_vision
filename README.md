@@ -14,12 +14,17 @@ cd /home/wangjr/projects/yolo_pose_box/rack_grasp_vision
 python detect_d405.py
 ```
 
-这是视觉抓取开发的主入口：显示底边两端点、连线、推断格位、各格盒数、首盒十字和右侧端点坐标。顶部配置保留原值：1280×720、30 FPS 请求、GPU 0、框置信度 0.25、端点置信度 0.50。USB 配置不支持 30 FPS 时，在 `detect_d405.py` 的 `CAMERA` 中把 `fps` 改为 15。
+这是视觉抓取开发的主入口：显示底边两端点、连线、篮架固定格线、各格盒数、首盒十字，以及右侧 3×5 数量示意图和端点坐标。顶部配置保留原值：1280×720、30 FPS 请求、GPU 0、框置信度 0.25、端点置信度 0.50。USB 配置不支持 30 FPS 时，在 `detect_d405.py` 的 `CAMERA` 中把 `fps` 改为 15。
 
-- `Q` / Esc：退出；`D`：开关额外去重；`R`：重建推断格位。
+- `Q` / Esc：退出；`D`：开关额外去重；`R`：清空篮架与归属历史，下一帧重新建立格位。
 - `N` / `P`：翻页查看右侧首盒坐标。
-- 每格最多十个、连续三帧且持续至少 0.15 秒才确认分格，保留原来的“间隔优先、十个兜底”逻辑。
-- 格位是图像中推断的分组，不是已标定的固定铁架槽位；完全漏检的盒子不能由此推断出来。
+- 固定 **3 行 × 5 列**，等间距、忽略窄边框。四角顺序为左上、右上、右下、左下；透视变换后分别转换白盒的两个端点，取中点归格。编号从左上 `(0,0)` 到右下 `(2,4)`，空格也保留。十个不再作为切格条件或计数上限。
+- 右侧顶部的 15 格数量图始终可见，下方首盒坐标通过 `N` / `P` 翻页。`0` 是当前无已归属观测；`--` 是计数不可用；黄色格表示有仍保留旧格位的换格待确认目标。未归属数量单独显示，不塞进最近格子。
+- 初次归属、换格均需连续至少三帧且持续 0.15 秒。只按透视校正后的两个端点中点确定行列，不再因端点跨格或中点靠近分界线而拒绝归属。换格确认期间暂留旧归属；中点位于篮架外、端点缺失或低置信度的白盒仍不归属。
+- 角点采用 0.35 系数平滑。篮架四角不完整或同时出现多个有效篮架时，最多保留旧格线 0.5 秒（`HELD`），暂停归属、计数显示 `--`，不输出首盒；超时清除格线（`MISSING`）。重新看到有效篮架后恢复。相机停流显示 `STALE`，不会显示旧数量为当前数量。
+- 计数只来自当前检测，完全漏检的盒子不能由此推断出来。透视格位按篮架角点平面建立，堆叠高度和斜视可能造成归属偏移；毫米定位仍需标定。
+
+分格参数位于 `detect_d405.py` 的 `GRID`；录像窗口使用 `BasketGridConfig` 相同默认值。旧的间距推断算法保留在 `scripts/grid_counter.py`，当前窗口不再调用。独立篮架模型未提供有效四角时不建立固定格位，不回退到混合模型。
 
 ## 需要录像或截图时
 
@@ -29,7 +34,7 @@ python detect_d405.py
 ./start_live.sh --fps 15
 ```
 
-这个入口使用同一个篮架模型，显示首盒侧栏，并保留原采集界面的录像操作。`R` 开始／停止录像，`A` 在空闲时切换 RAW／ANNOTATED，`S` 保存截图及 JSON，`B` 切换框，`D` 切换诊断，`Q` / Esc 退出。ANNOTATED 录制中不允许关闭检测或暂停；视频不包含顶部信息栏和侧栏。
+这个入口使用同一个篮架模型，显示固定格线、数量示意图和首盒侧栏，并保留原采集界面的录像操作。`R` 开始／停止录像，`A` 在空闲时切换 RAW／ANNOTATED，`S` 保存截图及 JSON，`B` 切换框，`D` 切换诊断，`Q` / Esc 退出。ANNOTATED 录制中不允许关闭检测或暂停；视频不包含顶部信息栏和侧栏。
 
 录像保存在本目录 `test/d405_recordings/recording_日期_时间/`，包括 MP4、`frames.csv` 和 `metadata.json`；截图保存在 `test/d405_live_日期_时间/`。MP4 为固定帧率，丢帧时播放时长可能短于真实时间，真实采集时序以 `frames.csv` 为准。启动不会自动录像。
 
@@ -74,9 +79,18 @@ provenance/                文件来源清单、原项目文档和历史运行�
 reports/                   本次拆分验证及后续运行输出
 ```
 
-默认保留 `runs/pose/basket_white_box_2pt/weights/best.pt`，与原首盒主入口一致；`start_live.sh` 和 `weights/base.json` 也已对齐到这个模型，不再误用旧的第 173 轮 YOLO26 模型。第二个实验完整保留，`evaluate.py` 默认评估 `runs/pose/white_box_basket_4pt/weights/best.pt`，切换时修改顶部 `WEIGHTS` 和匹配的 `DATA`。
+实时窗口和离线预览使用两个独立模型，对同一张原始图像分别推理：
 
-当前训练数据为 `white_box` 和 `basket` 两类，`kpt_shape=[4,3]`、`flip_idx=[1,0,3,2]`。白盒仅点 0/1 为左右底边端点，点 2/3 为零占位；铁篮点 0/1/2/3 依次为左上、右上、右下、左下。原随机帧划分可能把相邻帧放入不同集合，最终抓取验收应使用独立采集场景。
+- 白盒：`runs/pose/basket_white_box_2pt/weights/best.pt`，单类 `white_box`、`kpt_shape=[2,3]`。
+- 篮架：`runs/pose/basket_4pt/weights/best.pt`，单类 `basket`、`kpt_shape=[4,3]`，按左上、右上、右下、左下输出角点。
+
+两个模型的类别 ID 均为 0，通过各自模型区分，不混入对方计数。主窗口顶部 `WEIGHTS` / `BASKET_WEIGHTS` 分别配置；录像窗口和离线预览用 `--weights` / `--basket-weights` 指定。录像默认白盒模型仍由 `weights/base.json` 记录，`start_live.sh` 同步指定两个模型。置信度、输入尺寸等沿用现有设置，推理耗时包含两次模型预测。
+
+不再使用混合模型进行实时检测。暂时取消原始／平滑四角的双色轮廓和 R/S 标签，保留平滑计算、绿色固定格线、数量示意图和首盒坐标；JSON 的原始角点字段仍保留用于诊断。
+
+历史权重保留；`evaluate.py` 默认评估 `runs/pose/white_box_basket_4pt/weights/best.pt`，切换时修改顶部 `WEIGHTS` 和匹配的 `DATA`。
+
+当前训练数据为 `white_box`、`basket` 两类，`kpt_shape=[4,3]`、`flip_idx=[1,0,3,2]`，语义见 `box_in_basket/basket_pose_schema.yaml`。本次模型切换没有重新划分数据或改写标签。原随机帧划分可能把相邻帧放入不同集合，最终抓取验收应使用独立采集场景。
 
 历史 48 张测试图上，第一个模型的检测 precision / recall 为 0.9381 / 0.9794；两端点均不超过 5 像素且置信度等条件满足的比例为 1312/1618（81.09%）。原报告位于 `runs/evaluate/basket_white_box_2pt_test/metrics.json`。这是原测试集二维结果，不能换算为机械臂毫米精度。
 
@@ -132,22 +146,23 @@ python split_dataset.py \
 
 ## 视觉抓取从这里继续
 
-当前可独立继续的是**感知与定位链路的开发**：当前图像 → 白盒两端点 → 保守去重／跟踪 → 分格 → 每格观测首盒 → 原图坐标／去畸变射线 → 可选已测平面定位。
+当前可独立继续的是**感知与定位链路的开发**：当前图像 → 白盒两端点与篮架四角 → 保守去重／跟踪 → 固定 3×5 归属 → 每格观测首盒 → 原图坐标／去畸变射线 → 可选已测平面定位。
 
 `detect_d405.py` 每帧原子更新 `reports/d405_first_boxes_latest.json`。消费者应读取：
 
 - 顶层 `status`：新帧为 `current`；停流为 `stale`；退出清空 `cells`。
 - `sequence`、`frame_number`、`received_at_monotonic`：识别新帧并判断是否过期；单调时间属于采集主机，不能直接与另一台主机比较。
+- `grid.status`：`current` / `held` / `missing` / `disabled`；顶层 `status=current` 仅表示图像为新帧，消费者还必须检查格位状态。`grid.cells` 提供 15 格多边形、检测索引和数量；保留格线但不可计数时 `count=null`。`grid.assignments` 给出归属与防抖状态，`grid.unassigned_indices` 单独记录未归属目标。
 - `camera.intrinsics`：当前彩色流的实际内参和畸变模型。
 - `cells[].raw_endpoints_px`、`corrected_endpoints_px`、`rays_camera`：原图端点、去畸变端点和相机射线。
-- `selection_status`：`observed_candidate` 是当前观测的候选；`incomplete_observation` 表示同列上方还有未分组观测。暂失轨迹另由 `temporarily_lost_tracks` 记录。
+- `selection_status`：`observed_candidate` 是当前观测的候选；`incomplete_observation` 表示同格上方还有未归属观测，`uncertain_assignment` 表示首盒归属还处于换格确认中。暂失轨迹另由 `temporarily_lost_tracks` 记录。
 - `cells[].status`：未给平面为 `rays_only`；求交成功为 `plane_localized`；缺点、缺标定或不支持的畸变模型会明确报告原因，不会换选下面的盒子掩盖失败。
 
 默认 `FIRST_BOX_PLANE=None`，毫米坐标为空。后续按以下顺序接入抓取：
 
 1. **测量盒底边所在平面或接入实测深度。** 现有求交平面方程是 `normal · X_mm = offset_mm`，配置到 `detect_d405.py` 的 `FIRST_BOX_PLANE`；相机坐标 X 向右、Y 向下、Z 向前。不能用约 150 mm 的观看距离替代测量值。
 2. **完成相机到机械臂底座的外参／手眼标定。** 当前 `midpoint_camera_mm` 属于彩色相机坐标；需要按实际安装方式转换到机器人坐标。
-3. **定义夹爪抓取点、TCP 偏置、姿态和进退路径。** 当前中点是盒底边中点，还不是完整夹爪位姿；图像格号也还不是固定物理槽位号。
+3. **定义夹爪抓取点、TCP 偏置、姿态和进退路径。** 当前中点是盒底边中点，还不是完整夹爪位姿；格号按当前篮架四角顺序定义，篮架旋转或角点语义变化后不能直接作为持久槽位身份。
 4. **独立场景验证定位误差、漏检和碰撞余量，再做机械臂联调。** 30 mm 是名义端点间距，`width_error_mm` 只是几何一致性检查；7 mm 只是名义层距。毫米误差（包括此前讨论的 2 mm 要求）尚需实测闭环验收。
 
 本包没有机器人驱动或运动控制指令。相机／铁架移动后需更新标定；候选状态不能直接作为已允许抓取的信号。

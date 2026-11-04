@@ -14,8 +14,10 @@ def resolve_base():
     actual = hashlib.sha256(weights.read_bytes()).hexdigest()
     if actual != metadata['sha256']:
         raise ValueError(f'Selected base checksum mismatch: {weights}')
-    if metadata['task'] != 'pose' or metadata['kpt_shape'] != [2, 3]:
-        raise ValueError('The selected base must be a two-keypoint pose model.')
+    legacy = metadata['kpt_shape'] == [2, 3]
+    basket = metadata['kpt_shape'] == [4, 3] and metadata['names'] == {'0': 'white_box', '1': 'basket'}
+    if metadata['task'] != 'pose' or not (legacy or basket):
+        raise ValueError('Unsupported selected pose schema.')
     return weights, metadata
 
 

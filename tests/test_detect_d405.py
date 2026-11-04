@@ -20,6 +20,11 @@ class LiveTests(unittest.TestCase):
         patcher = patch.object(live, "FIRST_BOX_PATH", Path(directory.name)/"first.json")
         patcher.start()
         self.addCleanup(patcher.stop)
+        self.basket_model = Mock()
+        self.basket_model.predict.return_value = [SimpleNamespace()]
+        basket_patcher = patch.object(live, "load_basket_model", return_value=self.basket_model)
+        basket_patcher.start()
+        self.addCleanup(basket_patcher.stop)
 
     def test_headless_opencv_is_rejected_before_opening_window(self):
         with patch.dict(live.os.environ, {"DISPLAY":":fake"}), \
@@ -67,9 +72,8 @@ class LiveTests(unittest.TestCase):
         self.assertTrue(live.TEMPORAL.smoothing_enabled)
         self.assertTrue(live.TEMPORAL.counting_enabled)
         self.assertTrue(live.GRID.enabled)
-        self.assertEqual(live.GRID.max_per_cell, 10)
-        self.assertFalse(live.GRID.allow_box_fallback)
-        self.assertFalse(live.GRID.show_empty_cells)
+        self.assertEqual((live.GRID.rows, live.GRID.cols), (3, 5))
+        self.assertEqual(live.GRID.hold_seconds, .5)
         self.assertGreater(live.GRID.confirmation_frames, 1)
 
     def test_empty_history_does_not_draw_ghost_grid_or_inflate_visible_dimensions(self):
@@ -135,6 +139,10 @@ class LiveTests(unittest.TestCase):
             report=json.loads((Path(d)/"report.json").read_text())
             self.assertEqual(report["last_counts"]["boxes"],0)
             self.assertEqual(report["processed_frames"],2)
+            for box_call, basket_call in zip(model.predict.call_args_list, self.basket_model.predict.call_args_list[1:]):
+                self.assertIs(box_call.args[0], basket_call.args[0])
+            self.assertEqual(self.basket_model.predict.call_count, 3)  # warmup + two frames
+
             self.assertFalse(report["dedup_enabled_at_exit"])
 
     def test_toggle_without_new_frame_does_not_advance_temporal_processing(self):

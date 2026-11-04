@@ -37,11 +37,16 @@ class PanelTests(unittest.TestCase):
   detections=[dict(bbox=[100,170,250,210],keypoints=[[120,200,.9],[240,200,.9]],confidence=.9)]
   intr=dict(width=1280,height=720,fx=600,fy=600,ppx=640,ppy=360,coeffs=[0]*5,model='none')
   packet=dict(image=image,sequence=1,received_at=1.)
-  self.assertEqual(readout.update(packet,detections,intr,c),[])
-  for _ in range(4): self.assertEqual(readout.update(packet,detections,intr,c),[])
+  basket=np.array([[[0,0,.9],[1279,0,.9],[1279,719,.9],[0,719,.9]]])
+  rows=readout.update(packet,detections,intr,c,basket)
+  self.assertEqual(len(rows),15);self.assertEqual(sum(r['detected_count'] for r in rows),0)
+  for _ in range(4):
+   rows=readout.update(packet,detections,intr,c,basket)
+   self.assertEqual(sum(r['detected_count'] for r in rows),0)
   for seq in (2,3,4):
-   rows=readout.update(dict(packet,sequence=seq,received_at=1.+seq*.1),detections,intr,c)
-  self.assertEqual(len(rows),1);self.assertEqual(rows[0]['status'],'rays_only')
+   rows=readout.update(dict(packet,sequence=seq,received_at=1.+seq*.1),detections,intr,c,basket)
+  self.assertEqual(len(rows),15);self.assertEqual(rows[0]['status'],'rays_only')
+  self.assertEqual(rows[0]['detected_count'],1)
   c.enabled=False;self.assertEqual(readout.update(packet,detections,intr,c),[])
 
 if __name__=='__main__':unittest.main()

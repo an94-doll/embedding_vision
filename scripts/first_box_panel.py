@@ -7,22 +7,33 @@ ROW_HEIGHT = 108
 TOP = 112
 
 
-def append_first_box_panel(canvas, rows, page=0, state='LIVE'):
+def append_first_box_panel(canvas, rows, page=0, state='LIVE', *, grid=None, show_counts=False):
     import cv2
     height, width = canvas.shape[:2]
-    capacity = max(1, (height - TOP - 36) // ROW_HEIGHT)
+    show_counts = show_counts or grid is not None
+    top = 404 if show_counts else TOP
+    capacity = max(1, (height - top - 36) // ROW_HEIGHT)
     pages = max(1, math.ceil(len(rows) / capacity))
     page = max(0, min(page, pages - 1))
     out = np.full((height, width + PANEL_WIDTH, 3), (32, 29, 25), np.uint8)
     out[:, :width] = canvas
     def text(label, y, color=(225, 229, 233), scale=.49):
         cv2.putText(out, label, (width + 18, y), cv2.FONT_HERSHEY_SIMPLEX, scale, color, 1, cv2.LINE_AA)
-    text('FIRST BOX / ENDPOINTS', 30, (100, 220, 240), .65)
-    text(f'{state}  |  {len(rows)} cells', 56)
-    text('Pixels (x, y) | raw / undistorted', 79, (165, 175, 185), .45)
-    text('Cell IDs match Frow,col in the image', 99, (165, 175, 185), .43)
+    if show_counts:
+        from scripts.basket_count_panel import draw_count_map
+        text('BASKET / BOX COUNTS', 30, (100, 220, 240), .65)
+        text(f'{state}  |  3 rows x 5 columns', 56)
+        text('Top-left (0,0) | Assigned white boxes', 79, (165, 175, 185), .43)
+        draw_count_map(out, grid, width, state)
+        text('FIRST BOX / ENDPOINTS', 379, (100, 220, 240), .53)
+        text('Pixels (x, y) | raw / undistorted', 399, (165, 175, 185), .43)
+    else:
+        text('FIRST BOX / ENDPOINTS', 30, (100, 220, 240), .65)
+        text(f'{state}  |  {len(rows)} cells', 56)
+        text('Pixels (x, y) | raw / undistorted', 79, (165, 175, 185), .45)
+        text('Cell IDs match Frow,col in the image', 99, (165, 175, 185), .43)
     if not rows:
-        text('Waiting for confirmed first boxes' if state == 'LIVE' else 'No current endpoint positions', 150)
+        text('Waiting for confirmed first boxes' if state == 'LIVE' else 'No current endpoint positions', top + 38)
     def pair(value):
         return '--' if value is None else f'({value[0]:.1f}, {value[1]:.1f})'
     labels = {'rays_only':'2D', 'plane_localized':'3D', 'missing_intrinsics':'No intrinsics',
@@ -30,8 +41,10 @@ def append_first_box_panel(canvas, rows, page=0, state='LIVE'):
               'invalid_first_endpoints':'Endpoints unavailable'}
     shown = rows[page * capacity:(page + 1) * capacity]
     for index, row in enumerate(shown):
-        y = TOP + index * ROW_HEIGHT
+        y = top + index * ROW_HEIGHT
         status = labels.get(row['status'], row['status'])
+        if row.get('selection_status') == 'uncertain_assignment':
+            status = 'Cell change pending'
         if row.get('selection_status') == 'incomplete_observation':
             status = 'Check upper box'
         text(f"F{row['row']},{row['col']}  |  n={row['detected_count']}  |  {status}", y + 18, (100, 220, 240))
